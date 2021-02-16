@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -67,8 +67,7 @@ $Selenium->RunTest(
         $Selenium->VerifiedGet("${ScriptAlias}index.pl?Action=AgentITSMChangeZoom;ChangeID=$ChangeID");
 
         # Click on 'Conditions' and switch screens.
-        $Selenium->find_element("//a[contains(\@href, \'Action=AgentITSMChangeCondition;ChangeID=$ChangeID' )]")
-            ->click();
+        $Selenium->find_element("//a[contains(\@href, \'Action=AgentITSMChangeCondition;ChangeID=$ChangeID' )]")->click();
 
         $Selenium->WaitFor( WindowCount => 2 );
         my $Handles = $Selenium->get_window_handles();
@@ -124,8 +123,7 @@ $Selenium->RunTest(
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-AttributeID option').length > 1;" );
-        $Selenium->find_element( "#ExpressionID-NEW-AttributeID option[value='$ExpresionAttributeID']", 'css' )
-            ->click();
+        $Selenium->find_element( "#ExpressionID-NEW-AttributeID option[value='$ExpresionAttributeID']", 'css' )->click();
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-OperatorID option').length > 1;" );
@@ -133,8 +131,7 @@ $Selenium->RunTest(
 
         # Wait for ajax response to fill next dropdown list with more than 1 value.
         $Selenium->WaitFor( JavaScript => "return \$('#ExpressionID-NEW-CompareValue option').length > 1;" );
-        $Selenium->find_element( "#ExpressionID-NEW-CompareValue option[value='$PriorityDataRef->{ItemID}']", 'css' )
-            ->click();
+        $Selenium->find_element( "#ExpressionID-NEW-CompareValue option[value='$PriorityDataRef->{ItemID}']", 'css' )->click();
 
         # Add new action in change object for test change, set change state on 'Approved'.
         $Selenium->find_element("//button[\@name='AddActionButton'][\@type='submit']")->VerifiedClick();

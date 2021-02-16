@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -94,12 +94,11 @@ sub Run {
         next DYNAMICFIELD if !IsHashRefWithData($DynamicFieldConfig);
 
         # extract the dynamic field value from the web request and add the prefix
-        $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} }
-            = $DynamicFieldBackendObject->EditFieldValueGet(
+        $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} } = $DynamicFieldBackendObject->EditFieldValueGet(
             DynamicFieldConfig => $DynamicFieldConfig,
             ParamObject        => $ParamObject,
             LayoutObject       => $LayoutObject,
-            );
+        );
     }
 
     # store time related fields in %GetParam
@@ -605,8 +604,7 @@ sub Run {
 
         # get dynamic fields defaults if page is loaded the first time
         if ( !$Self->{Subaction} ) {
-            $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} }
-                = $DynamicFieldConfig->{Config}->{DefaultValue} || '';
+            $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} } = $DynamicFieldConfig->{Config}->{DefaultValue} || '';
         }
 
         # get field html

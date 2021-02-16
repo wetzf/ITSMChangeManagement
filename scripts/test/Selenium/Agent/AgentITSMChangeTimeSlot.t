@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -121,8 +121,7 @@ $Selenium->RunTest(
         my $ExpectedStartMessage = "(ID=$WorkOrderID) "
             . $LanguageObject->Translate('PlannedStartTime')
             . ": (new=2009-10-12 00:00:01, old=)";
-        my $ExpectedEndMessage
-            = "(ID=$WorkOrderID) " . $LanguageObject->Translate('PlannedEndTime') . ": (new=2009-10-15 15:00:00, old=)";
+        my $ExpectedEndMessage = "(ID=$WorkOrderID) " . $LanguageObject->Translate('PlannedEndTime') . ": (new=2009-10-15 15:00:00, old=)";
         $Self->True(
             index( $Selenium->get_page_source(), $ExpectedStartMessage ) > -1,
             "$ExpectedStartMessage is found",

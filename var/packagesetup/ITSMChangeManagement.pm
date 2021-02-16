@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package var::packagesetup::ITSMChangeManagement;    ## no critic
+package var::packagesetup::ITSMChangeManagement;
 
 use strict;
 use warnings;
@@ -218,7 +218,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_3_3_91();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_3_3_91 {    ## no critic
+sub CodeUpgradeFromLowerThan_3_3_91 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # Migrate change and workorder freetext fields to dynamic fields.
@@ -235,7 +235,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_4_0_2();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_4_0_2 {    ## no critic
+sub CodeUpgradeFromLowerThan_4_0_2 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # migrate the DTL Content in the SysConfig
@@ -252,7 +252,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_4_0_91();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_4_0_91 {    ## no critic
+sub CodeUpgradeFromLowerThan_4_0_91 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # migrate notifications
@@ -272,7 +272,7 @@ my $Result = $CodeObject->CodeUpgradeFromLowerThan_5_0_12();
 
 =cut
 
-sub CodeUpgradeFromLowerThan_5_0_12 {    ## no critic
+sub CodeUpgradeFromLowerThan_5_0_12 {    ## no critic qw(OTOBO::RequireCamelCase)
     my ( $Self, %Param ) = @_;
 
     # change configurations to match a new JavaScript file location
@@ -372,9 +372,9 @@ sub _MigrateFreeTextToDynamicFields {
                     FieldType  => 'Dropdown',
                     ObjectType => 'ITSM' . $Type,
                     Config     => {
-                        DefaultValue => $ConfigObject->Get( $Type . 'FreeKey' . $Number . '::DefaultSelection' ) || '',
-                        Link         => '',
-                        PossibleNone => $PossibleNone,
+                        DefaultValue       => $ConfigObject->Get( $Type . 'FreeKey' . $Number . '::DefaultSelection' ) || '',
+                        Link               => '',
+                        PossibleNone       => $PossibleNone,
                         PossibleValues     => $FreeKeyConfig,
                         TranslatableValues => 1,
                     },
@@ -1196,10 +1196,9 @@ sub _AttachmentDelete {
         for my $WorkOrderID ( @{$WorkOrderIDs} ) {
 
             # get the list of all workorder attachments
-            my @WorkOrderAttachments
-                = $Kernel::OM->Get('Kernel::System::ITSMChange::ITSMWorkOrder')->WorkOrderAttachmentList(
+            my @WorkOrderAttachments = $Kernel::OM->Get('Kernel::System::ITSMChange::ITSMWorkOrder')->WorkOrderAttachmentList(
                 WorkOrderID => $WorkOrderID,
-                );
+            );
 
             # delete all workorder attachments
             for my $Filename (@WorkOrderAttachments) {
@@ -1214,10 +1213,9 @@ sub _AttachmentDelete {
             }
 
             # get the list of all workorder report attachments
-            my @ReportAttachments
-                = $Kernel::OM->Get('Kernel::System::ITSMChange::ITSMWorkOrder')->WorkOrderReportAttachmentList(
+            my @ReportAttachments = $Kernel::OM->Get('Kernel::System::ITSMChange::ITSMWorkOrder')->WorkOrderReportAttachmentList(
                 WorkOrderID => $WorkOrderID,
-                );
+            );
 
             # delete all workorder report attachments
             for my $Filename (@ReportAttachments) {
@@ -3964,7 +3962,7 @@ Change configurations to match the new file location.
 
 =cut
 
-sub _MigrateConfigsFromLowerThan_5_0_12 {    ## no critic
+sub _MigrateConfigsFromLowerThan_5_0_12 {    ## no critic qw(OTOBO::RequireCamelCase)
 
     # create needed objects
     my $ConfigObject    = $Kernel::OM->Get('Kernel::Config');

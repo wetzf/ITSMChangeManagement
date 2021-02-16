@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -433,8 +433,7 @@ sub Run {
 
                 # set search parameter
                 if ( defined $SearchParameter ) {
-                    $DynamicFieldSearchParameters{ 'DynamicField_' . $DynamicFieldConfig->{Name} }
-                        = $SearchParameter->{Parameter};
+                    $DynamicFieldSearchParameters{ 'DynamicField_' . $DynamicFieldConfig->{Name} } = $SearchParameter->{Parameter};
                 }
             }
         }
@@ -563,8 +562,7 @@ sub Run {
                                 {
 
                                     # combine the linked object data from all workorders
-                                    $LinkListWithData->{$Object}->{$LinkType}->{$Direction}->{$ID}
-                                        = $LinkListWithDataWorkOrder->{$Object}->{$LinkType}
+                                    $LinkListWithData->{$Object}->{$LinkType}->{$Direction}->{$ID} = $LinkListWithDataWorkOrder->{$Object}->{$LinkType}
                                         ->{$Direction}->{$ID};
                                 }
                             }
@@ -1297,8 +1295,7 @@ sub _MaskForm {
         for my $Preference ( @{$SearchFieldPreferences} ) {
 
             # get field html
-            $DynamicFieldHTML{ $DynamicFieldConfig->{Name} . $Preference->{Type} }
-                = $DynamicFieldBackendObject->SearchFieldRender(
+            $DynamicFieldHTML{ $DynamicFieldConfig->{Name} . $Preference->{Type} } = $DynamicFieldBackendObject->SearchFieldRender(
                 DynamicFieldConfig   => $DynamicFieldConfig,
                 Profile              => \%GetParam,
                 PossibleValuesFilter => $PossibleValues,
@@ -1307,7 +1304,7 @@ sub _MaskForm {
                     ->{ $DynamicFieldConfig->{Name} },
                 LayoutObject => $LayoutObject,
                 Type         => $Preference->{Type},
-                );
+            );
         }
     }
 

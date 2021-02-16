@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -647,11 +647,8 @@ for my $Test (@ChangeTests) {
             local $Data::Dumper::Useqq  = 1;
 
             # dump the attribute from ChangeGet() and the reference attribute
-            ## no critic
-            my $ChangeAttribute = Data::Dumper::Dumper( $ChangeData->{$RequestedAttribute} );    ## no critic
-            my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{ChangeGet}->{$RequestedAttribute} )
-                ;                                                                                ## no critic
-                                                                                                 # use critic
+            my $ChangeAttribute    = Data::Dumper::Dumper( $ChangeData->{$RequestedAttribute} );
+            my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{ChangeGet}->{$RequestedAttribute} );
 
             $Self->Is(
                 $ChangeAttribute,
@@ -1714,7 +1711,7 @@ push @WorkOrderTests, (
         Description => 'Test WorkOrderAdd and WorkOrderUpdate with workorder dynamic fields.',
         SourceData  => {
             WorkOrderAdd => {
-                WorkOrderTitle => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
+                WorkOrderTitle                                => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
                 'DynamicField_' . $UniqueNamePrefix . 'Test1' => 'AAAA',
                 'DynamicField_' . $UniqueNamePrefix . 'Test2' => 'BBBB',
                 'DynamicField_' . $UniqueNamePrefix . 'Test3' => 'CCCC',
@@ -1730,7 +1727,7 @@ push @WorkOrderTests, (
         },
         ReferenceData => {
             WorkOrderGet => {
-                WorkOrderTitle => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
+                WorkOrderTitle                                => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
                 'DynamicField_' . $UniqueNamePrefix . 'Test1' => 'AAAA',
                 'DynamicField_' . $UniqueNamePrefix . 'Test2' => 'BBBB',
                 'DynamicField_' . $UniqueNamePrefix . 'Test3' => 'GGGG',
@@ -1746,7 +1743,7 @@ push @WorkOrderTests, (
         Description => 'Test WorkOrderAdd and WorkOrderUpdate with workorder dynamic fields.',
         SourceData  => {
             WorkOrderAdd => {
-                WorkOrderTitle => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
+                WorkOrderTitle                                => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
                 'DynamicField_' . $UniqueNamePrefix . 'Test1' => 'AAAA',
                 'DynamicField_' . $UniqueNamePrefix . 'Test2' => 'BBBB',
                 'DynamicField_' . $UniqueNamePrefix . 'Test3' => 'XXXX',
@@ -1757,7 +1754,7 @@ push @WorkOrderTests, (
         },
         ReferenceData => {
             WorkOrderGet => {
-                WorkOrderTitle => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
+                WorkOrderTitle                                => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
                 'DynamicField_' . $UniqueNamePrefix . 'Test1' => 'AAAA',
                 'DynamicField_' . $UniqueNamePrefix . 'Test2' => 'BBBB',
                 'DynamicField_' . $UniqueNamePrefix . 'Test3' => 'XXXX',
@@ -2148,11 +2145,8 @@ for my $Test (@WorkOrderTests) {
             local $Data::Dumper::Useqq  = 1;
 
             # dump the attribute from WorkOrderGet() and the reference attribute
-            ## no critic
-            my $WorkOrderAttribute = Data::Dumper::Dumper( $WorkOrderData->{$RequestedAttribute} );    ## no critic
-            my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{WorkOrderGet}->{$RequestedAttribute} )
-                ;                                                                                      ## no critic
-            ## use critic
+            my $WorkOrderAttribute = Data::Dumper::Dumper( $WorkOrderData->{$RequestedAttribute} );
+            my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{WorkOrderGet}->{$RequestedAttribute} );
 
             $Self->Is(
                 $WorkOrderAttribute,
@@ -2727,7 +2721,7 @@ my @WorkOrderSearchTests = (
     {
         Description => 'Search for workorder dynamic fields',
         SearchData  => {
-            WorkOrderTitle => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
+            WorkOrderTitle                                => 'Test add workorder with dynamic fields - ' . $UniqueSignature,
             'DynamicField_' . $UniqueNamePrefix . 'Test1' => {
                 Equals => 'AAAA',
             },
@@ -2918,7 +2912,7 @@ for my $OrderByColumn (@OrderByColumns) {
     my @SortedIDs = map { $_->{WorkOrderID} } @SortedWorkOrders;
 
     # dump the reference attribute
-    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );    ## no critic
+    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );
 
     my $SearchResult = $WorkOrderObject->WorkOrderSearch(
         ChangeIDs        => [$OrderByTestID],
@@ -2928,7 +2922,7 @@ for my $OrderByColumn (@OrderByColumns) {
     );
 
     # dump the attribute from WorkOrderGet()
-    my $SearchList = Data::Dumper::Dumper($SearchResult);       ## no critic
+    my $SearchList = Data::Dumper::Dumper($SearchResult);
 
     $Self->Is(
         $SearchList,
@@ -2955,7 +2949,7 @@ for my $OrderByColumn (@OrderByColumns) {
     my @SortedIDsDown = map { $_->{WorkOrderID} } @SortedWorkOrders;
 
     # dump the reference attribute
-    my $ReferenceListDown = Data::Dumper::Dumper( \@SortedIDsDown );    ## no critic
+    my $ReferenceListDown = Data::Dumper::Dumper( \@SortedIDsDown );
 
     my $SearchResultDown = $WorkOrderObject->WorkOrderSearch(
         ChangeIDs => [$OrderByTestID],
@@ -2964,7 +2958,7 @@ for my $OrderByColumn (@OrderByColumns) {
     );
 
     # dump the attribute from WorkOrderGet()
-    my $SearchListDown = Data::Dumper::Dumper($SearchResultDown);       ## no critic
+    my $SearchListDown = Data::Dumper::Dumper($SearchResultDown);
 
     $Self->Is(
         $SearchListDown,
@@ -3149,30 +3143,30 @@ for my $OrderByColumn (qw(PlannedStartTime PlannedEndTime ActualStartTime Actual
     );
 
     if (
-        Data::Dumper::Dumper($SearchResult)             ## no critic
-        eq Data::Dumper::Dumper( \@ResultReference )    ## no critic
+        Data::Dumper::Dumper($SearchResult)
+        eq Data::Dumper::Dumper( \@ResultReference )
         )
     {
         $Self->Is(
-            Data::Dumper::Dumper($SearchResult),          ## no critic
-            Data::Dumper::Dumper( \@ResultReference ),    ## no critic
+            Data::Dumper::Dumper($SearchResult),
+            Data::Dumper::Dumper( \@ResultReference ),
             "Test $TestCount: ChangeSearch OrderBy $OrderByColumn (Down)",
         );
     }
     elsif (
-        Data::Dumper::Dumper($SearchResult)                        ## no critic
-        eq Data::Dumper::Dumper( \@ResultReferenceAlternative )    ## no critic
+        Data::Dumper::Dumper($SearchResult)
+        eq Data::Dumper::Dumper( \@ResultReferenceAlternative )
         )
     {
         $Self->Is(
-            Data::Dumper::Dumper($SearchResult),                     ## no critic
-            Data::Dumper::Dumper( \@ResultReferenceAlternative ),    ## no critic
+            Data::Dumper::Dumper($SearchResult),
+            Data::Dumper::Dumper( \@ResultReferenceAlternative ),
             "Test $TestCount: ChangeSearch OrderBy $OrderByColumn (Down)",
         );
     }
     else {
         $Self->Is(
-            Data::Dumper::Dumper($SearchResult),                     ## no critic
+            Data::Dumper::Dumper($SearchResult),
             undef,
             "Test $TestCount: ChangeSearch OrderBy $OrderByColumn (Down)",
         );
@@ -3187,30 +3181,30 @@ for my $OrderByColumn (qw(PlannedStartTime PlannedEndTime ActualStartTime Actual
     );
 
     if (
-        Data::Dumper::Dumper($SearchResultUp)                      ## no critic
-        eq Data::Dumper::Dumper( [ reverse @ResultReference ] )    ## no critic
+        Data::Dumper::Dumper($SearchResultUp)
+        eq Data::Dumper::Dumper( [ reverse @ResultReference ] )
         )
     {
         $Self->Is(
-            Data::Dumper::Dumper($SearchResultUp),                   ## no critic
-            Data::Dumper::Dumper( [ reverse @ResultReference ] ),    ## no critic
+            Data::Dumper::Dumper($SearchResultUp),
+            Data::Dumper::Dumper( [ reverse @ResultReference ] ),
             "Test $TestCount: ChangeSearch OrderBy $OrderByColumn (Up)",
         );
     }
     elsif (
-        Data::Dumper::Dumper($SearchResultUp)                                 ## no critic
-        eq Data::Dumper::Dumper( [ reverse @ResultReferenceAlternative ] )    ## no critic
+        Data::Dumper::Dumper($SearchResultUp)
+        eq Data::Dumper::Dumper( [ reverse @ResultReferenceAlternative ] )
         )
     {
         $Self->Is(
-            Data::Dumper::Dumper($SearchResultUp),                              ## no critic
-            Data::Dumper::Dumper( [ reverse @ResultReferenceAlternative ] ),    ## no critic
+            Data::Dumper::Dumper($SearchResultUp),
+            Data::Dumper::Dumper( [ reverse @ResultReferenceAlternative ] ),
             "Test $TestCount: ChangeSearch OrderBy $OrderByColumn (Up)",
         );
     }
     else {
         $Self->Is(
-            Data::Dumper::Dumper($SearchResultUp),                              ## no critic
+            Data::Dumper::Dumper($SearchResultUp),
             undef,
             "Test $TestCount: ChangeSearch OrderBy $OrderByColumn (Up)",
         );
@@ -3662,16 +3656,16 @@ for my $TSTest (@TimeSearchTests) {
         local $Data::Dumper::Useqq  = 1;
 
         # dump the attribute from WorkOrderSearch()
-        my $SearchResultDump = Data::Dumper::Dumper( sort @{$SearchResult} );    ## no critic
+        my $SearchResultDump = Data::Dumper::Dumper( sort @{$SearchResult} );
 
         # dump the reference attribute
-        my $ReferenceDump = Data::Dumper::Dumper( sort @ResultWorkOrderIDs );    ## no critic
+        my $ReferenceDump = Data::Dumper::Dumper( sort @ResultWorkOrderIDs );
 
         $Self->Is(
             $SearchResultDump,
             $ReferenceDump,
             "Test $TestCount: |- WorkOrderSearch(): "
-                . Data::Dumper::Dumper( $SourceData->{WorkOrderSearch} )         ## no critic
+                . Data::Dumper::Dumper( $SourceData->{WorkOrderSearch} )
                 . $SearchResultDump,
         );
     }

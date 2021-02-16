@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -1941,8 +1941,8 @@ my @ChangeTests = (
         Description => 'Test ChangeAdd and ChangeUpdate with change dynamic fields.',
         SourceData  => {
             ChangeAdd => {
-                UserID      => $UserIDs[0],
-                ChangeTitle => 'Test add change with dynamic fields - ' . $UniqueSignature,
+                UserID                                        => $UserIDs[0],
+                ChangeTitle                                   => 'Test add change with dynamic fields - ' . $UniqueSignature,
                 'DynamicField_' . $UniqueNamePrefix . 'Test1' => 'AAAA',
                 'DynamicField_' . $UniqueNamePrefix . 'Test2' => 'BBBB',
                 'DynamicField_' . $UniqueNamePrefix . 'Test3' => 'CCCC',
@@ -1961,8 +1961,8 @@ my @ChangeTests = (
         },
         ReferenceData => {
             ChangeGet => {
-                ChangeTitle     => 'Test add change with dynamic fields - ' . $UniqueSignature,
-                ChangeBuilderID => $UserIDs[0],
+                ChangeTitle                                   => 'Test add change with dynamic fields - ' . $UniqueSignature,
+                ChangeBuilderID                               => $UserIDs[0],
                 'DynamicField_' . $UniqueNamePrefix . 'Test1' => 'AAAA',
                 'DynamicField_' . $UniqueNamePrefix . 'Test2' => 'BBBB',
                 'DynamicField_' . $UniqueNamePrefix . 'Test3' => 'GGGG',
@@ -2806,10 +2806,8 @@ for my $Test (@ChangeTests) {
             local $Data::Dumper::Useqq  = 1;
 
             # dump the attribute from ChangeGet() and the reference attribute
-            ## no critic
             my $ChangeAttribute    = Data::Dumper::Dumper( $ChangeData->{$RequestedAttribute} );
             my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{ChangeGet}->{$RequestedAttribute} );
-            ## use critic
 
             $Self->Is(
                 $ChangeAttribute,
@@ -2833,10 +2831,8 @@ for my $Test (@ChangeTests) {
             local $Data::Dumper::Useqq  = 1;
 
             # dump the attribute from ChangeGet() and the reference attribute
-            ## no critic
             my $ChangeAttribute    = Data::Dumper::Dumper( $CABData->{$RequestedAttribute} );
             my $ReferenceAttribute = Data::Dumper::Dumper( $ReferenceData->{ChangeCABGet}->{$RequestedAttribute} );
-            ## use critic
 
             $Self->Is(
                 $ChangeAttribute,
@@ -3981,7 +3977,7 @@ my @ChangeSearchTests = (
     {
         Description => 'Search for change dynamic fields',
         SearchData  => {
-            ChangeTitle => 'Test add change with dynamic fields - ' . $UniqueSignature,
+            ChangeTitle                                   => 'Test add change with dynamic fields - ' . $UniqueSignature,
             'DynamicField_' . $UniqueNamePrefix . 'Test1' => {
                 Equals => 'AAAA',
             },
@@ -4398,7 +4394,7 @@ for my $OrderByColumn (@OrderByColumns) {
     my @SortedIDs = map { $_->{ChangeID} } @SortedChanges;
 
     # dump the reference attribute
-    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );    ## no critic
+    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );
 
     my $SearchResult = $ChangeObject->ChangeSearch(
         ChangeTitle      => 'OrderByChange - Title - ' . $UniqueSignature,
@@ -4408,7 +4404,7 @@ for my $OrderByColumn (@OrderByColumns) {
     );
 
     # dump the attribute from ChangeGet()
-    my $SearchList = Data::Dumper::Dumper($SearchResult);       ## no critic
+    my $SearchList = Data::Dumper::Dumper($SearchResult);
 
     $Self->Is(
         $SearchList,
@@ -4432,7 +4428,7 @@ for my $OrderByColumn (@OrderByColumns) {
     my @SortedIDsDown = map { $_->{ChangeID} } @SortedChangesDown;
 
     # dump the reference attribute
-    my $ReferenceListDown = Data::Dumper::Dumper( \@SortedIDsDown );    ## no critic
+    my $ReferenceListDown = Data::Dumper::Dumper( \@SortedIDsDown );
 
     my $SearchResultDown = $ChangeObject->ChangeSearch(
         ChangeTitle => 'OrderByChange - Title - ' . $UniqueSignature,
@@ -4441,7 +4437,7 @@ for my $OrderByColumn (@OrderByColumns) {
     );
 
     # dump the attribute from ChangeGet()
-    my $SearchListDown = Data::Dumper::Dumper($SearchResultDown);       ## no critic
+    my $SearchListDown = Data::Dumper::Dumper($SearchResultDown);
 
     $Self->Is(
         $SearchListDown,
@@ -4551,10 +4547,10 @@ for my $ChangeIDForSecondOrderByTests (@OrderBySearchTestChangeIDs) {
     );
 
     # dump the attribute from ChangeGet()
-    my $SearchList = Data::Dumper::Dumper($SearchResult);    ## no critic
+    my $SearchList = Data::Dumper::Dumper($SearchResult);
 
     # dump the reference attribute
-    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );    ## no critic
+    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );
 
     $Self->Is(
         $SearchList,
@@ -5056,16 +5052,14 @@ for my $Test (@TimeSearchTests) {
         local $Data::Dumper::Useqq  = 1;
 
         # dump the attribute from ChangeSearch() and the reference attribute
-        ## no critic
         my $SearchResultDump = Data::Dumper::Dumper( sort @{$SearchResult} );
         my $ReferenceDump    = Data::Dumper::Dumper( sort @ResultChangeIDs );
-        ## use critic
 
         $Self->Is(
             $SearchResultDump,
             $ReferenceDump,
             "Test $TestCount: |- ChangeSearch(): "
-                . Data::Dumper::Dumper( $SourceData->{ChangeSearch} )    ## no critic
+                . Data::Dumper::Dumper( $SourceData->{ChangeSearch} )
                 . $SearchResultDump,
         );
     }
@@ -5111,7 +5105,7 @@ for my $CIPColumn (@OrderByCIPColumns) {
     my @SortedIDs = map { $_->{ChangeID} } @SortedChanges;
 
     # dump the reference attribute
-    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );    ## no critic
+    my $ReferenceList = Data::Dumper::Dumper( \@SortedIDs );
 
     my $SearchResult = $ChangeObject->ChangeSearch(
         ChangeTitle      => '%CIP%' . $UniqueSignature,
@@ -5121,7 +5115,7 @@ for my $CIPColumn (@OrderByCIPColumns) {
     );
 
     # dump the attribute from ChangeGet()
-    my $SearchList = Data::Dumper::Dumper($SearchResult);       ## no critic
+    my $SearchList = Data::Dumper::Dumper($SearchResult);
 
     $Self->Is(
         $SearchList,
@@ -5137,7 +5131,7 @@ for my $CIPColumn (@OrderByCIPColumns) {
     my @SortedIDsDown = map { $_->{ChangeID} } @SortedChangesDown;
 
     # dump the reference attribute
-    my $ReferenceListDown = Data::Dumper::Dumper( \@SortedIDsDown );    ## no critic
+    my $ReferenceListDown = Data::Dumper::Dumper( \@SortedIDsDown );
 
     my $SearchResultDown = $ChangeObject->ChangeSearch(
         ChangeTitle => '%CIP%' . $UniqueSignature,
@@ -5146,7 +5140,7 @@ for my $CIPColumn (@OrderByCIPColumns) {
     );
 
     # dump the attribute from ChangeGet()
-    my $SearchListDown = Data::Dumper::Dumper($SearchResultDown);       ## no critic
+    my $SearchListDown = Data::Dumper::Dumper($SearchResultDown);
 
     $Self->Is(
         $SearchListDown,
@@ -5368,16 +5362,16 @@ for my $Test (@WOStringAndAgentSearchTests) {
         local $Data::Dumper::Useqq  = 1;
 
         # dump the attribute from ChangeSearch()
-        my $SearchResultDump = Data::Dumper::Dumper( sort @{$SearchResult} );    ## no critic
+        my $SearchResultDump = Data::Dumper::Dumper( sort @{$SearchResult} );
 
         # dump the reference attribute
-        my $ReferenceDump = Data::Dumper::Dumper( sort @ResultChangeIDs );       ## no critic
+        my $ReferenceDump = Data::Dumper::Dumper( sort @ResultChangeIDs );
 
         $Self->Is(
             $SearchResultDump,
             $ReferenceDump,
             "Test $TestCount: |- ChangeSearch(): "
-                . Data::Dumper::Dumper( $SourceData->{ChangeSearch} )            ## no critic
+                . Data::Dumper::Dumper( $SourceData->{ChangeSearch} )
                 . $SearchResultDump,
         );
     }

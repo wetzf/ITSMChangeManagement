@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -72,8 +72,7 @@ sub Run {
         # error screen
         if ( !$Access ) {
             return $LayoutObject->NoPermission(
-                Message => $LayoutObject->{LanguageObject}
-                    ->Translate( 'You need %s permissions!', $Self->{Config}->{Permission} ),
+                Message    => $LayoutObject->{LanguageObject}->Translate( 'You need %s permissions!', $Self->{Config}->{Permission} ),
                 WithHeader => 'yes',
             );
         }
@@ -130,8 +129,7 @@ sub Run {
         # error screen
         if ( !$Access ) {
             return $LayoutObject->NoPermission(
-                Message => $LayoutObject->{LanguageObject}
-                    ->Translate( 'You need %s permissions!', $Self->{Config}->{Permission} ),
+                Message    => $LayoutObject->{LanguageObject}->Translate( 'You need %s permissions!', $Self->{Config}->{Permission} ),
                 WithHeader => 'yes',
             );
         }
@@ -310,8 +308,7 @@ sub Run {
             # check error
             if ( !$WorkOrder ) {
                 return $LayoutObject->ErrorScreen(
-                    Message => $LayoutObject->{LanguageObject}
-                        ->Translate( 'WorkOrder "%s" not found in database!', $WorkOrderID ),
+                    Message => $LayoutObject->{LanguageObject}->Translate( 'WorkOrder "%s" not found in database!', $WorkOrderID ),
                     Comment => Translatable('Please contact the administrator.'),
                 );
             }

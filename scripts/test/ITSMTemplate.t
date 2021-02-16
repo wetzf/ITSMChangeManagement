@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -307,10 +307,8 @@ for my $ChangeName ( sort keys %CreatedChangeID ) {
         local $Data::Dumper::Useqq  = 1;
 
         # dump the attribute from ChangeGet() and the reference attribute
-        ## no critic
         my $ChangeAttribute    = Data::Dumper::Dumper( $Change->{$RequestedAttribute} );
         my $ReferenceAttribute = Data::Dumper::Dumper( $ChangeDefinitions{$ChangeName}->{$RequestedAttribute} );
-        ## use critic
 
         $Self->Is(
             $ChangeAttribute,
@@ -364,10 +362,8 @@ for my $WorkOrderName ( sort keys %WorkOrderDefinitions ) {
         local $Data::Dumper::Useqq  = 1;
 
         # dump the attribute from ChangeGet() and the reference attribute
-        ## no critic
         my $WorkOrderAttribute = Data::Dumper::Dumper( $WorkOrder->{$RequestedAttribute} );
         my $ReferenceAttribute = Data::Dumper::Dumper( $WorkOrderDefinitions{$WorkOrderName}->{$RequestedAttribute} );
-        ## use critic
 
         $Self->Is(
             $WorkOrderAttribute,
@@ -618,12 +614,10 @@ for my $ChangeTemplateName ( sort keys %CreatedChangeID ) {
         local $Data::Dumper::Useqq  = 1;
 
         # dump the attribute from ChangeGet() and the reference attribute
-        ## no critic
         my $ChangeAttribute    = Data::Dumper::Dumper( $Change->{$RequestedAttribute} );
         my $ReferenceAttribute = Data::Dumper::Dumper(
             $ChangeDefinitions{$ChangeTemplateName}->{$RequestedAttribute}
         );
-        ## use critic
 
         $Self->Is(
             $ChangeAttribute,
@@ -693,12 +687,10 @@ for my $WorkOrderTemplateName ( sort keys %CreatedWorkOrderID ) {
         local $Data::Dumper::Useqq  = 1;
 
         # dump the attribute from ChangeGet() and the reference attribute
-        ## no critic
         my $WorkOrderAttribute = Data::Dumper::Dumper( $WorkOrder->{$RequestedAttribute} );
         my $ReferenceAttribute = Data::Dumper::Dumper(
             $WorkOrderDefinitions{$WorkOrderTemplateName}->{$RequestedAttribute}
         );
-        ## use critic
 
         $Self->Is(
             $WorkOrderAttribute,
@@ -781,10 +773,8 @@ for my $CABTemplateName (@CABTemplateNames) {
     local $Data::Dumper::Useqq  = 1;
 
     # dump the attribute from ChangeGet() and the reference attribute
-    ## no critic
     my $ChangeAttribute    = Data::Dumper::Dumper( [ $Change->{CABAgents},     $Change->{CABCustomers} ] );
     my $ReferenceAttribute = Data::Dumper::Dumper( [ $OrigChange->{CABAgents}, $OrigChange->{CABCustomers} ] );
-    ## use critic
 
     $Self->Is(
         $ChangeAttribute,

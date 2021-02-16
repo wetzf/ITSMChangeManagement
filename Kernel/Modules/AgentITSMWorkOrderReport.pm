@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -116,12 +116,11 @@ sub Run {
         next DYNAMICFIELD if !IsHashRefWithData($DynamicFieldConfig);
 
         # extract the dynamic field value from the web request and add the prefix
-        $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} }
-            = $DynamicFieldBackendObject->EditFieldValueGet(
+        $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} } = $DynamicFieldBackendObject->EditFieldValueGet(
             DynamicFieldConfig => $DynamicFieldConfig,
             ParamObject        => $ParamObject,
             LayoutObject       => $LayoutObject,
-            );
+        );
     }
 
     # store actual time related fields in %GetParam
@@ -425,8 +424,7 @@ sub Run {
 
                 # show error message
                 return $LayoutObject->ErrorScreen(
-                    Message => $LayoutObject->{LanguageObject}
-                        ->Translate( 'Was not able to update WorkOrder %s!', $WorkOrderID ),
+                    Message => $LayoutObject->{LanguageObject}->Translate( 'Was not able to update WorkOrder %s!', $WorkOrderID ),
                     Comment => Translatable('Please contact the administrator.'),
                 );
             }
@@ -564,8 +562,7 @@ sub Run {
 
         # get workorder dynamic fields from workorder if page is loaded the first time
         if ( !$Self->{Subaction} ) {
-            $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} }
-                = $WorkOrder->{ 'DynamicField_' . $DynamicFieldConfig->{Name} };
+            $DynamicFieldValues{ 'DynamicField_' . $DynamicFieldConfig->{Name} } = $WorkOrder->{ 'DynamicField_' . $DynamicFieldConfig->{Name} };
         }
 
         # get field html

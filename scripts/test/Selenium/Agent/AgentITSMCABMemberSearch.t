@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -86,8 +86,7 @@ $Selenium->RunTest(
         $Selenium->VerifiedGet("${ScriptAlias}index.pl?Action=AgentITSMChangeZoom;ChangeID=$ChangeID");
 
         # Click on 'Involved Persons' and switch window.
-        $Selenium->find_element("//a[contains(\@href, \'Action=AgentITSMChangeInvolvedPersons;ChangeID=$ChangeID')]")
-            ->click();
+        $Selenium->find_element("//a[contains(\@href, \'Action=AgentITSMChangeInvolvedPersons;ChangeID=$ChangeID')]")->click();
 
         $Selenium->WaitFor( WindowCount => 2 );
         my $Handles = $Selenium->get_window_handles();
@@ -98,8 +97,7 @@ $Selenium->RunTest(
         sleep 2;
 
         # Input change manager.
-        my $AutoCompleteStringManager
-            = "\"$TestUserLogin $TestUserLogin\" <$TestUserLogin\@localunittest.com> ($TestUserID)";
+        my $AutoCompleteStringManager = "\"$TestUserLogin $TestUserLogin\" <$TestUserLogin\@localunittest.com> ($TestUserID)";
         $Selenium->find_element( "#ChangeManager", 'css' )->send_keys($TestUserLogin);
         $Selenium->WaitFor( JavaScript => 'return $("li.ui-menu-item:visible").length;' );
         $Selenium->execute_script("\$('li.ui-menu-item:contains($AutoCompleteStringManager)').click();");
@@ -114,8 +112,7 @@ $Selenium->RunTest(
         $Selenium->WaitFor( JavaScript => 'return $("#NewTemplateButton").length;' );
 
         # Input change customer CAB.
-        my $AutoCompleteStringCustomer
-            = "\"$TestCustomerCAB $TestCustomerCAB\" <$TestCustomerCAB\@localunittest.com> ($TestCustomerCAB)";
+        my $AutoCompleteStringCustomer = "\"$TestCustomerCAB $TestCustomerCAB\" <$TestCustomerCAB\@localunittest.com> ($TestCustomerCAB)";
         $Selenium->find_element( "#NewCABMember", 'css' )->send_keys($TestCustomerCAB);
         $Selenium->WaitFor( JavaScript => 'return $("li.ui-menu-item:visible").length;' );
         $Selenium->execute_script("\$('li.ui-menu-item:contains($AutoCompleteStringCustomer)').click();");
