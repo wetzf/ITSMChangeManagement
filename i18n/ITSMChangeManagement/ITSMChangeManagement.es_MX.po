@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-06-12 06:02+0000\n"
+"PO-Revision-Date: 2021-06-19 21:21+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #. Template: AdminITSMStateMachine
 msgid "Add a state transition"
-msgstr ""
+msgstr "Adicionar un estado de transición"
 
 #. Template: AdminITSMStateMachine
 msgid "Catalog Class"
@@ -99,15 +99,15 @@ msgstr ""
 
 #. Template: AdminITSMStateMachine
 msgid "Do you really want to delete the state transition"
-msgstr ""
+msgstr "Realmente desea eliminar el estado de transición"
 
 #. Template: AgentITSMChangeAdd
 msgid "Add Change"
-msgstr ""
+msgstr "Adicionar cambio"
 
 #. Template: AgentITSMChangeAdd
 msgid "ITSM Change"
-msgstr ""
+msgstr "Cambiar ITMS"
 
 #. Template: AgentITSMChangeAdd
 msgid "Justification"
@@ -115,7 +115,7 @@ msgstr "Justificación"
 
 #. Template: AgentITSMChangeAdd
 msgid "Input invalid."
-msgstr "Ingreso invalido."
+msgstr "Dato invalido."
 
 #. Template: AgentITSMChangeAdd
 msgid "Impact"
@@ -131,19 +131,19 @@ msgstr ""
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "Time type"
-msgstr ""
+msgstr "Tipo hora"
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "Invalid time type."
-msgstr ""
+msgstr "Tipo de hora invalido."
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "New time"
-msgstr ""
+msgstr "Nueva hora"
 
 #. Template: AgentITSMChangeCABTemplate
 msgid "Save Change CAB as template"
-msgstr ""
+msgstr "Guardar el cambio CAB como plantilla"
 
 #. Template: AgentITSMChangeCABTemplate
 msgid "go to involved persons screen"
@@ -155,35 +155,35 @@ msgstr "Nombre invalido"
 
 #. Template: AgentITSMChangeCondition
 msgid "Conditions and Actions"
-msgstr ""
+msgstr "Condiciones y acciones"
 
 #. Template: AgentITSMChangeCondition
 msgid "Delete Condition"
-msgstr ""
+msgstr "Eliminar condición"
 
 #. Template: AgentITSMChangeCondition
 msgid "Add new condition"
-msgstr ""
+msgstr "Agregar nueva condición"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Edit Condition"
-msgstr ""
+msgstr "Editar condición"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Need a valid name."
-msgstr ""
+msgstr "Necesita un nombre valido."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "A valid name is needed."
-msgstr ""
+msgstr "Se requiere un nombre valido."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Duplicate name:"
-msgstr ""
+msgstr "Nombre duplicado:"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "This name is already used by another condition."
-msgstr ""
+msgstr "Este nombre ya esta siendo usado por otra condición."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Matching"
@@ -191,55 +191,55 @@ msgstr ""
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Any expression (OR)"
-msgstr ""
+msgstr "Cualquier expresión (O)"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "All expressions (AND)"
-msgstr ""
+msgstr "Todas la expresiones (Y)"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Expressions"
-msgstr ""
+msgstr "Expresiones"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Selector"
-msgstr ""
+msgstr "Selector"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Operator"
-msgstr ""
+msgstr "Operador"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Delete Expression"
-msgstr ""
+msgstr "Eliminar expresión"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "No Expressions found."
-msgstr ""
+msgstr "No se encontraron expresiones."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Add new expression"
-msgstr ""
+msgstr "Agregar nueva expresión"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Delete Action"
-msgstr ""
+msgstr "Eliminar acción"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "No Actions found."
-msgstr ""
+msgstr "No se encontraron acciones."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Add new action"
-msgstr ""
+msgstr "Agregar nueva acción"
 
 #. Template: AgentITSMChangeDelete
 msgid "Do you really want to delete this change?"
-msgstr ""
+msgstr "¿Realmente desea eliminar este cambio?"
 
 #. Template: AgentITSMChangeEdit
 msgid "Edit %s%s"
-msgstr ""
+msgstr "Editar %s %s"
 
 #. Template: AgentITSMChangeHistory
 msgid "History of %s%s"
@@ -247,47 +247,48 @@ msgstr "Histórico de %s%s"
 
 #. Template: AgentITSMChangeHistory
 msgid "Workorder"
-msgstr ""
+msgstr "Orden de trabajo"
 
 #. Template: AgentITSMChangeHistory
 msgid "Show details"
-msgstr ""
+msgstr "Mostrar detalles"
 
 #. Template: AgentITSMChangeHistory
 msgid "Show workorder"
-msgstr ""
+msgstr "Mostrar orden de trabajo"
 
 #. Template: AgentITSMChangeHistoryZoom
 msgid "Detailed history information of %s"
-msgstr ""
+msgstr "Historial detallado de %s"
 
 #. Template: AgentITSMChangeHistoryZoom
 msgid "Modified"
-msgstr ""
+msgstr "Modificado"
 
 #. Template: AgentITSMChangeHistoryZoom
 msgid "Old Value"
-msgstr ""
+msgstr "Antiguo valor"
 
 #. Template: AgentITSMChangeHistoryZoom
 msgid "New Value"
-msgstr ""
+msgstr "Nuevo valor"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Edit Involved Persons of %s%s"
-msgstr ""
+msgstr "Editar personal involucrado de %s%s"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Involved Persons"
-msgstr ""
+msgstr "Personas involucradas"
 
 #. Template: AgentITSMChangeInvolvedPersons
+#, fuzzy
 msgid "ChangeManager"
-msgstr ""
+msgstr "Cambiar supervisor"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "User invalid."
-msgstr ""
+msgstr "Usuario invalido."
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "ChangeBuilder"
@@ -299,43 +300,43 @@ msgstr ""
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "CAB Template"
-msgstr ""
+msgstr "Plantilla CAB"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Apply Template"
-msgstr ""
+msgstr "Aplicar plantilla"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "NewTemplate"
-msgstr ""
+msgstr "Nueva plantilla"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Save this CAB as template"
-msgstr ""
+msgstr "Guardar esta CAB como plantilla"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Add to CAB"
-msgstr ""
+msgstr "Agregar a CAB"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Invalid User"
-msgstr ""
+msgstr "Usuario Invalido"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Current CAB"
-msgstr ""
+msgstr "CAB Actual"
 
 #. Template: AgentITSMChangeOverviewNavBar
 msgid "Changes per page"
-msgstr ""
+msgstr "Cambios por página"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Workorder Title"
-msgstr ""
+msgstr "Titulo de la orden de trabajo"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Change Title"
-msgstr ""
+msgstr "Cambiar titulo"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Workorder Agent"
@@ -2911,7 +2912,7 @@ msgstr ""
 
 #. Template: AgentITSMChangeZoom
 msgid "Last changed by"
-msgstr ""
+msgstr "Modificado por última vez por"
 
 #. Template: AgentITSMChangeZoom
 msgid "To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS)."
@@ -2931,7 +2932,7 @@ msgstr ""
 
 #. JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
 msgid "Ok"
-msgstr ""
+msgstr "Bien"
 
 #. SysConfig
 msgid "Change Schedule."
@@ -2944,6 +2945,11 @@ msgstr ""
 #. SysConfig
 msgid "Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = \"complex\"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js."
 msgstr ""
+"Definir acciones en las que un botón de configuración está disponible en el "
+"widget de objetos vinculados (LinkObject::ViewMode = \"complex\"). Tenga en "
+"cuenta que estas acciones deben haber registrado los siguientes archivos JS "
+"y CSS: Core.AllocationList.css, Core.UI.AllocationList.js, "
+"Core.UI.Table.Sort.js, Core.Agent.TableFilters.js y Core.Agent.LinkObject.js."
 
 #. SysConfig
 msgid "Defines if the requested date should be print by customer."
