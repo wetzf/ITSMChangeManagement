@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-06-24 21:47+0000\n"
+"PO-Revision-Date: 2021-06-25 19:53+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -690,63 +690,63 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeCABTemplate.pm
 msgid "No change found for changeID %s."
-msgstr ""
+msgstr "No se ha encontrado ningún cambio para el changeID %s."
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeCABTemplate.pm
 msgid "The CAB of change \"%s\" could not be serialized."
-msgstr ""
+msgstr "El cambio de CAB \"%s\" no pudo ser serializado."
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeCABTemplate.pm
 msgid "Could not add the template."
-msgstr ""
+msgstr "No se ha podido agregar la plantilla."
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeCondition.pm
 msgid "Change \"%s\" not found in database!"
-msgstr ""
+msgstr "¡Cambio \"%s\" no encontrado en la base de datos!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeCondition.pm
 msgid "Could not delete ConditionID %s!"
-msgstr ""
+msgstr "¡No se ha podido eliminar ConditionID %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not create new condition!"
-msgstr ""
+msgstr "¡No se ha podido crear una nueva condición!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not update ConditionID %s!"
-msgstr ""
+msgstr "¡No se ha podido actualizar ConditionID %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not update ExpressionID %s!"
-msgstr ""
+msgstr "¡No se ha podido actualizar la ExpressionID %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not add new Expression!"
-msgstr ""
+msgstr "¡No se puede agregar una nueva Expresión!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not update ActionID %s!"
-msgstr ""
+msgstr "¡No se ha podido actualizar la ActionID %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not add new Action!"
-msgstr ""
+msgstr "¡No se puede agregar una nueva Acción!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not delete ExpressionID %s!"
-msgstr ""
+msgstr "¡No se ha podido eliminar ExpressionID %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not delete ActionID %s!"
-msgstr ""
+msgstr "¡No se ha podido eliminar ActionID %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Error: Unknown field type \"%s\"!"
-msgstr ""
+msgstr "Error: ¡Tipo de campo desconocido \"%s\"!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "ConditionID %s does not belong to the given ChangeID %s!"
-msgstr ""
+msgstr "¡ConditionID %s no pertenece al ChangeID %s dado!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeDelete.pm
 msgid "Change \"%s\" does not have an allowed change state to be deleted!"
@@ -754,43 +754,46 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeDelete.pm
 msgid "Was not able to delete the changeID %s!"
-msgstr ""
+msgstr "¡No se ha podido borrar el changeID %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeEdit.pm
 msgid "Was not able to update Change!"
-msgstr ""
+msgstr "¡No se ha podido actualizar el cambio!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistory.pm
 msgid "Can't show history, as no ChangeID is given!"
 msgstr ""
+"¡No se puede mostrar el historial, ya que no se proporciona ningún ChangeID!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistory.pm
 msgid "Change \"%s\" not found in the database!"
-msgstr ""
+msgstr "¡Cambio \"%s\" no encontrado en la base de datos!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistory.pm
 msgid "Unknown type \"%s\" encountered!"
-msgstr ""
+msgstr "¡Se ha encontrado un tipo desconocido \"%s\"!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistory.pm
 msgid "Change History"
-msgstr ""
+msgstr "Modificar el historial"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
 msgid "Can't show history zoom, no HistoryEntryID is given!"
 msgstr ""
+"¡No se puede mostrar el zoom del historial, no se ha proporcionado un "
+"HistoryEntryID!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
 msgid "HistoryEntry \"%s\" not found in database!"
-msgstr ""
+msgstr "¡HistoryEntry \"%s\" no se encuentra en la base de datos!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeInvolvedPersons.pm
 msgid "Was not able to update Change CAB for Change %s!"
-msgstr ""
+msgstr "¡No se ha podido actualizar el CAB para cambiar %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeInvolvedPersons.pm
 msgid "Was not able to update Change %s!"
-msgstr ""
+msgstr "¡No se ha podido actualizar el cambio %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
 msgid "Overview: ChangeManager"
