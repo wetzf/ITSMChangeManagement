@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-06-19 21:21+0000\n"
+"PO-Revision-Date: 2021-06-24 21:47+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -23,7 +23,7 @@ msgstr "Categoría ↔ Impacto ↔ Prioridad"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Manage the priority result of combinating Category ↔ Impact."
-msgstr ""
+msgstr "Gestionar el resultado prioritario de combinar Categoría ↔ Impacto."
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Priority allocation"
@@ -51,7 +51,7 @@ msgstr "el nombre es requerido."
 
 #. Template: AdminITSMStateMachine
 msgid "Admin State Machine"
-msgstr ""
+msgstr "Administrar estado de la maquina"
 
 #. Template: AdminITSMStateMachine
 msgid "Select a catalog class!"
@@ -59,7 +59,7 @@ msgstr ""
 
 #. Template: AdminITSMStateMachine
 msgid "A catalog class is required!"
-msgstr ""
+msgstr "¡Un catalogo de clases es requerido!"
 
 #. Template: AdminITSMStateMachine
 msgid "Add a state transition"
@@ -75,15 +75,15 @@ msgstr "Nombre del objeto"
 
 #. Template: AdminITSMStateMachine
 msgid "Overview over state transitions for"
-msgstr ""
+msgstr "Resumen sobre las transiciones de estado para"
 
 #. Template: AdminITSMStateMachine
 msgid "Delete this state transition"
-msgstr ""
+msgstr "Borrar este estado de transición"
 
 #. Template: AdminITSMStateMachine
 msgid "Add a new state transition for"
-msgstr ""
+msgstr "Agregar un nuevo estado de transición para"
 
 #. Template: AdminITSMStateMachine
 msgid "Please select a state!"
@@ -95,7 +95,7 @@ msgstr "¡Por favor seleccione un próximo estado!"
 
 #. Template: AdminITSMStateMachine
 msgid "Edit a state transition for"
-msgstr ""
+msgstr "Editar un estado de transición para"
 
 #. Template: AdminITSMStateMachine
 msgid "Do you really want to delete the state transition"
@@ -127,7 +127,7 @@ msgstr "Fecha requerida"
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "Select Change Template"
-msgstr ""
+msgstr "Seleccione cambiar plantilla"
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "Time type"
@@ -352,135 +352,135 @@ msgstr ""
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Workorders"
-msgstr ""
+msgstr "Ordenes de trabajo"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Change State"
-msgstr ""
+msgstr "Cambiar estado"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Workorder State"
-msgstr ""
+msgstr "Estado de la orden de trabajo"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Workorder Type"
-msgstr ""
+msgstr "Tipo de orden de trabajo"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Requested Time"
-msgstr ""
+msgstr "Tiempo estimado"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Planned Start Time"
-msgstr ""
+msgstr "Hora de inicio prevista"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Planned End Time"
-msgstr ""
+msgstr "Hora de finalización prevista"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Actual Start Time"
-msgstr ""
+msgstr "Hora de inicio real"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Actual End Time"
-msgstr ""
+msgstr "Hora de finalización real"
 
 #. Template: AgentITSMChangeReset
 msgid "Do you really want to reset this change?"
-msgstr ""
+msgstr "¿Realmente quieres restablecer este cambio?"
 
 #. Template: AgentITSMChangeSearch
 msgid "(e.g. 10*5155 or 105658*)"
-msgstr ""
+msgstr "(por ejemplo. 10*5155 o 105658*)"
 
 #. Template: AgentITSMChangeSearch
 msgid "CAB Agent"
-msgstr ""
+msgstr "Agente CAB"
 
 #. Template: AgentITSMChangeSearch
 msgid "e.g."
-msgstr ""
+msgstr "por ejemplo."
 
 #. Template: AgentITSMChangeSearch
 msgid "CAB Customer"
-msgstr ""
+msgstr "Cliente CAB"
 
 #. Template: AgentITSMChangeSearch
 msgid "ITSM Workorder Instruction"
-msgstr ""
+msgstr "Instrucción de órdenes de trabajo ITSM"
 
 #. Template: AgentITSMChangeSearch
 msgid "ITSM Workorder Report"
-msgstr ""
+msgstr "Reporte de órdenes de trabajo ITSM"
 
 #. Template: AgentITSMChangeSearch
 msgid "ITSM Change Priority"
-msgstr ""
+msgstr "Cambiar prioridad ITSM"
 
 #. Template: AgentITSMChangeSearch
 msgid "ITSM Change Impact"
-msgstr ""
+msgstr "Cambiar impacto de ITSM"
 
 #. Template: AgentITSMChangeSearch
 msgid "Change Category"
-msgstr ""
+msgstr "Cambiar categoría"
 
 #. Template: AgentITSMChangeSearch
 msgid "(before/after)"
-msgstr ""
+msgstr "(antes/después)"
 
 #. Template: AgentITSMChangeSearch
 msgid "(between)"
-msgstr ""
+msgstr "(entre)"
 
 #. Template: AgentITSMChangeTemplate
 msgid "Save Change as Template"
-msgstr ""
+msgstr "Guardar cambios como plantilla"
 
 #. Template: AgentITSMChangeTemplate
 msgid "A template should have a name!"
-msgstr ""
+msgstr "¡Una plantilla debe tener un nombre!"
 
 #. Template: AgentITSMChangeTemplate
 msgid "The template name is required."
-msgstr ""
+msgstr "El nombre de la plantilla es obligatorio."
 
 #. Template: AgentITSMChangeTemplate
 msgid "Reset States"
-msgstr ""
+msgstr "Reiniciar estados"
 
 #. Template: AgentITSMChangeTemplate
 msgid "Overwrite original template"
-msgstr ""
+msgstr "Sobrescribir la plantilla original"
 
 #. Template: AgentITSMChangeTemplate
 msgid "Delete original change"
-msgstr ""
+msgstr "Borrar el cambio original"
 
 #. Template: AgentITSMChangeTimeSlot
 msgid "Move Time Slot"
-msgstr ""
+msgstr "Mover intervalo de tiempo"
 
 #. Template: AgentITSMChangeZoom
 msgid "Change Information"
-msgstr ""
+msgstr "Cambiar información"
 
 #. Template: AgentITSMChangeZoom
 msgid "Planned Effort"
-msgstr ""
+msgstr "Esfuerzo planificado"
 
 #. Template: AgentITSMChangeZoom
 msgid "Accounted Time"
-msgstr ""
+msgstr "Tiempo contabilizado"
 
 #. Template: AgentITSMChangeZoom
 msgid "Change Initiator(s)"
-msgstr ""
+msgstr "Iniciador(es) del cambio"
 
 #. Template: AgentITSMChangeZoom
 msgid "CAB"
-msgstr ""
+msgstr "CAB"
 
 #. Template: AgentITSMChangeZoom
 msgid "Last changed"
@@ -488,19 +488,25 @@ msgstr "Último cambio"
 
 #. Template: AgentITSMTemplateEditCAB
 msgid "Edit CAB Template"
-msgstr ""
+msgstr "Editar plantilla CAB"
 
 #. Template: AgentITSMTemplateEditContent
 msgid "This will create a new change from this template, so you can edit and save it."
 msgstr ""
+"Esto creará un nuevo cambio en esta plantilla, para que pueda editarla y "
+"guardarla."
 
 #. Template: AgentITSMTemplateEditContent
 msgid "The new change will be deleted automatically after it has been saved as template."
 msgstr ""
+"El nuevo cambio se borrará automáticamente después de que se haya guardado "
+"como plantilla."
 
 #. Template: AgentITSMTemplateEditContent
 msgid "This will create a new workorder from this template, so you can edit and save it."
 msgstr ""
+"Esto creará una nueva orden de trabajo a partir de esta plantilla, para que "
+"pueda editarla y guardarla."
 
 #. Template: AgentITSMTemplateEditContent
 msgid "A temporary change will be created which contains the workorder."
@@ -512,51 +518,53 @@ msgstr ""
 
 #. Template: AgentITSMTemplateEditContent
 msgid "Do you want to proceed?"
-msgstr ""
+msgstr "¿Quieres continuar?"
 
 #. Template: AgentITSMTemplateOverviewSmall
 msgid "Template ID"
-msgstr ""
+msgstr "ID Plantilla"
 
 #. Template: AgentITSMTemplateOverviewSmall
 msgid "Edit Content"
-msgstr ""
+msgstr "Editar contenido"
 
 #. Template: AgentITSMTemplateOverviewSmall
 msgid "Create by"
-msgstr ""
+msgstr "Creado por"
 
 #. Template: AgentITSMTemplateOverviewSmall
 msgid "Change by"
-msgstr ""
+msgstr "Cambiado por"
 
 #. Template: AgentITSMTemplateOverviewSmall
 msgid "Change Time"
-msgstr ""
+msgstr "Hora de cambio"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "Add Workorder to %s%s"
-msgstr ""
+msgstr "Agregar orden de trabajo a %s%s"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "Instruction"
-msgstr ""
+msgstr "Instrucción"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "Invalid workorder type."
-msgstr ""
+msgstr "Tipo de orden de trabajo invalida."
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "The planned start time must be before the planned end time!"
 msgstr ""
+"¡La hora de inicio prevista debe ser anterior a la hora de finalización "
+"prevista!"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "Invalid format."
-msgstr ""
+msgstr "Formato invalido."
 
 #. Template: AgentITSMWorkOrderAddFromTemplate
 msgid "Select Workorder Template"
-msgstr ""
+msgstr "Seleccione una plantilla de orden de trabajo"
 
 #. Template: AgentITSMWorkOrderAgent
 msgid "Edit Workorder Agent of %s%s"
@@ -564,95 +572,105 @@ msgstr ""
 
 #. Template: AgentITSMWorkOrderDelete
 msgid "Do you really want to delete this workorder?"
-msgstr ""
+msgstr "¿Realmente quiere eliminar esta orden de trabajo?"
 
 #. Template: AgentITSMWorkOrderDelete
 msgid "You can not delete this Workorder. It is used in at least one Condition!"
 msgstr ""
+"¡No se puede eliminar esta Orden de Trabajo. Se utiliza en al menos una "
+"condición!"
 
 #. Template: AgentITSMWorkOrderDelete
 msgid "This Workorder is used in the following Condition(s)"
-msgstr ""
+msgstr "Esta orden de trabajo se utiliza en las siguientes condiciones"
 
 #. Template: AgentITSMWorkOrderEdit
 msgid "Edit %s%s-%s"
-msgstr ""
+msgstr "Editar %s%s-%s"
 
 #. Template: AgentITSMWorkOrderEdit
+#, fuzzy
 msgid "Move following workorders accordingly"
-msgstr ""
+msgstr "Desplazar las siguientes órdenes de trabajo en consecuencia"
 
 #. Template: AgentITSMWorkOrderEdit
 msgid "If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly"
 msgstr ""
+"Si se modifica la hora de finalización prevista de esta orden de trabajo, "
+"las horas de inicio previstas de todas las órdenes de trabajo siguientes se "
+"modificarán en consecuencia"
 
 #. Template: AgentITSMWorkOrderHistory
 msgid "History of %s%s-%s"
-msgstr ""
+msgstr "Historia de %s%s-%s"
 
 #. Template: AgentITSMWorkOrderReport
 msgid "Edit Report of %s%s-%s"
-msgstr ""
+msgstr "Editar reporte de %s%s-%s"
 
 #. Template: AgentITSMWorkOrderReport
 msgid "Report"
-msgstr ""
+msgstr "Reporte"
 
 #. Template: AgentITSMWorkOrderReport
 msgid "The actual start time must be before the actual end time!"
 msgstr ""
+"¡La hora de inicio real debe ser anterior a la hora de finalización real!"
 
 #. Template: AgentITSMWorkOrderReport
 msgid "The actual start time must be set, when the actual end time is set!"
 msgstr ""
+"¡La hora de inicio real debe fijarse cuando se fije la hora de finalización "
+"real!"
 
 #. Template: AgentITSMWorkOrderTake
 msgid "Current Agent"
-msgstr ""
+msgstr "Agente actual"
 
 #. Template: AgentITSMWorkOrderTake
 msgid "Do you really want to take this workorder?"
-msgstr ""
+msgstr "¿Realmente quieres aceptar esta orden de trabajo?"
 
 #. Template: AgentITSMWorkOrderTemplate
 msgid "Save Workorder as Template"
-msgstr ""
+msgstr "Guardar orden de trabajo como plantilla"
 
 #. Template: AgentITSMWorkOrderTemplate
+#, fuzzy
 msgid "Delete original workorder (and surrounding change)"
-msgstr ""
+msgstr "Eliminar la orden de trabajo original (y el cambio circundante)"
 
 #. Template: AgentITSMWorkOrderZoom
 msgid "Workorder Information"
-msgstr ""
+msgstr "Información de la orden de trabajo"
 
 #. Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
 msgid "Notification Added!"
-msgstr ""
+msgstr "¡Notificación añadida!"
 
 #. Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
 msgid "Unknown notification %s!"
-msgstr ""
+msgstr "¡Notificación desconocida %s!"
 
 #. Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
 msgid "There was an error creating the notification."
-msgstr ""
+msgstr "Se ha producido un error al crear la notificación."
 
 #. Perl Module: Kernel/Modules/AdminITSMStateMachine.pm
 msgid "State Transition Updated!"
-msgstr ""
+msgstr "¡Estado de transición actualizado!"
 
 #. Perl Module: Kernel/Modules/AdminITSMStateMachine.pm
 msgid "State Transition Added!"
-msgstr ""
+msgstr "¡Estado de transición añadido!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChange.pm
 msgid "Overview: ITSM Changes"
-msgstr ""
+msgstr "Descripción general: cambios de ITSM"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
 msgid "Ticket with TicketID %s does not exist!"
-msgstr ""
+msgstr "¡El ticket TicketID %s no existe!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
 msgid "Missing sysconfig option \"ITSMChange::AddChangeLinkTicketTypes\"!"
@@ -660,11 +678,11 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeAdd.pm
 msgid "Was not able to add change!"
-msgstr ""
+msgstr "¡No he podido añadir el cambio!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeAddFromTemplate.pm
 msgid "Was not able to create change from template!"
-msgstr ""
+msgstr "¡No se a podido crear un cambio de plantilla!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeCABTemplate.pm
 msgid "No ChangeID is given!"
