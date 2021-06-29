@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-06-28 21:36+0000\n"
+"PO-Revision-Date: 2021-07-01 02:17+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -1087,19 +1087,19 @@ msgstr "¡No se pudo crear una orden de trabajo a partir de la plantilla!"
 
 #. Perl Module: Kernel/Modules/AgentITSMTemplateOverview.pm
 msgid "Overview: Template"
-msgstr ""
+msgstr "Descripción general: plantilla"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
 msgid "You need %s permissions on the change!"
-msgstr ""
+msgstr "¡Necesita %s permisos para el cambio!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAdd.pm
 msgid "Was not able to add workorder!"
-msgstr ""
+msgstr "¡No se pudo agregar la orden de trabajo!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAgent.pm
 msgid "No WorkOrderID is given!"
-msgstr ""
+msgstr "¡No se proporciona WorkOrderID!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAgent.pm
 msgid "Was not able to set the workorder agent of the workorder \"%s\" to empty!"
@@ -1107,75 +1107,76 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAgent.pm
 msgid "Was not able to update the workorder \"%s\"!"
-msgstr ""
+msgstr "¡No se pudo actualizar la orden de trabajo \"%s\"!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderAgent.pm
 msgid "Could not find Change for WorkOrder %s!"
-msgstr ""
+msgstr "¡No se pudo encontrar el cambio para la orden de trabajo %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderDelete.pm
 msgid "Was not able to delete the workorder %s!"
-msgstr ""
+msgstr "¡No se pudo borrar la orden de trabajo %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderEdit.pm
 msgid "Was not able to update WorkOrder %s!"
-msgstr ""
+msgstr "¡No se pudo actualizar la orden de trabajo %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderHistory.pm
 msgid "Can't show history, as no WorkOrderID is given!"
 msgstr ""
+"¡No se puede mostrar el historial, ya que no se proporciona WorkOrderID!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderHistory.pm
 msgid "WorkOrder \"%s\" not found in the database!"
-msgstr ""
+msgstr "¡La orden de trabajo \"%s\" no se encuentra en la base de datos!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderHistory.pm
 msgid "WorkOrder History"
-msgstr ""
+msgstr "Historial de órdenes de trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderHistoryZoom.pm
 msgid "History entry \"%s\" not found in the database!"
-msgstr ""
+msgstr "¡La entrada del historial \"%s\" no se encuentra en la base de datos!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderHistoryZoom.pm
 msgid "WorkOrder History Zoom"
-msgstr ""
+msgstr "Detalle del historial de órdenes de trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderTake.pm
 msgid "Was not able to take the workorder %s!"
-msgstr ""
+msgstr "¡No pudo tomar la orden de trabajo %s!"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderTemplate.pm
 msgid "The workorder \"%s\" could not be serialized."
-msgstr ""
+msgstr "No se pudo serializar la orden de trabajo \"%s\"."
 
 #. Perl Module: Kernel/Output/HTML/DocumentSearch/ITSMChange.pm
 msgid "ITSM Change Attachment"
-msgstr ""
+msgstr "Cambiar el Adjunto de ITSM"
 
 #. Perl Module: Kernel/Output/HTML/DocumentSearch/ITSMWorkOrder.pm
 msgid "ITSM Work Order"
-msgstr ""
+msgstr "Orden de trabajo ITSM"
 
 #. Perl Module: Kernel/Output/HTML/DocumentSearch/ITSMWorkOrder.pm
 msgid "ITSM Work Order Attachment"
-msgstr ""
+msgstr "Adjunto de orden de trabajo de ITSM"
 
 #. Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
 msgid "Need config option %s!"
-msgstr ""
+msgstr "¡Necesita la opción de configuración %s!"
 
 #. Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
 msgid "Config option %s needs to be a HASH ref!"
-msgstr ""
+msgstr "¡La opción de configuración %s debe ser una referencia HASH!"
 
 #. Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
 msgid "Title: %s | Type: %s"
-msgstr ""
+msgstr "Título: %s | Tipo: %s"
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/MyCAB.pm
 msgid "My CABs"
-msgstr ""
+msgstr "Mis CAB"
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/MyChanges.pm
 msgid "My Changes"
@@ -1183,7 +1184,7 @@ msgstr "Mis Cambios"
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/MyWorkOrders.pm
 msgid "My Work Orders"
-msgstr ""
+msgstr "Mis órdenes de Trabajo"
 
 #. SysConfig
 msgid "ITSM Changes"
@@ -1191,187 +1192,189 @@ msgstr "ITSM Cambios"
 
 #. Perl Module: Kernel/System/DocumentSearch/Driver/ITSMWorkOrder.pm
 msgid "ITSM Work Orders"
-msgstr ""
+msgstr "Órdenes de trabajo ITSM"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
+#, fuzzy
 msgid "%s: %s"
-msgstr ""
+msgstr "%s: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Action (ID=%s)"
-msgstr ""
+msgstr "Nueva acción (ID =%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Action (ID=%s) deleted"
-msgstr ""
+msgstr "Acción (ID =%s) eliminada"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "All Actions of Condition (ID=%s) deleted"
-msgstr ""
+msgstr "Todas las acciones de la condición (ID =%s) eliminadas"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Action (ID=%s) executed: %s"
-msgstr ""
+msgstr "Acción (ID =%s) ejecutada: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s (Action ID=%s): (new=%s, old=%s)"
-msgstr ""
+msgstr "%s (ID de acción =%s): (nuevo =%s, antiguo =%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached actual end time."
-msgstr ""
+msgstr "El cambio (ID =%s) alcanzó la hora de finalización real."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached actual start time."
-msgstr ""
+msgstr "El cambio (ID =%s) alcanzó la hora de inicio real."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Change (ID=%s)"
-msgstr ""
+msgstr "Nuevo cambio (ID =%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Attachment: %s"
-msgstr ""
+msgstr "Nuevo adjunto: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Deleted Attachment %s"
-msgstr ""
+msgstr "Adjunto eliminado %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "CAB Deleted %s"
-msgstr ""
+msgstr "CAB eliminado %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s: (new=%s, old=%s)"
-msgstr ""
+msgstr "%s: (nuevo = %s, antiguo = %s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Link to %s (ID=%s) added"
-msgstr ""
+msgstr "Vínculo a %s (ID = %s) agregado"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Link to %s (ID=%s) deleted"
-msgstr ""
+msgstr "Enlace a %s (ID = %s) eliminado"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Notification sent to %s (Event: %s)"
-msgstr ""
+msgstr "Notificación enviada a %s (evento: %s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached planned end time."
-msgstr ""
+msgstr "El cambio (ID=%s) alcanzó la hora de finalización planificada."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached planned start time."
-msgstr ""
+msgstr "El cambio (ID=%s) alcanzó la hora de inicio planificada."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached requested time."
-msgstr ""
+msgstr "El cambio (ID=%s) alcanzó la hora solicitada."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Condition (ID=%s)"
-msgstr ""
+msgstr "Condición nueva (ID=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Condition (ID=%s) deleted"
-msgstr ""
+msgstr "Condición (ID=%s) eliminada"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "All Conditions of Change (ID=%s) deleted"
-msgstr ""
+msgstr "Todas las condiciones de cambio (ID=%s) eliminadas"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s (Condition ID=%s): (new=%s, old=%s)"
-msgstr ""
+msgstr "%s (ID de condición =%s): (nuevo =%s, antiguo =%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Expression (ID=%s)"
-msgstr ""
+msgstr "Nueva expresión (ID=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Expression (ID=%s) deleted"
-msgstr ""
+msgstr "Expresión (ID=%s) eliminada"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "All Expressions of Condition (ID=%s) deleted"
-msgstr ""
+msgstr "Todas las expresiones de condición (ID=%s) eliminadas"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s (Expression ID=%s): (new=%s, old=%s)"
-msgstr ""
+msgstr "%s (ID de expresión=%s): (nuevo =%s, antiguo=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Workorder (ID=%s) reached actual end time."
-msgstr ""
+msgstr "La orden de trabajo (ID=%s) alcanzó la hora de finalización real."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Workorder (ID=%s) reached actual start time."
-msgstr ""
+msgstr "La orden de trabajo (ID =%s) alcanzó la hora de inicio real."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Workorder (ID=%s)"
-msgstr ""
+msgstr "Nueva orden de trabajo (ID =%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Attachment for WorkOrder: %s"
-msgstr ""
+msgstr "Nuevo archivo adjunto para la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) New Attachment for WorkOrder: %s"
-msgstr ""
+msgstr "(ID =%s) Nuevo archivo adjunto para la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Deleted Attachment from WorkOrder: %s"
-msgstr ""
+msgstr "Adjunto eliminado de la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) Deleted Attachment from WorkOrder: %s"
-msgstr ""
+msgstr "(ID=%s) Adjunto borrado de la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Report Attachment for WorkOrder: %s"
-msgstr ""
+msgstr "Nuevo reporte adjunto para la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) New Report Attachment for WorkOrder: %s"
-msgstr ""
+msgstr "(ID=%s) Nuevo reporte adjunto para la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Deleted Report Attachment from WorkOrder: %s"
-msgstr ""
+msgstr "Se ha eliminado el informe adjunto de la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) Deleted Report Attachment from WorkOrder: %s"
-msgstr ""
+msgstr "(ID=%s) Reporte adjunto borrado de la orden de trabajo: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Workorder (ID=%s) deleted"
-msgstr ""
+msgstr "Orden de trabajo (ID=%s) borrada"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) Link to %s (ID=%s) added"
-msgstr ""
+msgstr "(ID=%s) Enlace a %s (ID=%s) añadido"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) Link to %s (ID=%s) deleted"
-msgstr ""
+msgstr "ID=%s) Enlace a %s (ID=%s) borrado"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) Notification sent to %s (Event: %s)"
-msgstr ""
+msgstr "(ID=%s) Notificación enviada a %s (Evento: %s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Workorder (ID=%s) reached planned end time."
 msgstr ""
+"La orden de trabajo (ID=%s) ha alcanzado la hora de finalización prevista."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Workorder (ID=%s) reached planned start time."
-msgstr ""
+msgstr "La orden de trabajo (ID=%s) ha alcanzado la hora de inicio prevista."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "(ID=%s) %s: (new=%s, old=%s)"
-msgstr ""
+msgstr "(ID=%s) %s: (nuevo=%s, antiguo=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/ITSMCondition/Object/ITSMWorkOrder.pm
 msgid "all"
@@ -1379,7 +1382,7 @@ msgstr "todo"
 
 #. Perl Module: Kernel/System/ITSMChange/ITSMCondition/Object/ITSMWorkOrder.pm
 msgid "any"
-msgstr ""
+msgstr "cualquier"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Previous Change Builder"
@@ -1391,19 +1394,19 @@ msgstr ""
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Workorder Agents"
-msgstr ""
+msgstr "Agentes de órdenes de trabajo"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Previous Workorder Agent"
-msgstr ""
+msgstr "Agente de órdenes de trabajo anteriores"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Change Initiators"
-msgstr ""
+msgstr "Iniciadores de cambio"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Group ITSMChange"
-msgstr ""
+msgstr "Grupo ITSMChange"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Group ITSMChangeBuilder"
