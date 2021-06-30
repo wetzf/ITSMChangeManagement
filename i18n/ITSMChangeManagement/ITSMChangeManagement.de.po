@@ -14,14 +14,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2019-04-16 12:23+0000\n"
-"Last-Translator: Michael Reuther <michael.reuther@otobo.com>\n"
-"Language-Team: German (http://www.transifex.com/otobo/OTOBO/language/de/)\n"
+"PO-Revision-Date: 2021-07-01 02:17+0000\n"
+"Last-Translator: Grit Rother <mr@otobo.de>\n"
+"Language-Team: German <https://translate.otobo.org/projects/otobo10/"
+"itsmchangemanagement/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Category ↔ Impact ↔ Priority"
@@ -33,7 +35,7 @@ msgstr "Verwalten Sie das Prioritätsergebnis der Kombination von Kategorie ↔ 
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Priority allocation"
-msgstr "Priorität zuordnen"
+msgstr "Prioritäts-Zuordnung"
 
 #. Template: AdminITSMChangeNotification
 msgid "ITSM ChangeManagement Notification Management"
@@ -73,7 +75,7 @@ msgstr "Hinzufügen eines Status-Übergangs"
 
 #. Template: AdminITSMStateMachine
 msgid "Catalog Class"
-msgstr "Katalog-Klasse"
+msgstr "Katalogklasse"
 
 #. Template: AdminITSMStateMachine
 msgid "Object Name"
@@ -761,7 +763,7 @@ msgstr "Unbekannter Typ \"%s\" gefunden!"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistory.pm
 msgid "Change History"
-msgstr "Change-Historie"
+msgstr "Inbetriebnahme-Historie"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
 msgid "Can't show history zoom, no HistoryEntryID is given!"
@@ -2941,7 +2943,7 @@ msgstr "Ok"
 
 #. SysConfig
 msgid "Change Schedule."
-msgstr ""
+msgstr "Change-Planung."
 
 #. SysConfig
 msgid "Change search backend router of the agent interface."
@@ -2949,7 +2951,13 @@ msgstr "Such-Backend-Router für die Change-Suche in der Agenten-Ansicht."
 
 #. SysConfig
 msgid "Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = \"complex\"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js."
-msgstr "Definieren Sie Actions, in denen im Verknüpfte-Objekte-Widget ein Einstellungen-Knopf verfügbar sein soll (LinkObject::ViewMode = \"complex\"). Bitte beachten Sie, dass für diese Actions die folgenden JS- und CSS-Dateien registriert sein müssen:  Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js und Core.Agent.LinkObject.js."
+msgstr ""
+"Definieren Sie Actions, in denen im Verknüpfte-Objekte-Widget ein "
+"Einstellungen-Knopf verfügbar sein soll (LinkObject::ViewMode = \"complex\")"
+". Bitte beachten Sie, dass für diese Actions die folgenden JS- und CSS-"
+"Dateien registriert sein müssen: Core.AllocationList.css, "
+"Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js "
+"und Core.Agent.LinkObject.js."
 
 #. SysConfig
 msgid "Defines if the requested date should be print by customer."
@@ -2988,8 +2996,11 @@ msgid "Schedule"
 msgstr "Zeitplan"
 
 #. SysConfig
+#, fuzzy
 msgid "Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface."
 msgstr ""
+"Zeigt einen Link im Menü an, über den ein Arbeitsauftrag in die ITSM-"
+"Detailansicht in der Agentenoberfläche übernommen werden kann."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface."
@@ -3000,16 +3011,22 @@ msgid "Shows a link in the menu to access the history of a change in the its zoo
 msgstr "Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Zugriff auf die Historie."
 
 #. SysConfig
+#, fuzzy
 msgid "Shows a link in the menu to access the history of a workorder in the its zoom view of the agent interface."
 msgstr ""
+"Zeigt einen Link im Menü an, über den die Historie eines Arbeitsauftrags in "
+"der ITSM-Detailansicht des Agentenbereichs angezeigt werden kann."
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a change in the its zoom view of the agent interface."
 msgstr "Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Bearbeiten."
 
 #. SysConfig
+#, fuzzy
 msgid "Shows a link in the menu to edit a workorder in the its zoom view of the agent interface."
 msgstr ""
+"Zeigt einen Link im Menü an, über den ein Arbeitsauftrag in der ITSM-"
+"Detailansicht im Agentenbereich bearbeitet werden kann."
 
 #. SysConfig
 msgid "Shows a link in the menu to print a change in the its zoom view of the agent interface."
@@ -3018,4 +3035,5 @@ msgstr "Zeigt in der \"Change Zoom\" Ansicht der Agenten-Oberfläche einen  Menu
 #. SysConfig
 msgid "Shows a link in the menu to print a workorder in the its zoom view of the agent interface."
 msgstr ""
-
+"Zeigt einen Link im Menü an, über den ein Arbeitsauftrag in der ITSM-"
+"Detailansicht im Agentenbereich gedruckt werden kann."
