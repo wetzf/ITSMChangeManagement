@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-07-06 20:18+0000\n"
+"PO-Revision-Date: 2021-07-07 22:08+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -637,7 +637,6 @@ msgid "Save Workorder as Template"
 msgstr "Guardar orden de trabajo como plantilla"
 
 #. Template: AgentITSMWorkOrderTemplate
-#, fuzzy
 msgid "Delete original workorder (and surrounding change)"
 msgstr "Eliminar la orden de trabajo original (y el cambio circundante)"
 
@@ -849,23 +848,20 @@ msgid "WorkOrderNumber"
 msgstr "Número de Orden de Trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "WorkOrderTitle"
-msgstr "WorkOrderTitle"
+msgstr "Título de la orden de trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "unknown workorder title"
 msgstr "título de la orden de trabajo desconocido"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "ChangeState"
-msgstr "ChangeState"
+msgstr "Cambiar de estado"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "PlannedEffort"
-msgstr "PlannedEffort"
+msgstr "Esfuerzo planificado"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "CAB Agents"
@@ -876,54 +872,44 @@ msgid "CAB Customers"
 msgstr "Clientes CAB"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "RequestedTime"
-msgstr "RequestedTime"
+msgstr "Hora solicitada"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "PlannedStartTime"
-msgstr "PlannedStartTime"
+msgstr "Hora de inicio prevista"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "PlannedEndTime"
-msgstr "PlannedEndTime"
+msgstr "Hora de finalización prevista"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "ActualStartTime"
-msgstr "ActualStartTime"
+msgstr "Hora de inicio real"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "ActualEndTime"
-msgstr "ActualEndTime"
+msgstr "Hora de finalización real"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "ChangeTime"
-msgstr "ChangeTime"
+msgstr "Cambiar el tiempo"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "ChangeNumber"
-msgstr "ChangeNumber"
+msgstr "Número de modificación"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "WorkOrderState"
-msgstr "WorkOrderState"
+msgstr "Estado de la orden de trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "WorkOrderType"
-msgstr "WorkOrderType"
+msgstr "Tipo de orden de trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
-#, fuzzy
 msgid "WorkOrderAgent"
-msgstr "WorkOrderAgent"
+msgstr "Agente de órdenes de trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "ITSM Workorder Overview (%s)"
@@ -946,14 +932,12 @@ msgid "Change Search"
 msgstr "Cambiar búsqueda"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
-#, fuzzy
 msgid "ChangeTitle"
-msgstr "ChangeTitle"
+msgstr "Cambiar Título"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
-#, fuzzy
 msgid "WorkOrders"
-msgstr "WorkOrders"
+msgstr "Órdenes de trabajo"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Change Search Result"
@@ -1195,7 +1179,6 @@ msgid "ITSM Work Orders"
 msgstr "Órdenes de trabajo ITSM"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
-#, fuzzy
 msgid "%s: %s"
 msgstr "%s: %s"
 
@@ -1485,12 +1468,10 @@ msgid "decision"
 msgstr "decisión"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "pir"
 msgstr "pir"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "ChangeStateID"
 msgstr "ChangeStateID"
 
@@ -1500,37 +1481,30 @@ msgid "CategoryID"
 msgstr "CategoryID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "ImpactID"
 msgstr "ImpactID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "PriorityID"
 msgstr "PriorityID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "ChangeManagerID"
 msgstr "ChangeManagerID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "ChangeBuilderID"
 msgstr "ChangeBuilderID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "WorkOrderStateID"
 msgstr "WorkOrderStateID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "WorkOrderTypeID"
 msgstr "WorkOrderTypeID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "WorkOrderAgentID"
 msgstr "WorkOrderAgentID"
 
@@ -3024,226 +2998,298 @@ msgstr ""
 #. SysConfig
 msgid "Sets the minimal change counter size (if \"AutoIncrement\" was selected as ITSMChange::NumberGenerator). Default is 5, this means the counter starts from 10000."
 msgstr ""
+"Establece el tamaño mínimo del contador de cambios (si se ha seleccionado "
+"\"AutoIncremento\" como ITSMChange::NumberGenerator). Por defecto es 5, esto "
+"significa que el contador comienza desde 10000."
 
 #. SysConfig
 msgid "Sets up the state machine for changes."
-msgstr ""
+msgstr "Configura el estado de la máquina para los cambios."
 
 #. SysConfig
 msgid "Sets up the state machine for workorders."
-msgstr ""
+msgstr "Establece el estado de la máquina para las órdenes de trabajo."
 
 #. SysConfig
 msgid "Shows a checkbox in the workorder edit screen of the agent interface that defines if the the following workorders should also be moved if a workorder is modified and the planned end time has changed."
 msgstr ""
+"Muestra una casilla de verificación en la pantalla de edición de órdenes de "
+"trabajo de la interfaz del agente que define si las siguientes órdenes de "
+"trabajo también deben moverse si se modifica una orden de trabajo y la hora "
+"de finalización prevista ha cambiado."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows changing the workorder agent, in the zoom view of the workorder of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite cambiar el agente de la orden de "
+"trabajo, en la vista de zoom de la orden de trabajo de la interfaz del "
+"agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows defining a change as a template in the zoom view of the change, in the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite definir un cambio como una "
+"plantilla en la vista de zoom del cambio, en la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows defining a workorder as a template in the zoom view of the workorder, in the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite definir una orden de trabajo como "
+"plantilla en la vista de zoom de la orden de trabajo, en la interfaz del "
+"agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows editing the report of a workorder, in the zoom view of the workorder of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite editar el informe de una orden de "
+"trabajo, en la vista de zoom de la orden de trabajo de la interfaz del "
+"agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows linking a change with another object in the change zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite vincular un cambio con otro objeto "
+"en la vista de zoom de cambios de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows linking a workorder with another object in the zoom view of the workorder of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite vincular una orden de trabajo con "
+"otro objeto en la vista de zoom de la orden de trabajo de la interfaz del "
+"agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows moving the time slot of a change in its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite mover la franja horaria de un "
+"cambio en su vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows taking a workorder in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite tomar una orden de trabajo en la "
+"vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the conditions of a change in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para acceder a las condiciones de un cambio en "
+"la vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the history of a change in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para acceder al historial de un cambio en la "
+"vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the history of a workorder in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para acceder al historial de una orden de "
+"trabajo en la vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to add a workorder in the change zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para añadir una orden de trabajo en la vista de "
+"zoom de cambio de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to delete a change in its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para eliminar un cambio en su vista de zoom de "
+"la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to delete a workorder in its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para eliminar una orden de trabajo en su vista "
+"de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a change in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para editar un cambio en la vista de zoom de la "
+"interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a workorder in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para editar una orden de trabajo en la vista de "
+"zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to go back in the change zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para volver a la vista de cambio de zoom de la "
+"interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to go back in the workorder zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para volver a la vista de zoom de la orden de "
+"trabajo de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to print a change in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para imprimir un cambio en la vista de zoom de "
+"la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to print a workorder in the zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para imprimir una orden de trabajo en la vista "
+"de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to reset a change and its workorders in its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para restablecer un cambio y sus órdenes de "
+"trabajo en su vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to show the involved persons in a change, in the zoom view of the change in the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para mostrar las personas involucradas en un "
+"cambio, en la vista de zoom del cambio en la interfaz del agente."
 
 #. SysConfig
 msgid "Shows the change history (reverse ordered) in the agent interface."
 msgstr ""
+"Muestra el historial de cambios (ordenado de forma inversa) en la interfaz "
+"del agente."
 
 #. SysConfig
 msgid "State Machine"
-msgstr ""
+msgstr "Estado de la máquina"
 
 #. SysConfig
 msgid "Stores change and workorder ids and their corresponding template id, while a user is editing a template."
 msgstr ""
+"Almacena los identificadores de cambios y de órdenes de trabajo y su "
+"correspondiente identificador de plantilla, mientras un usuario está "
+"editando una plantilla."
 
 #. SysConfig
 msgid "Take Workorder"
-msgstr ""
+msgstr "Tomar orden de trabajo"
 
 #. SysConfig
 msgid "Take Workorder."
-msgstr ""
+msgstr "Tomar orden de trabajo."
 
 #. SysConfig
 msgid "Take the workorder."
-msgstr ""
+msgstr "Toma la orden de trabajo."
 
 #. SysConfig
 msgid "Template Overview"
-msgstr ""
+msgstr "Resumen de la plantilla"
 
 #. SysConfig
 msgid "Template type"
-msgstr ""
+msgstr "Tipo de plantilla"
 
 #. SysConfig
 msgid "Template."
-msgstr ""
+msgstr "Plantilla."
 
 #. SysConfig
 msgid "The identifier for a change, e.g. Change#, MyChange#. The default is Change#."
 msgstr ""
+"El identificador de un cambio, por ejemplo, Change#, MyChange#. El valor por "
+"defecto es Change#."
 
 #. SysConfig
 msgid "The identifier for a workorder, e.g. Workorder#, MyWorkorder#. The default is Workorder#."
 msgstr ""
+"El identificador de una orden de trabajo, por ejemplo, Orden de Trabajo#, Mi "
+"orden de trabajo#. El valor por defecto es Orden de trabajo#."
 
 #. SysConfig
 msgid "This ACL module restricts the usuage of the ticket types that are defined in the sysconfig option 'ITSMChange::AddChangeLinkTicketTypes', to users of the groups as defined in \"ITSMChange::RestrictTicketTypes::Groups\". As this ACL could collide with other ACLs which are also related to the ticket type, this sysconfig option is disabled by default and should only be activated if needed."
 msgstr ""
+"Este módulo ACL restringe el uso de los tipos de tickets que se definen en "
+"la opción sysconfig 'ITSMChange::AddChangeLinkTicketTypes', a los usuarios "
+"de los grupos definidos en \"ITSMChange::RestrictTicketTypes::Groups\". Como "
+"esta ACL podría colisionar con otras ACLs que también están relacionadas con "
+"el tipo de ticket, esta opción de sysconfig está desactivada por defecto y "
+"sólo debería activarse si es necesario."
 
 #. SysConfig
 msgid "Time Slot"
-msgstr ""
+msgstr "Franja horaria"
 
 #. SysConfig
 msgid "Types of tickets, where in the ticket zoom view a link to add a change will be displayed."
 msgstr ""
+"Tipos de tickets, donde en la vista de zoom del ticket se mostrará un enlace "
+"para añadir un cambio."
 
 #. SysConfig
 msgid "User Search"
-msgstr ""
+msgstr "Búsqueda de usuarios"
 
 #. SysConfig
 msgid "Workorder Add (from template)."
-msgstr ""
+msgstr "Añadir orden de trabajo (desde la plantilla)."
 
 #. SysConfig
 msgid "Workorder Add."
-msgstr ""
+msgstr "Añadir orden de trabajo."
 
 #. SysConfig
 msgid "Workorder Agent."
-msgstr ""
+msgstr "Agente de órdenes de trabajo."
 
 #. SysConfig
 msgid "Workorder Delete."
-msgstr ""
+msgstr "Borrar orden de trabajo."
 
 #. SysConfig
 msgid "Workorder Edit."
-msgstr ""
+msgstr "Edición de la orden de trabajo."
 
 #. SysConfig
 msgid "Workorder History Zoom."
-msgstr ""
+msgstr "Zoom del historial de órdenes de trabajo."
 
 #. SysConfig
 msgid "Workorder History."
-msgstr ""
+msgstr "Historial de órdenes de trabajo."
 
 #. SysConfig
 msgid "Workorder Report."
-msgstr ""
+msgstr "Informe de órdenes de trabajo."
 
 #. SysConfig
 msgid "Workorder Zoom"
-msgstr ""
+msgstr "Zoom de la orden de trabajo"
 
 #. SysConfig
 msgid "Workorder Zoom."
-msgstr ""
+msgstr "Zoom de la orden de trabajo."
 
 #. SysConfig
 msgid "once"
-msgstr ""
+msgstr "una vez"
 
 #. SysConfig
 msgid "regularly"
-msgstr ""
+msgstr "regularmente"
 
 #. Template: AgentITSMChangeHistory
 msgid "History Content"
-msgstr ""
+msgstr "Contenido de la historia"
 
 #. Template: AgentITSMChangeHistory
 msgid "Createtime"
-msgstr ""
+msgstr "Crear tiempo"
 
 #. Template: AgentITSMChangeOverviewNavBar
 msgid "Context Settings"
-msgstr ""
+msgstr "Ajustes de contexto"
 
 #. Template: AgentITSMChangeZoom
 msgid "Last changed by"
@@ -3252,18 +3298,22 @@ msgstr "Modificado por última vez por"
 #. Template: AgentITSMChangeZoom
 msgid "To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS)."
 msgstr ""
+"Para abrir los enlaces en los siguientes bloques de descripción, es posible "
+"que tenga que pulsar la tecla Ctrl o Cmd o Shift mientras hace clic en el "
+"enlace (dependiendo de su navegador y sistema operativo)."
 
 #. Template: AgentITSMChangeZoom
 msgid "Download Attachment"
-msgstr ""
+msgstr "Descarga de archivos adjuntos"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "No %s is given!"
-msgstr ""
+msgstr "¡No se da ningún %s!"
 
 #. Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
 msgid "No config option found for the view \"%s\"!"
 msgstr ""
+"¡No se ha encontrado ninguna opción de configuración para la vista \"%s\"!"
 
 #. JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
 msgid "Ok"
@@ -3271,11 +3321,11 @@ msgstr "Bien"
 
 #. SysConfig
 msgid "Change Schedule."
-msgstr ""
+msgstr "Cambiar el horario."
 
 #. SysConfig
 msgid "Change search backend router of the agent interface."
-msgstr ""
+msgstr "Cambiar el enrutamiento de búsqueda de la interfaz del agente."
 
 #. SysConfig
 msgid "Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = \"complex\"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js."
@@ -3288,39 +3338,50 @@ msgstr ""
 
 #. SysConfig
 msgid "Defines if the requested date should be print by customer."
-msgstr ""
+msgstr "Define si la fecha solicitada debe ser impresa por el cliente."
 
 #. SysConfig
 msgid "Defines if the requested date should be searched by customer."
-msgstr ""
+msgstr "Define si la fecha solicitada debe buscarse por cliente."
 
 #. SysConfig
 msgid "Defines if the requested date should be set by customer."
-msgstr ""
+msgstr "Define si la fecha solicitada debe ser fijada por el cliente."
 
 #. SysConfig
 msgid "Defines that only changes containing Workorders linked with services, which the customer user has permission to use will be shown. Any other changes will not be displayed."
 msgstr ""
+"Define que sólo se muestren los cambios que contengan Órdenes de Trabajo "
+"vinculadas a servicios, que el usuario cliente tenga permiso para utilizar. "
+"Cualquier otro cambio no se mostrará."
 
 #. SysConfig
 msgid "Defines the change states that will be used as filters in the customer change schedule overview."
 msgstr ""
+"Define los estados de modificación que se utilizarán como filtros en el "
+"resumen del programa de modificación del cliente."
 
 #. SysConfig
 msgid "Defines the default sort criteria of the changes in the customer change schedule overview."
 msgstr ""
+"Define los criterios de clasificación por defecto de las modificaciones en "
+"el resumen del calendario de modificaciones de clientes."
 
 #. SysConfig
 msgid "Defines the default sort order in the customer change schedule overview."
 msgstr ""
+"Define el orden de clasificación por defecto en el resumen del programa de "
+"modificación de clientes."
 
 #. SysConfig
 msgid "Defines the shown columns in the customer change schedule overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en el resumen del programa de modificación de "
+"clientes. Esta opción no tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Schedule"
-msgstr ""
+msgstr "Horario"
 
 #. SysConfig
 msgid "Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface."
@@ -3331,10 +3392,14 @@ msgstr ""
 #. SysConfig
 msgid "Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para acceder a las condiciones de un cambio en "
+"su vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the history of a change in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para acceder al historial de un cambio en su "
+"vista de zoom de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the history of a workorder in the its zoom view of the agent interface."
@@ -3345,6 +3410,8 @@ msgstr ""
 #. SysConfig
 msgid "Shows a link in the menu to edit a change in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para editar un cambio en su vista de zoom de la "
+"interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a workorder in the its zoom view of the agent interface."
@@ -3355,7 +3422,11 @@ msgstr ""
 #. SysConfig
 msgid "Shows a link in the menu to print a change in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para imprimir un cambio en su vista de zoom de "
+"la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to print a workorder in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para imprimir una orden de trabajo en la vista "
+"de zoom de la interfaz del agente."
