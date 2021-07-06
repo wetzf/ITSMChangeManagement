@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-07-04 20:25+0000\n"
+"PO-Revision-Date: 2021-07-06 16:16+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -2078,223 +2078,331 @@ msgstr ""
 
 #. SysConfig
 msgid "Defines the default value for the category of a change."
-msgstr ""
+msgstr "Define el valor por defecto de la categoría de un cambio."
 
 #. SysConfig
 msgid "Defines the default value for the impact of a change."
-msgstr ""
+msgstr "Define el valor predeterminado para el impacto de un cambio."
 
 #. SysConfig
 msgid "Defines the field type of CompareValue fields for change attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown."
 msgstr ""
+"Define el tipo de campo de CompareValue los campos para los atributos de "
+"cambio utilizados en la pantalla de edición de condiciones de cambio de la "
+"interfaz del agente. Los valores válidos son Selección, Texto y Fecha. Si no "
+"se define un tipo, el campo no se mostrará."
 
 #. SysConfig
 msgid "Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown."
 msgstr ""
+"Define el tipo de campo CompareValue de los campos para los atributos de la "
+"orden de trabajo utilizados en la pantalla de edición de la condición de "
+"cambio de la interfaz del agente. Los valores válidos son Selección, Texto y "
+"Fecha. Si no se define un tipo, el campo no se mostrará."
 
 #. SysConfig
 msgid "Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los atributos del objeto que se pueden seleccionar para modificar los "
+"objetos en la pantalla de edición de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the object attributes that are selectable for workorder objects in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los atributos del objeto que se pueden seleccionar para los objetos "
+"de la orden de trabajo en la pantalla de edición cambio de condiciones de la "
+"interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute AccountedTime in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo Tiempo contabilizado "
+"en la pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute ActualEndTime in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores que se pueden seleccionar para el atributo Hora de "
+"finalización real en la pantalla de edición cambio de condiciones de la "
+"interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute ActualStartTime in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo Hora de inicio real en "
+"la pantalla de edición de condiciones de cambio de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute CategoryID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo CategoryID en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute ChangeBuilderID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo ChangeBuilderID en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute ChangeManagerID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo ChangeManagerID en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute ChangeStateID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo ChangeStateID en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute ChangeTitle in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo ChangeTitle en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute DynamicField in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo DynamicField en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute ImpactID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo ImpactID en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute PlannedEffort in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo Esfuerzo planificado "
+"en la pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute PlannedEndTime in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores que se pueden seleccionar para el atributo Hora de "
+"finalización prevista en la pantalla de edición cambio de condiciones de la "
+"interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute PlannedStartTime in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores que se pueden seleccionar para el atributo Hora de "
+"inicio prevista en la pantalla de edición cambio de condiciones de la "
+"interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute PriorityID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo PriorityID en la "
+"pantalla de edición de cambio condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute RequestedTime in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo Hora solicitada en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute WorkOrderAgentID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo WorkOrderAgentID en la "
+"pantalla de cambio edición de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute WorkOrderNumber in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo WorkOrderNumber en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute WorkOrderStateID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo WorkOrderStateID en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute WorkOrderTitle in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo Título de la Orden de "
+"Trabajo en la pantalla de edición de condición de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the operators that are selectable for the attribute WorkOrderTypeID in the change condition edit screen of the agent interface."
 msgstr ""
+"Define los operadores seleccionables para el atributo WorkOrderTypeID en la "
+"pantalla de edición cambio de condiciones de la interfaz del agente."
 
 #. SysConfig
 msgid "Defines the period (in years), in which start and end times can be selected."
 msgstr ""
+"Define el periodo (en años), en el que se pueden seleccionar las horas de "
+"inicio y fin."
 
 #. SysConfig
 msgid "Defines the shown attributes of a workorder in the tooltip of the workorder graph in the change zoom. To show workorder dynamic fields in the tooltip, they must be specified like DynamicField_WorkOrderFieldName1, DynamicField_WorkOrderFieldName2, etc."
 msgstr ""
+"Define los atributos mostrados de una orden de trabajo en el tooltip del "
+"gráfico de la orden de trabajo en el detalle de modificación. Para mostrar "
+"los campos dinámicos de la orden de trabajo en la tooltip, deben "
+"especificarse como DynamicField_WorkOrderFieldName1, "
+"DynamicField_WorkOrderFieldName2, etc."
 
 #. SysConfig
 msgid "Defines the shown columns in the Change PSA overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas que se muestran en el resumen de cambios de la "
+"Disponibilidad proyectada del servicio (PSA) Esta opción no tiene efecto "
+"sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the Change Schedule overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas que se muestran en el resumen del programa de "
+"modificaciones. Esta opción no tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the MyCAB overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en la vista general de MyCAB. Esta opción no "
+"tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the MyChanges overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en el resumen de Mis Cambios. Esta opción no "
+"tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the MyWorkorders overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en la vista general de Mis Órdenes de Trabajo. "
+"Esta opción no tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the PIR overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en el resumen del PIR. Esta opción no tiene "
+"efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the change manager overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en el resumen del gestor de modificaciones. "
+"Esta opción no tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the change overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en el resumen de cambios. Esta opción no tiene "
+"efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the change search. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en la búsqueda de cambios. Esta opción no "
+"tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the shown columns in the template overview. This option has no effect on the position of the column."
 msgstr ""
+"Define las columnas mostradas en el resumen de la plantilla. Esta opción no "
+"tiene efecto sobre la posición de la columna."
 
 #. SysConfig
 msgid "Defines the signals for each ITSM change state."
-msgstr ""
+msgstr "Define las señales para cada estado de cambio de ITSM."
 
 #. SysConfig
 msgid "Defines the template types that will be used as filters in the template overview."
 msgstr ""
+"Define los tipos de plantillas que se utilizarán como filtros en el resumen "
+"de plantillas."
 
 #. SysConfig
 msgid "Defines the workorder states that will be used as filters in the MyWorkorders overview."
 msgstr ""
+"Define los estados de las órdenes de trabajo que se utilizarán como filtros "
+"en la vista general de Mis órdenes de trabajo."
 
 #. SysConfig
 msgid "Defines the workorder states that will be used as filters in the PIR overview."
 msgstr ""
+"Define los estados de las órdenes de trabajo que se utilizarán como filtros "
+"en el resumen del PIR."
 
 #. SysConfig
 msgid "Defines the workorder types that will be used to show the PIR overview."
 msgstr ""
+"Define los tipos de órdenes de trabajo que se utilizarán para mostrar el "
+"resumen del PIR."
 
 #. SysConfig
 msgid "Defines whether notifications should be sent."
-msgstr ""
+msgstr "Define si se deben enviar notificaciones."
 
 #. SysConfig
 msgid "Delete a change."
-msgstr ""
+msgstr "Eliminar un cambio."
 
 #. SysConfig
 msgid "Delete the change."
-msgstr ""
+msgstr "Eliminar el cambio."
 
 #. SysConfig
 msgid "Delete the workorder."
-msgstr ""
+msgstr "Eliminar la orden de trabajo."
 
 #. SysConfig
 msgid "Details of a change history entry."
-msgstr ""
+msgstr "Detalles de una entrada del historial de cambios."
 
 #. SysConfig
 msgid "Determines if an agent can exchange the X-axis of a stat if he generates one."
 msgstr ""
+"Determina si un agente puede intercambiar el eje X de una estadística si "
+"genera una."
 
 #. SysConfig
 msgid "Determines if the common stats module may generate stats about changes done for config item classes."
 msgstr ""
+"Determina si el módulo de estadísticas comunes puede generar estadísticas "
+"sobre los cambios realizados en las clases de elementos de configuración."
 
 #. SysConfig
 msgid "Determines if the common stats module may generate stats about changes regarding change state updates within a timeperiod."
 msgstr ""
+"Determina si el módulo de estadísticas comunes puede generar estadísticas "
+"sobre los cambios relativos a las actualizaciones del estado de los cambios "
+"dentro de un período de tiempo."
 
 #. SysConfig
 msgid "Determines if the common stats module may generate stats about changes regarding the relation between changes and incident tickets."
 msgstr ""
+"Determina si el módulo de estadísticas comunes puede generar estadísticas "
+"sobre los cambios con respecto a la relación entre los cambios y los tickets "
+"de incidencias."
 
 #. SysConfig
 msgid "Determines if the common stats module may generate stats about changes."
 msgstr ""
+"Determina si el módulo de estadísticas comunes puede generar estadísticas "
+"sobre los cambios."
 
 #. SysConfig
 msgid "Determines if the common stats module may generate stats about the number of Rfc tickets a requester created."
 msgstr ""
+"puede generar estadísticas sobre el número de tickets RFC creados por un "
+"solicitante."
 
 #. SysConfig
 msgid "Dynamic fields (for changes and workorders) shown in the change print screen of the agent interface."
 msgstr ""
+"Campos dinámicos (para cambios y órdenes de trabajo) mostrados en la "
+"pantalla de impresión de cambios de la interfaz del agente."
 
 #. SysConfig
 msgid "Dynamic fields shown in the change add screen of the agent interface."
@@ -3136,6 +3244,8 @@ msgstr ""
 #. SysConfig
 msgid "Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú que permite tomar una orden de trabajo en la "
+"vista de detalle desde la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface."
@@ -3148,6 +3258,8 @@ msgstr ""
 #. SysConfig
 msgid "Shows a link in the menu to access the history of a workorder in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para acceder al historial de una orden de "
+"trabajo en la vista de detalle desde la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a change in the its zoom view of the agent interface."
@@ -3156,6 +3268,8 @@ msgstr ""
 #. SysConfig
 msgid "Shows a link in the menu to edit a workorder in the its zoom view of the agent interface."
 msgstr ""
+"Muestra un enlace en el menú para editar una orden de trabajo en la vista de "
+"detalle desde la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to print a change in the its zoom view of the agent interface."
