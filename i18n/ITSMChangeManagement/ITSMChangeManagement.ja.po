@@ -38,7 +38,7 @@ msgstr "通知ルールを追加"
 
 #. Template: AdminITSMChangeNotification
 msgid "Edit Notification Rule"
-msgstr ""
+msgstr "通知ルールを修正"
 
 #. Template: AdminITSMChangeNotification
 msgid "A notification should have a name!"
@@ -154,19 +154,19 @@ msgstr "不正な名称です"
 
 #. Template: AgentITSMChangeCondition
 msgid "Conditions and Actions"
-msgstr "条件とアクション"
+msgstr "コンディションとアクション"
 
 #. Template: AgentITSMChangeCondition
 msgid "Delete Condition"
-msgstr "条件を削除する"
+msgstr "コンディションを削除する"
 
 #. Template: AgentITSMChangeCondition
 msgid "Add new condition"
-msgstr "新しい条件を追加する"
+msgstr "新しいコンディションを追加する"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Edit Condition"
-msgstr "条件を編集する"
+msgstr "コンディションを編集する"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Need a valid name."
@@ -182,7 +182,7 @@ msgstr "名前を複製"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "This name is already used by another condition."
-msgstr "この名前はすでに他の条件で使われています。"
+msgstr "この名前はすでに他のコンディションで使われています。"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Matching"
@@ -190,35 +190,35 @@ msgstr "一致"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Any expression (OR)"
-msgstr "いずれかの期間に該当する(OR)"
+msgstr "いずれかの条件に該当する(OR)"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "All expressions (AND)"
-msgstr "すべての期間が該当する(AND)"
+msgstr "すべての条件が該当する(AND)"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Expressions"
-msgstr "期限"
+msgstr "条件"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Selector"
-msgstr ""
+msgstr "選択"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Operator"
-msgstr "運用者"
+msgstr "操作"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Delete Expression"
-msgstr "期限を削除する"
+msgstr "条件を削除する"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "No Expressions found."
-msgstr "期限が未設定です。"
+msgstr "条件が未設定です。"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Add new expression"
-msgstr "新しい期限の追加"
+msgstr "新しい条件の追加"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Delete Action"
@@ -246,7 +246,7 @@ msgstr "%s%sの履歴"
 
 #. Template: AgentITSMChangeHistory
 msgid "Workorder"
-msgstr "作業オーダー"
+msgstr "作業依頼書"
 
 #. Template: AgentITSMChangeHistory
 msgid "Show details"
@@ -254,7 +254,7 @@ msgstr "詳細を表示"
 
 #. Template: AgentITSMChangeHistory
 msgid "Show workorder"
-msgstr "作業オーダーを表示"
+msgstr "作業依頼書を表示"
 
 #. Template: AgentITSMChangeHistoryZoom
 msgid "Detailed history information of %s"
@@ -274,7 +274,7 @@ msgstr "新しい値"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Edit Involved Persons of %s%s"
-msgstr ""
+msgstr "%s%sの関係者を修正"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Involved Persons"
@@ -282,7 +282,7 @@ msgstr "関係者"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "ChangeManager"
-msgstr "変更管理マネージャ"
+msgstr "変更管理者"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "User invalid."
@@ -298,7 +298,7 @@ msgstr "変更諮問委員会"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "CAB Template"
-msgstr "CABテンプレート"
+msgstr "変更諮問委員会テンプレート"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Apply Template"
@@ -310,11 +310,11 @@ msgstr "新テンプレート"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Save this CAB as template"
-msgstr "このCABをテンプレートとして保存する"
+msgstr "この変更諮問委員会をテンプレートとして保存する"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Add to CAB"
-msgstr "CABに追加する"
+msgstr "変更諮問委員会に追加する"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Invalid User"
@@ -322,7 +322,7 @@ msgstr "不正なユーザ"
 
 #. Template: AgentITSMChangeInvolvedPersons
 msgid "Current CAB"
-msgstr "現在のCAB"
+msgstr "現在の変更諮問委員会"
 
 #. Template: AgentITSMChangeOverviewNavBar
 msgid "Changes per page"
@@ -342,11 +342,11 @@ msgstr "作業依頼者"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Change Builder"
-msgstr "ビルダーを変更"
+msgstr "変更実施者"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Change Manager"
-msgstr "マネージャーを変更"
+msgstr "変更管理者"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Workorders"
@@ -370,19 +370,19 @@ msgstr "要求時間"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Planned Start Time"
-msgstr "計画上のスタート時間"
+msgstr "予定の開始時刻"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Planned End Time"
-msgstr "計画上の終了時間"
+msgstr "予定の終了時刻"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Actual Start Time"
-msgstr "実際のスタート時間"
+msgstr "実際の開始時刻"
 
 #. Template: AgentITSMChangeOverviewSmall
 msgid "Actual End Time"
-msgstr "実際の終了時間"
+msgstr "実際の終了時刻"
 
 #. Template: AgentITSMChangeReset
 msgid "Do you really want to reset this change?"
@@ -394,7 +394,7 @@ msgstr "例: 10*5155 または 105658*"
 
 #. Template: AgentITSMChangeSearch
 msgid "CAB Agent"
-msgstr "CAB担当者"
+msgstr "変更諮問委員会の担当者"
 
 #. Template: AgentITSMChangeSearch
 msgid "e.g."
@@ -402,15 +402,15 @@ msgstr "例: "
 
 #. Template: AgentITSMChangeSearch
 msgid "CAB Customer"
-msgstr "CAB顧客"
+msgstr "変更諮問委員会の顧客ユーザー"
 
 #. Template: AgentITSMChangeSearch
 msgid "ITSM Workorder Instruction"
-msgstr "変更依頼書の指導"
+msgstr "作業依頼書の内容"
 
 #. Template: AgentITSMChangeSearch
 msgid "ITSM Workorder Report"
-msgstr "変更依頼書のレポート"
+msgstr "作業依頼書のレポート"
 
 #. Template: AgentITSMChangeSearch
 msgid "ITSM Change Priority"
@@ -458,7 +458,7 @@ msgstr ""
 
 #. Template: AgentITSMChangeTimeSlot
 msgid "Move Time Slot"
-msgstr ""
+msgstr "開始時刻を変更"
 
 #. Template: AgentITSMChangeZoom
 msgid "Change Information"
@@ -466,7 +466,7 @@ msgstr "変更情報"
 
 #. Template: AgentITSMChangeZoom
 msgid "Planned Effort"
-msgstr "計画的な取り組み"
+msgstr "予定された取り組み"
 
 #. Template: AgentITSMChangeZoom
 msgid "Accounted Time"
@@ -478,7 +478,7 @@ msgstr "イニシエータを変更"
 
 #. Template: AgentITSMChangeZoom
 msgid "CAB"
-msgstr "変更承認者"
+msgstr "変更諮問委員会"
 
 #. Template: AgentITSMChangeZoom
 msgid "Last changed"
@@ -486,7 +486,7 @@ msgstr "最終変更時刻"
 
 #. Template: AgentITSMTemplateEditCAB
 msgid "Edit CAB Template"
-msgstr "CABテンプレートを編集"
+msgstr "変更諮問委員会のテンプレートを編集"
 
 #. Template: AgentITSMTemplateEditContent
 msgid "This will create a new change from this template, so you can edit and save it."
@@ -498,7 +498,7 @@ msgstr ""
 
 #. Template: AgentITSMTemplateEditContent
 msgid "This will create a new workorder from this template, so you can edit and save it."
-msgstr "この操作は選択中のテンプレートから編集・保存が可能な作業オーダーを新規に作成します。"
+msgstr "この操作は選択中のテンプレートから編集・保存が可能な作業依頼書を新規に作成します。"
 
 #. Template: AgentITSMTemplateEditContent
 msgid "A temporary change will be created which contains the workorder."
@@ -538,11 +538,11 @@ msgstr "%s%sに作業依頼書を追加"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "Instruction"
-msgstr ""
+msgstr "内容"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "Invalid workorder type."
-msgstr "不正な作業オーダータイプ"
+msgstr "不正な作業依頼のタイプ"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "The planned start time must be before the planned end time!"
@@ -554,27 +554,27 @@ msgstr "不正なフォーマットです"
 
 #. Template: AgentITSMWorkOrderAddFromTemplate
 msgid "Select Workorder Template"
-msgstr "作業オーダーのテンプレートを選択してください"
+msgstr "作業依頼書のテンプレートを選択してください"
 
 #. Template: AgentITSMWorkOrderAgent
 msgid "Edit Workorder Agent of %s%s"
-msgstr ""
+msgstr "%s%sの作業依頼書の担当者を修正"
 
 #. Template: AgentITSMWorkOrderDelete
 msgid "Do you really want to delete this workorder?"
-msgstr "本当にこの作業オーダーを削除しますか。"
+msgstr "本当にこの作業依頼書を削除しますか。"
 
 #. Template: AgentITSMWorkOrderDelete
 msgid "You can not delete this Workorder. It is used in at least one Condition!"
-msgstr "この作業オーダーを削除することはできません。一つ以上の条件で使用されています！"
+msgstr "この作業依頼書を削除することはできません。一つ以上のコンディションで使用されています！"
 
 #. Template: AgentITSMWorkOrderDelete
 msgid "This Workorder is used in the following Condition(s)"
-msgstr "この作業オーダーは以下の記事(群)で使用されています。"
+msgstr "この作業依頼書は以下の記事(群)で使用されています。"
 
 #. Template: AgentITSMWorkOrderEdit
 msgid "Edit %s%s-%s"
-msgstr ""
+msgstr "%s%s-%sを修正"
 
 #. Template: AgentITSMWorkOrderEdit
 msgid "Move following workorders accordingly"
@@ -590,7 +590,7 @@ msgstr ""
 
 #. Template: AgentITSMWorkOrderReport
 msgid "Edit Report of %s%s-%s"
-msgstr ""
+msgstr "%s%s-%sのレポートを修正"
 
 #. Template: AgentITSMWorkOrderReport
 msgid "Report"
@@ -610,11 +610,11 @@ msgstr "現在の担当者"
 
 #. Template: AgentITSMWorkOrderTake
 msgid "Do you really want to take this workorder?"
-msgstr "本当にこの作業オーダーを適用しますか。"
+msgstr "本当にこの作業依頼書を適用しますか。"
 
 #. Template: AgentITSMWorkOrderTemplate
 msgid "Save Workorder as Template"
-msgstr "ワークオーダーをテンプレートとして保存する"
+msgstr "作業依頼書をテンプレートとして保存する"
 
 #. Template: AgentITSMWorkOrderTemplate
 msgid "Delete original workorder (and surrounding change)"
@@ -622,7 +622,7 @@ msgstr ""
 
 #. Template: AgentITSMWorkOrderZoom
 msgid "Workorder Information"
-msgstr "作業オーダー情報"
+msgstr "作業依頼書の情報"
 
 #. Perl Module: Kernel/Modules/AdminITSMChangeNotification.pm
 msgid "Notification Added!"
@@ -686,15 +686,15 @@ msgstr "\"%s\" に該当する変更管理項目がデータベース上に見�
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeCondition.pm
 msgid "Could not delete ConditionID %s!"
-msgstr "条件ID %s を削除できませんでした！"
+msgstr "コンディションID %s を削除できませんでした！"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not create new condition!"
-msgstr "新しい条件を作成できませんでした！"
+msgstr "新しいコンディションを作成できませんでした！"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not update ConditionID %s!"
-msgstr "条件ID %s を更新できませんでした！"
+msgstr "コンディションID %s を更新できませんでした！"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "Could not update ExpressionID %s!"
@@ -726,7 +726,7 @@ msgstr "エラー： \"%s\" は不明なフィールドタイプです！"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeConditionEdit.pm
 msgid "ConditionID %s does not belong to the given ChangeID %s!"
-msgstr "条件ID %s は指定された変更ID %s に属していません！"
+msgstr "コンディションID %s は指定された変更ID %s に属していません！"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeDelete.pm
 msgid "Change \"%s\" does not have an allowed change state to be deleted!"
@@ -774,19 +774,19 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeManager.pm
 msgid "Overview: ChangeManager"
-msgstr "変更管理マネージャ：概要"
+msgstr "変更管理者：概要"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyCAB.pm
 msgid "Overview: My CAB"
-msgstr ""
+msgstr "私の変更諮問委員会"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyChanges.pm
 msgid "Overview: My Changes"
-msgstr "担当中変更管理：概要"
+msgstr "私の変更：概要"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeMyWorkOrders.pm
 msgid "Overview: My Workorders"
-msgstr "担当中作業オーダー：概要"
+msgstr "私の作業依頼書：概要"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePIR.pm
 msgid "Overview: PIR"
@@ -798,7 +798,7 @@ msgstr "PSA（予想可用性）：概要"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "WorkOrder \"%s\" not found in database!"
-msgstr "\"%s\" に該当する作業オーダーがデータベース上に見つかりませんでした！"
+msgstr "\"%s\" に該当する作業依頼書がデータベース上に見つかりませんでした！"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "Can't create output, as the workorder is not attached to a change!"
@@ -814,19 +814,19 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "ITSM Workorder"
-msgstr "変更依頼書"
+msgstr "作業依頼書"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "WorkOrderNumber"
-msgstr "ワークオーダー番号"
+msgstr "作業依頼書番号"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "WorkOrderTitle"
-msgstr "業務指示名"
+msgstr "作業依頼書のタイトル"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "unknown workorder title"
-msgstr ""
+msgstr "作業依頼書のタイトルがない"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "ChangeState"
@@ -834,19 +834,19 @@ msgstr "変更管理のステータス"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "PlannedEffort"
-msgstr "計画的な取り組み"
+msgstr "予定された取り組み"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "CAB Agents"
-msgstr ""
+msgstr "変更諮問委員会の担当者"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "CAB Customers"
-msgstr ""
+msgstr "変更諮問委員会の顧客ユーザー"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "RequestedTime"
-msgstr ""
+msgstr "リクエスト時刻"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "PlannedStartTime"
@@ -874,23 +874,23 @@ msgstr "変更管理項目番号"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "WorkOrderState"
-msgstr "業務指示の状態"
+msgstr "作業依頼書のステータス"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "WorkOrderType"
-msgstr "作業オーダータイプ"
+msgstr "作業依頼書のタイプ"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "WorkOrderAgent"
-msgstr "業務指示者"
+msgstr "作業依頼書の担当者"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "ITSM Workorder Overview (%s)"
-msgstr "変更依頼書の一覧(%s)"
+msgstr "作業依頼書の一覧(%s)"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeReset.pm
 msgid "Was not able to reset WorkOrder %s of Change %s!"
-msgstr "変更管理項目 %s 内の作業オーダー %s はリセットできません！"
+msgstr "変更管理項目 %s 内の作業依頼書 %s はリセットできません！"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeReset.pm
 msgid "Was not able to reset Change %s!"
@@ -910,7 +910,7 @@ msgstr "変更管理項目名"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "WorkOrders"
-msgstr "作業オーダー"
+msgstr "作業依頼書"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Change Search Result"
@@ -922,7 +922,7 @@ msgstr "変更管理項目番号"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Work Order Title"
-msgstr "作業オーダー名"
+msgstr "作業依頼書のタイトル"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Change Description"
@@ -930,15 +930,15 @@ msgstr "変更管理項目の説明"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Change Justification"
-msgstr ""
+msgstr "変更の正当化"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "WorkOrder Instruction"
-msgstr ""
+msgstr "変更の説明"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "WorkOrder Report"
-msgstr "作業オーダーレポート"
+msgstr "作業依頼書のレポート"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "Change Priority"
@@ -958,11 +958,11 @@ msgstr "作業依頼書のステータス"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "WorkOrder Type"
-msgstr "作業オーダータイプ"
+msgstr "作業依頼書のタイプ"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "WorkOrder Agent"
-msgstr "作業オーダーの担当者"
+msgstr "作業依頼書の担当者"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeSearch.pm
 msgid "before"
@@ -1082,7 +1082,7 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderHistory.pm
 msgid "WorkOrder \"%s\" not found in the database!"
-msgstr "\"%s\" に該当する作業オーダーがデータベース上に見つかりませんでした！"
+msgstr "\"%s\" に該当する作業依頼書がデータベース上に見つかりませんでした！"
 
 #. Perl Module: Kernel/Modules/AgentITSMWorkOrderHistory.pm
 msgid "WorkOrder History"
@@ -1338,39 +1338,39 @@ msgstr "すべて"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Previous Change Builder"
-msgstr ""
+msgstr "前の変更実施者"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Previous Change Manager"
-msgstr ""
+msgstr "前の変更管理者"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Workorder Agents"
-msgstr ""
+msgstr "作業依頼書の担当者"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Previous Workorder Agent"
-msgstr ""
+msgstr "前の作業依頼書の担当者"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Change Initiators"
-msgstr ""
+msgstr "変更イニシエータ"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Group ITSMChange"
-msgstr ""
+msgstr "ITSMChangeグループ"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Group ITSMChangeBuilder"
-msgstr ""
+msgstr "ITSMChangeBuilderグループ"
 
 #. Perl Module: Kernel/System/ITSMChange/Notification.pm
 msgid "Group ITSMChangeManager"
-msgstr ""
+msgstr "ITSMChangeManageerグループ"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "requested"
-msgstr "要求されている"
+msgstr "申請作成中"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "pending approval"
@@ -1386,15 +1386,15 @@ msgstr "承認済み"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "in progress"
-msgstr "進行中"
+msgstr "クローズ待ち"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "pending pir"
-msgstr "保留中のPIR"
+msgstr "事後レビュー"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "successful"
-msgstr "成功"
+msgstr "完了"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "failed"
@@ -1406,27 +1406,27 @@ msgstr "キャンセル"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "retracted"
-msgstr "取消済み"
+msgstr "取消"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "created"
-msgstr "作成済み"
+msgstr "未着"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "accepted"
-msgstr "承認済み"
+msgstr "対応待ち"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "ready"
-msgstr "準備完了"
+msgstr "対応中"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "approval"
-msgstr "認証"
+msgstr "承認"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "workorder"
-msgstr "作業オーダー"
+msgstr "作業依頼書"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "backout"
@@ -1438,7 +1438,7 @@ msgstr "決定"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "pir"
-msgstr "PIR"
+msgstr "導入後レビュー"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "ChangeStateID"
@@ -1478,11 +1478,11 @@ msgstr ""
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "is"
-msgstr "である"
+msgstr "="
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "is not"
-msgstr "ではない"
+msgstr "!="
 
 #. Database XML Definition: ITSMChangeManagement.sopm
 msgid "is empty"
@@ -1558,11 +1558,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Add Workorder"
-msgstr "作業依頼者を追加"
+msgstr "作業依頼書を追加"
 
 #. SysConfig
 msgid "Add Workorder (from Template)"
-msgstr "作業依頼者（テンプレートから）を追加"
+msgstr "作業依頼書（テンプレートから）を追加"
 
 #. SysConfig
 msgid "Add a change from template."
@@ -1642,7 +1642,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Change Print."
-msgstr ""
+msgstr "変更を印刷"
 
 #. SysConfig
 msgid "Change Schedule"
@@ -1694,15 +1694,15 @@ msgstr ""
 
 #. SysConfig
 msgid "Change title"
-msgstr ""
+msgstr "変更のタイトル"
 
 #. SysConfig
 msgid "Condition Edit"
-msgstr "条件の編集"
+msgstr "コンディションの編集"
 
 #. SysConfig
 msgid "Condition Overview"
-msgstr "条件の概要"
+msgstr "コンディションの概要"
 
 #. SysConfig
 msgid "Configure which screen should be shown after a new workorder has been created."
@@ -1730,11 +1730,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Create and manage ITSM Change Management notifications."
-msgstr ""
+msgstr "変更管理の通知を作成と管理"
 
 #. SysConfig
 msgid "Create and manage change notifications."
-msgstr ""
+msgstr "変更の通知を作成と管理"
 
 #. SysConfig
 msgid "Default type for a workorder. This entry must exist in general catalog class 'ITSM::ChangeManagement::WorkOrder::Type'."
@@ -1766,7 +1766,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Defines if it will be possible to print the planned effort."
-msgstr "計画された作業を印刷できるかどうかを定義します。"
+msgstr "予定された作業を印刷できるかどうかを定義します。"
 
 #. SysConfig
 msgid "Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state."
@@ -2186,19 +2186,19 @@ msgstr ""
 
 #. SysConfig
 msgid "Edit a change."
-msgstr ""
+msgstr "変更を修正"
 
 #. SysConfig
 msgid "Edit the change."
-msgstr ""
+msgstr "変更を修正"
 
 #. SysConfig
 msgid "Edit the conditions of the change."
-msgstr ""
+msgstr "変更のコンディションを修正"
 
 #. SysConfig
 msgid "Edit the workorder."
-msgstr ""
+msgstr "作業依頼書を修正"
 
 #. SysConfig
 msgid "Enables the minimal change counter size (if \"Date\" was selected as ITSMChange::NumberGenerator)."
@@ -2218,11 +2218,11 @@ msgstr "変更管理のCABテンプレート"
 
 #. SysConfig
 msgid "ITSM Change Condition Edit."
-msgstr "変更管理の条件修正"
+msgstr "変更管理のコンディションの修正"
 
 #. SysConfig
 msgid "ITSM Change Condition Overview."
-msgstr "変更管理の条件一覧"
+msgstr "変更管理のコンディション一覧"
 
 #. SysConfig
 msgid "ITSM Change Manager Overview."
@@ -2230,7 +2230,7 @@ msgstr "変更管理者の一覧"
 
 #. SysConfig
 msgid "ITSM Change Notifications"
-msgstr ""
+msgstr "変更管理の通知"
 
 #. SysConfig
 msgid "ITSM Change PIR Overview."
@@ -2250,27 +2250,27 @@ msgstr "私の変更管理の一覧"
 
 #. SysConfig
 msgid "ITSM MyWorkorders Overview."
-msgstr "私の変更依頼書の一覧"
+msgstr "私の作業依頼書の一覧"
 
 #. SysConfig
 msgid "ITSM Template Delete."
-msgstr "変更依頼書テンプレートの削除"
+msgstr "作業依頼書テンプレートの削除"
 
 #. SysConfig
 msgid "ITSM Template Edit CAB."
-msgstr "変更依頼書のCAB修正"
+msgstr "作業依頼書のCAB修正"
 
 #. SysConfig
 msgid "ITSM Template Edit Content."
-msgstr "変更依頼書のコンテンツ修正"
+msgstr "作業依頼書のコンテンツ修正"
 
 #. SysConfig
 msgid "ITSM Template Edit."
-msgstr "変更依頼書テンプレートの修正"
+msgstr "作業依頼書テンプレートの修正"
 
 #. SysConfig
 msgid "ITSM Template Overview."
-msgstr "変更依頼書テンプレート一覧"
+msgstr "作業依頼書テンプレート一覧"
 
 #. SysConfig
 msgid "ITSM event module that cleans up conditions."
@@ -2326,7 +2326,7 @@ msgstr "変更管理"
 
 #. SysConfig
 msgid "ITSMWorkOrder"
-msgstr "変更依頼書"
+msgstr "作業依頼書"
 
 #. SysConfig
 msgid "If frequency is 'regularly', you can configure how often the notifications are sent (every X hours)."
@@ -2366,11 +2366,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Manage ITSM Change Management state machine."
-msgstr ""
+msgstr "変更管理のステートマシーンを管理"
 
 #. SysConfig
 msgid "Manage the category ↔ impact ↔ priority matrix."
-msgstr ""
+msgstr "カテゴリー<->影響度<->優先度を管理"
 
 #. SysConfig
 msgid "Module to check if WorkOrderAdd or WorkOrderAddFromTemplate should be permitted."
@@ -2410,7 +2410,7 @@ msgstr "このチケットから変更を作成するためのリンクを表示
 
 #. SysConfig
 msgid "Move Time Slot."
-msgstr ""
+msgstr "開始時刻を変更"
 
 #. SysConfig
 msgid "Move all workorders in time."
@@ -2434,7 +2434,7 @@ msgstr ""
 
 #. SysConfig
 msgid "PIR"
-msgstr ""
+msgstr "事後レビュー"
 
 #. SysConfig
 msgid "PIR (Post Implementation Review)"
@@ -2458,27 +2458,27 @@ msgstr ""
 
 #. SysConfig
 msgid "Planned end time"
-msgstr ""
+msgstr "予定終了時刻"
 
 #. SysConfig
 msgid "Planned start time"
-msgstr ""
+msgstr "予定開始時刻"
 
 #. SysConfig
 msgid "Print the change."
-msgstr ""
+msgstr "変更を印刷"
 
 #. SysConfig
 msgid "Print the workorder."
-msgstr ""
+msgstr "作業依頼書を印刷"
 
 #. SysConfig
 msgid "Projected Service Availability"
-msgstr "計画されたサービスの可用性"
+msgstr "予定されたサービスの可用性"
 
 #. SysConfig
 msgid "Projected Service Availability (PSA)"
-msgstr "計画されたサービスの可用性(PSA)"
+msgstr "予定されたサービスの可用性(PSA)"
 
 #. SysConfig
 msgid "Projected Service Availability (PSA) of changes. Overview of approved changes and their services."
@@ -2638,7 +2638,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Reset a change and its workorders."
-msgstr "変更管理項目と配下の作業オーダーをリセットします。"
+msgstr "変更管理項目と配下の作業依頼書をリセットします。"
 
 #. SysConfig
 msgid "Reset change and its workorders."
