@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-07-07 22:08+0000\n"
+"PO-Revision-Date: 2021-07-18 05:45+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -590,9 +590,8 @@ msgid "Edit %s%s-%s"
 msgstr "Editar %s%s-%s"
 
 #. Template: AgentITSMWorkOrderEdit
-#, fuzzy
 msgid "Move following workorders accordingly"
-msgstr "Desplazar las siguientes órdenes de trabajo en consecuencia"
+msgstr "Desplazar las siguientes órdenes de trabajo como corresponde"
 
 #. Template: AgentITSMWorkOrderEdit
 msgid "If the planned end time of this workorder is changed, the planned start times of all following workorders will be changed accordingly"
