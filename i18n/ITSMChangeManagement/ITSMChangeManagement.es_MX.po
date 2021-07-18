@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2021-07-18 05:45+0000\n"
+"PO-Revision-Date: 2021-07-18 15:33+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
 "Language-Team: Spanish (Mexico) <https://translate.otobo.org/projects/"
 "otobo10/itsmchangemanagement/es_MX/>\n"
@@ -1475,7 +1475,6 @@ msgid "ChangeStateID"
 msgstr "ChangeStateID"
 
 #. Database XML Definition: ITSMChangeManagement.sopm
-#, fuzzy
 msgid "CategoryID"
 msgstr "CategoryID"
 
