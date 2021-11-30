@@ -242,15 +242,7 @@ sub ITSMTemplateListShow {
     );
 
     # create output
-    my $OutputRaw = '';
-    if ( !$Param{Output} ) {
-        $LayoutObject->Print(
-            Output => \$OutputNavBar,
-        );
-    }
-    else {
-        $OutputRaw .= $OutputNavBar;
-    }
+    my $OutputRaw = $OutputNavBar;
 
     # load module
     if ( !$Kernel::OM->Get('Kernel::System::Main')->Require( $Backends->{$View}->{Module} ) ) {
@@ -271,14 +263,7 @@ sub ITSMTemplateListShow {
     );
 
     # create output
-    if ( !$Param{Output} ) {
-        $LayoutObject->Print(
-            Output => \$Output,
-        );
-    }
-    else {
-        $OutputRaw .= $Output;
-    }
+    $OutputRaw .= $Output;
 
     # create overview nav bar
     $LayoutObject->Block(

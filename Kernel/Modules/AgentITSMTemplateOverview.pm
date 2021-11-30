@@ -85,8 +85,6 @@ sub Run {
     # starting with page ...
     my $Output = $LayoutObject->Header( Refresh => $Refresh );
     $Output .= $LayoutObject->NavigationBar();
-    $LayoutObject->Print( Output => \$Output );
-    $Output = '';
 
     # find out which columns should be shown
     my @ShowColumns;

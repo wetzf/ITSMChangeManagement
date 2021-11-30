@@ -99,9 +99,6 @@ sub Run {
     # build NavigationBar
     $Output .= $LayoutObject->CustomerNavigationBar();
 
-    $LayoutObject->Print( Output => \$Output );
-    $Output = '';
-
     # find out which columns should be shown
     my @ShowColumns;
     if ( $Self->{Config}->{ShowColumns} ) {

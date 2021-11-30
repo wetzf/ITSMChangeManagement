@@ -948,8 +948,6 @@ sub Run {
             # start html page
             my $Output = $LayoutObject->Header();
             $Output .= $LayoutObject->NavigationBar();
-            $LayoutObject->Print( Output => \$Output );
-            $Output = '';
 
             $Self->{Filter} = $ParamObject->GetParam( Param => 'Filter' ) || '';
             $Self->{View}   = $ParamObject->GetParam( Param => 'View' )   || '';
