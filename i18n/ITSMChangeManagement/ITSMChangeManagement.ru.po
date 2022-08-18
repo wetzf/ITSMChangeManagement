@@ -7,14 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2019-04-09 12:23+0000\n"
-"Last-Translator: Udo Bretz\n"
-"Language-Team: Russian (http://www.transifex.com/otobo/OTOBO/language/ru/)\n"
+"PO-Revision-Date: 2022-06-10 02:54+0000\n"
+"Last-Translator: Philipp Kesler <philipp.kesler@hein.de>\n"
+"Language-Team: Russian <https://translate.otobo.org/projects/otobo10/"
+"itsmchangemanagement/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Category ↔ Impact ↔ Priority"
@@ -38,7 +42,7 @@ msgstr "Добавить правило уведомления"
 
 #. Template: AdminITSMChangeNotification
 msgid "Edit Notification Rule"
-msgstr ""
+msgstr "Редактирование правила уведомления"
 
 #. Template: AdminITSMChangeNotification
 msgid "A notification should have a name!"
@@ -838,11 +842,11 @@ msgstr "Планируемые ресурсы???"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "CAB Agents"
-msgstr ""
+msgstr "Агенты CAB"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "CAB Customers"
-msgstr ""
+msgstr "Клиенты CAB"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangePrint.pm
 msgid "RequestedTime"
@@ -1106,15 +1110,15 @@ msgstr "Задача \"%s\" не может быть размножена."
 
 #. Perl Module: Kernel/Output/HTML/DocumentSearch/ITSMChange.pm
 msgid "ITSM Change Attachment"
-msgstr ""
+msgstr "ITSM Приложение к изменениям"
 
 #. Perl Module: Kernel/Output/HTML/DocumentSearch/ITSMWorkOrder.pm
 msgid "ITSM Work Order"
-msgstr ""
+msgstr "ITSM Рабочий заказ"
 
 #. Perl Module: Kernel/Output/HTML/DocumentSearch/ITSMWorkOrder.pm
 msgid "ITSM Work Order Attachment"
-msgstr ""
+msgstr "Приложение к рабочему заданию ITSM"
 
 #. Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
 msgid "Need config option %s!"
@@ -1146,107 +1150,107 @@ msgstr "Изменения"
 
 #. Perl Module: Kernel/System/DocumentSearch/Driver/ITSMWorkOrder.pm
 msgid "ITSM Work Orders"
-msgstr ""
+msgstr "ITSM рабочие заказы"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s: %s"
-msgstr ""
+msgstr "%s: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Action (ID=%s)"
-msgstr ""
+msgstr "Новая операция (ID=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Action (ID=%s) deleted"
-msgstr ""
+msgstr "Операция (ID=%s) удалена"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "All Actions of Condition (ID=%s) deleted"
-msgstr ""
+msgstr "Все условия операций (ID=%s) удалены"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Action (ID=%s) executed: %s"
-msgstr ""
+msgstr "Операция (ID=%s) выполнена: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s (Action ID=%s): (new=%s, old=%s)"
-msgstr ""
+msgstr "%s (ID операция=%s): ( новая=%s, старая=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached actual end time."
-msgstr ""
+msgstr "Изменение (ID=%s) достигло фактического времени окончания."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached actual start time."
-msgstr ""
+msgstr "Изменение (ID=%s) достигло фактического времени начала."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Change (ID=%s)"
-msgstr ""
+msgstr "Новое изменение (ID=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Attachment: %s"
-msgstr ""
+msgstr "Новое вложение: %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Deleted Attachment %s"
-msgstr ""
+msgstr "Удалено вложение %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "CAB Deleted %s"
-msgstr ""
+msgstr "CAB удален %s"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s: (new=%s, old=%s)"
-msgstr ""
+msgstr "%s: (новый=%s, старый=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Link to %s (ID=%s) added"
-msgstr ""
+msgstr "Добавлена ссылка на %s (ID=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Link to %s (ID=%s) deleted"
-msgstr ""
+msgstr "Ссылка на %s (ID=%s) удалена"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Notification sent to %s (Event: %s)"
-msgstr ""
+msgstr "Уведомление отправлено на %s (Событие: %s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached planned end time."
-msgstr ""
+msgstr "Изменение (ID=%s) достигло запланированного времени окончания."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached planned start time."
-msgstr ""
+msgstr "Изменение (ID=%s) достигло запланированного времени начала."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Change (ID=%s) reached requested time."
-msgstr ""
+msgstr "Изменение (ID=%s) достигло запрошенного времени."
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Condition (ID=%s)"
-msgstr ""
+msgstr "Новое условие (ID=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Condition (ID=%s) deleted"
-msgstr ""
+msgstr "Условие (ID=%s) удалено"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "All Conditions of Change (ID=%s) deleted"
-msgstr ""
+msgstr "Все условия изменения (ID=%s) удалены"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "%s (Condition ID=%s): (new=%s, old=%s)"
-msgstr ""
+msgstr "%s (ID условия=%s): ( новое=%s, старое=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "New Expression (ID=%s)"
-msgstr ""
+msgstr "Новое выражение (ID=%s)"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "Expression (ID=%s) deleted"
-msgstr ""
+msgstr "Выражение (ID=%s) удалено"
 
 #. Perl Module: Kernel/System/ITSMChange/History.pm
 msgid "All Expressions of Condition (ID=%s) deleted"
@@ -3011,4 +3015,3 @@ msgstr "Отображает ссылку в меню для печати изм
 #. SysConfig
 msgid "Shows a link in the menu to print a workorder in the its zoom view of the agent interface."
 msgstr "Отображает ссылку в меню для печати Задачи при ее детальном просмотре в интерфейсе агента."
-
