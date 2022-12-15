@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2022-12-14 11:48+0000\n"
+"PO-Revision-Date: 2022-12-15 17:07+0000\n"
 "Last-Translator: Yasen Arsov <jarsov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translate.otobo.org/projects/otobo10/"
 "itsmchangemanagement/bg/>\n"
@@ -2897,15 +2897,15 @@ msgstr ""
 
 #. Template: AgentITSMChangeHistory
 msgid "History Content"
-msgstr ""
+msgstr "Съдържание на историята"
 
 #. Template: AgentITSMChangeHistory
 msgid "Createtime"
-msgstr ""
+msgstr "Време на създаване"
 
 #. Template: AgentITSMChangeOverviewNavBar
 msgid "Context Settings"
-msgstr ""
+msgstr "Настройки на контекста"
 
 #. Template: AgentITSMChangeZoom
 msgid "Last changed by"
@@ -2929,7 +2929,7 @@ msgstr ""
 
 #. JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
 msgid "Ok"
-msgstr ""
+msgstr "Да"
 
 #. SysConfig
 msgid "Change Schedule."
