@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2022-12-15 17:07+0000\n"
+"PO-Revision-Date: 2022-12-20 23:29+0000\n"
 "Last-Translator: Yasen Arsov <jarsov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translate.otobo.org/projects/otobo10/"
 "itsmchangemanagement/bg/>\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Category ↔ Impact ↔ Priority"
-msgstr ""
+msgstr "Категория ↔ Влияние ↔ Приоритет"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Manage the priority result of combinating Category ↔ Impact."
-msgstr ""
+msgstr "Приоритетна контролна категория на базата на комбинация ↔ Въздействие."
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Priority allocation"
@@ -29,39 +29,39 @@ msgstr "Приоритетно разпределение"
 
 #. Template: AdminITSMChangeNotification
 msgid "ITSM ChangeManagement Notification Management"
-msgstr ""
+msgstr "ITSM ChangeManagement Управление на известията"
 
 #. Template: AdminITSMChangeNotification
 msgid "Add Notification Rule"
-msgstr ""
+msgstr "Добавяне на правило за уведомяване"
 
 #. Template: AdminITSMChangeNotification
 msgid "Edit Notification Rule"
-msgstr ""
+msgstr "Редактиране на правилото за уведомяване"
 
 #. Template: AdminITSMChangeNotification
 msgid "A notification should have a name!"
-msgstr ""
+msgstr "Едно известие трябва да има име!"
 
 #. Template: AdminITSMChangeNotification
 msgid "Name is required."
-msgstr ""
+msgstr "Името е задължително."
 
 #. Template: AdminITSMStateMachine
 msgid "Admin State Machine"
-msgstr ""
+msgstr "Административнo състояние на машината"
 
 #. Template: AdminITSMStateMachine
 msgid "Select a catalog class!"
-msgstr ""
+msgstr "Изберете каталожен клас!"
 
 #. Template: AdminITSMStateMachine
 msgid "A catalog class is required!"
-msgstr ""
+msgstr "Необходим е клас по каталог!"
 
 #. Template: AdminITSMStateMachine
 msgid "Add a state transition"
-msgstr ""
+msgstr "Добавете преход на състояние"
 
 #. Template: AdminITSMStateMachine
 msgid "Catalog Class"
@@ -69,51 +69,51 @@ msgstr "Класове в каталога"
 
 #. Template: AdminITSMStateMachine
 msgid "Object Name"
-msgstr ""
+msgstr "Име на обект"
 
 #. Template: AdminITSMStateMachine
 msgid "Overview over state transitions for"
-msgstr ""
+msgstr "Преглед на преходите за състояния на"
 
 #. Template: AdminITSMStateMachine
 msgid "Delete this state transition"
-msgstr ""
+msgstr "Изтрийте този преход на състоянието"
 
 #. Template: AdminITSMStateMachine
 msgid "Add a new state transition for"
-msgstr ""
+msgstr "Добавете нов преход на състояние за"
 
 #. Template: AdminITSMStateMachine
 msgid "Please select a state!"
-msgstr ""
+msgstr "Моля, изберете състояние!"
 
 #. Template: AdminITSMStateMachine
 msgid "Please select a next state!"
-msgstr ""
+msgstr "Моля, изберете следващо състояние!"
 
 #. Template: AdminITSMStateMachine
 msgid "Edit a state transition for"
-msgstr ""
+msgstr "Редактирайте прехода на състояние за"
 
 #. Template: AdminITSMStateMachine
 msgid "Do you really want to delete the state transition"
-msgstr ""
+msgstr "Наистина ли искате да изтриете прехода на състоянието"
 
 #. Template: AgentITSMChangeAdd
 msgid "Add Change"
-msgstr ""
+msgstr "Добавяне на промяна"
 
 #. Template: AgentITSMChangeAdd
 msgid "ITSM Change"
-msgstr ""
+msgstr "Промяна на ITSM"
 
 #. Template: AgentITSMChangeAdd
 msgid "Justification"
-msgstr ""
+msgstr "Обосновка"
 
 #. Template: AgentITSMChangeAdd
 msgid "Input invalid."
-msgstr ""
+msgstr "Въведеното е невалидно."
 
 #. Template: AgentITSMChangeAdd
 msgid "Impact"
@@ -121,111 +121,111 @@ msgstr "Влияние"
 
 #. Template: AgentITSMChangeAdd
 msgid "Requested Date"
-msgstr ""
+msgstr "Заявена дата"
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "Select Change Template"
-msgstr ""
+msgstr "Изберете шаблон за промяна"
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "Time type"
-msgstr ""
+msgstr "Тип време"
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "Invalid time type."
-msgstr ""
+msgstr "Невалиден тип време."
 
 #. Template: AgentITSMChangeAddFromTemplate
 msgid "New time"
-msgstr ""
+msgstr "Ново време"
 
 #. Template: AgentITSMChangeCABTemplate
 msgid "Save Change CAB as template"
-msgstr ""
+msgstr "Запазете Change CAB като шаблон"
 
 #. Template: AgentITSMChangeCABTemplate
 msgid "go to involved persons screen"
-msgstr ""
+msgstr "отидете на екрана за участващи лица"
 
 #. Template: AgentITSMChangeCABTemplate
 msgid "Invalid Name"
-msgstr ""
+msgstr "Невалидно име"
 
 #. Template: AgentITSMChangeCondition
 msgid "Conditions and Actions"
-msgstr ""
+msgstr "Условия и действия"
 
 #. Template: AgentITSMChangeCondition
 msgid "Delete Condition"
-msgstr ""
+msgstr "Изтриване на условие"
 
 #. Template: AgentITSMChangeCondition
 msgid "Add new condition"
-msgstr ""
+msgstr "Добавете ново условие"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Edit Condition"
-msgstr ""
+msgstr "Редактиране на условие"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Need a valid name."
-msgstr ""
+msgstr "Изисква се валидно име."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "A valid name is needed."
-msgstr ""
+msgstr "Необходимо е валидно име."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Duplicate name:"
-msgstr ""
+msgstr "Дублирано име:"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "This name is already used by another condition."
-msgstr ""
+msgstr "Това име вече се използва от друго условие."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Matching"
-msgstr ""
+msgstr "Съпоставяне"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Any expression (OR)"
-msgstr ""
+msgstr "Всеки израз (OR)"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "All expressions (AND)"
-msgstr ""
+msgstr "Всички изрази (AND)"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Expressions"
-msgstr ""
+msgstr "Изрази"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Selector"
-msgstr ""
+msgstr "Селектор"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Operator"
-msgstr ""
+msgstr "Оператор"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Delete Expression"
-msgstr ""
+msgstr "Изтриване на израз"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "No Expressions found."
-msgstr ""
+msgstr "Няма намерени изрази."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Add new expression"
-msgstr ""
+msgstr "Добавете нов израз"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Delete Action"
-msgstr ""
+msgstr "Изтриване на действие"
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "No Actions found."
-msgstr ""
+msgstr "Няма намерени действия."
 
 #. Template: AgentITSMChangeConditionEdit
 msgid "Add new action"
@@ -529,7 +529,7 @@ msgstr ""
 
 #. Template: AgentITSMTemplateOverviewSmall
 msgid "Change Time"
-msgstr ""
+msgstr "Промяна на времето"
 
 #. Template: AgentITSMWorkOrderAdd
 msgid "Add Workorder to %s%s"
