@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2023-08-24 18:07+0000\n"
+"PO-Revision-Date: 2023-08-25 11:42+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese <https://translate.otobo.org/projects/otobo10/"
 "itsmchangemanagement/ja/>\n"
@@ -28,7 +28,7 @@ msgstr "カテゴリと影響度の組み合わせによって優先度を管理
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Priority allocation"
-msgstr "優先度の割り当て"
+msgstr "優先度を割り当て"
 
 #. Template: AdminITSMChangeNotification
 msgid "ITSM ChangeManagement Notification Management"
@@ -120,7 +120,7 @@ msgstr "入力は無効です"
 
 #. Template: AgentITSMChangeAdd
 msgid "Impact"
-msgstr "インパクト"
+msgstr "影響度"
 
 #. Template: AgentITSMChangeAdd
 msgid "Requested Date"
@@ -484,7 +484,7 @@ msgstr "変更諮問委員会"
 
 #. Template: AgentITSMChangeZoom
 msgid "Last changed"
-msgstr "最終変更時刻"
+msgstr "最終更新日時"
 
 #. Template: AgentITSMTemplateEditCAB
 msgid "Edit CAB Template"
@@ -756,7 +756,7 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistory.pm
 msgid "Change History"
-msgstr ""
+msgstr "変更履歴"
 
 #. Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
 msgid "Can't show history zoom, no HistoryEntryID is given!"
@@ -2908,7 +2908,7 @@ msgstr "作成日時"
 
 #. Template: AgentITSMChangeOverviewNavBar
 msgid "Context Settings"
-msgstr "設定"
+msgstr "コンテキストの設定"
 
 #. Template: AgentITSMChangeZoom
 msgid "Last changed by"
