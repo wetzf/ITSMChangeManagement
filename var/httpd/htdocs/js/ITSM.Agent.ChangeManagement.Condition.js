@@ -51,10 +51,6 @@ ITSM.Agent.ChangeManagement.Condition = (function (TargetNS) {
             'AttributeID',
         ];
 
-        var RefreshDropdowns = [
-            ID + '-OperatorID'
-        ];
-
         var NotSerialize,
             FormSerialized,
             URLString;
@@ -63,19 +59,10 @@ ITSM.Agent.ChangeManagement.Condition = (function (TargetNS) {
             return;
         }
 
-        if (Dropdown === 'ObjectID') {
-            RefreshDropdowns.unshift(ID + '-AttributeID');
-            RefreshDropdowns.unshift(ID + '-Selector');
-        }
-        else if (Dropdown === 'Selector') {
-            RefreshDropdowns.unshift(ID + '-AttributeID');
-        }
-
         Core.AJAX.FormUpdate(
             $('#NewCondition'),
             'AJAXUpdate',
-            AttrID,
-            RefreshDropdowns
+            AttrID
         );
 
         if (Dropdown === 'AttributeID') {

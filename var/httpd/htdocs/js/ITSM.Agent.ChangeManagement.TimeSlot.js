@@ -39,7 +39,7 @@ ITSM.Agent.ChangeManagement.TimeSlot = (function (TargetNS) {
     TargetNS.Init = function () {
 
         $('#MoveTimeType').off('change.ITSMAgentChangeManagementTimeSlot').on('change.ITSMAgentChangeManagementTimeSlot', function() {
-            Core.AJAX.FormUpdate($('#MoveTimeSlotForm'), 'AJAXUpdate', 'MoveTimeType', ['MoveTimeMinute', 'MoveTimeHour', 'MoveTimeDay', 'MoveTimeMonth', 'MoveTimeYear']);
+            Core.AJAX.FormUpdate($('#MoveTimeSlotForm'), 'AJAXUpdate', 'MoveTimeType');
             $('#AJAXLoaderMoveTimeDay, #AJAXLoaderMoveTimeMonth, #AJAXLoaderMoveTimeYear, #AJAXLoaderMoveTimeHour').removeClass('AJAXLoader');
         })
 

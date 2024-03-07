@@ -39,10 +39,10 @@ ITSM.Agent.ChangeManagement.AddEdit = (function (TargetNS) {
      */
     TargetNS.Init = function () {
         $('#CategoryID').on('change.ITSMChangeManagement.CategoryID', function () {
-            Core.AJAX.FormUpdate($('#ChangeForm'), 'AJAXUpdate', 'CategoryID', ['ImpactID', 'PriorityID']);
+            Core.AJAX.FormUpdate($('#ChangeForm'), 'AJAXUpdate', 'CategoryID');
         });
         $('#ImpactID').on('change.ITSMChangeManagement.ImpactID', function () {
-            Core.AJAX.FormUpdate($('#ChangeForm'), 'AJAXUpdate', 'ImpactID', ['PriorityID']);
+            Core.AJAX.FormUpdate($('#ChangeForm'), 'AJAXUpdate', 'ImpactID');
         });
     };
 
