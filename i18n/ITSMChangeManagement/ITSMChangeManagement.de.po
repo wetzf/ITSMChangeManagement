@@ -14,16 +14,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2022-11-10 11:28+0000\n"
-"Last-Translator: Stefan Abel <sta@rother-oss.com>\n"
-"Language-Team: German <https://translate.otobo.org/projects/otobo10/"
-"itsmchangemanagement/de/>\n"
+"PO-Revision-Date: 2024-05-17 08:13+0000\n"
+"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
+"Language-Team: German <http://weblate.otobo.org/projects/opm-packages/"
+"itsm-changemanagement/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.4.2\n"
 
 #. Template: AdminITSMChangeCIPAllocate
 msgid "Category ↔ Impact ↔ Priority"
@@ -2925,7 +2925,7 @@ msgstr "Änderungsverlauf"
 
 #. Template: AgentITSMChangeHistory
 msgid "Createtime"
-msgstr "Erstellt am"
+msgstr "Erstellt"
 
 #. Template: AgentITSMChangeOverviewNavBar
 msgid "Context Settings"
