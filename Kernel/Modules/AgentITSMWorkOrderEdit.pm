@@ -711,9 +711,7 @@ sub Run {
     if ( $Self->{Config}->{MoveFollowingWorkOrders} ) {
 
         # set checkbox for MoveFollowingWorkOrders
-        if ( $GetParam{MoveFollowingWorkOrders} ) {
             $GetParam{MoveFollowingWorkOrders} = 'checked="checked"';
-        }
 
         $LayoutObject->Block(
             Name => 'MoveFollowingWorkOrders',

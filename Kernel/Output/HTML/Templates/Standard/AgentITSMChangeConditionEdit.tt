@@ -64,8 +64,20 @@
                         <div class="Field">
                             <input name="ExpressionConjunction" type="radio" value="any" [% Data.anyselected %] title="[% Translate("Any expression (OR)") | html %]"/> [% Translate("Any expression (OR)") | html %]
                             <input name="ExpressionConjunction" type="radio" value="all" [% Data.allselected %] title="[% Translate("All expressions (AND)") | html %]"/> [% Translate("All expressions (AND)") | html %]
+                            <input name="ExpressionConjunction" type="radio" value="alldepending" [% Data.alldependingselected %] title="[% Translate("All expressions depending (AND)") | html %]"/> [% Translate("All expressions depending (AND)") | html %]
                         </div>
                         <div class="Clear"></div>
+                        <label for="BypassStateMachine">[% Translate("BypassStateMachine") | html %]:</label>
+                        <div class="Field">
+                            [% Data.BypassStateMachine %]
+                        </div>
+                        <div class="Clear"></div>
+                        <label for="BypassStateMachineWO">[% Translate("BypassStateMachineWO") | html %]:</label>
+                        <div class="Field">
+                            [% Data.BypassStateMachineWO %]
+                        </div>
+                        <div class="Clear"></div>
+# EO Rother OSS
 
                         <label for="ValidID">[% Translate("Validity") | html %]:</label>
                         <div class="Field">

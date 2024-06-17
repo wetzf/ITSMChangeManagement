@@ -190,7 +190,7 @@
 [% RenderBlockEnd("RecordWorkOrderNumber") %]
 [% RenderBlockStart("RecordWorkOrderTitle") %]
                 <td>
-                    <div title="[% Data.WorkOrderTitle | html %]">[% Data.WorkOrderTitle | truncate(40) | html %]</div>
+                    <div title="[% Data.WorkOrderTitle | html %]">[% Data.WorkOrderTitle | truncate(100) | html %]</div>
                 </td>
 [% RenderBlockEnd("RecordWorkOrderTitle") %]
 [% RenderBlockStart("RecordChangeTitle") %]
@@ -198,7 +198,7 @@
 [% RenderBlockStart("RecordChangeTitleLinkStart") %]
                     <a href="[% Env("Baselink") %]Action=AgentITSMChangeZoom;ChangeID=[% Data.ChangeID | uri %]" title="[% Data.ChangeTitle | html %]">
 [% RenderBlockEnd("RecordChangeTitleLinkStart") %]
-                        [% Data.ChangeTitle | truncate(40) | html %]
+                        [% Data.ChangeTitle | truncate(100) | html %]
 [% RenderBlockStart("RecordChangeTitleLinkEnd") %]
                     </a>
 [% RenderBlockEnd("RecordChangeTitleLinkEnd") %]

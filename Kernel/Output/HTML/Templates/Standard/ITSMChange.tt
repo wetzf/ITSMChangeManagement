@@ -95,7 +95,7 @@
 
 [% RenderBlockStart("WorkOrderTitle") %]
                     <label>[% Translate("Title") | html %]:</label>
-                    <p class="Value">[% Data.WorkOrderTitle | truncate(40) | html %]</p>
+                    <p class="Value">[% Data.WorkOrderTitle | truncate(240) | html %]</p>
                     <div class="Clear"></div>
 [% RenderBlockEnd("WorkOrderTitle") %]
 

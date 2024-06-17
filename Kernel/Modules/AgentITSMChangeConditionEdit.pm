@@ -175,6 +175,10 @@ sub Run {
                     Name                  => $GetParam{Name},
                     ExpressionConjunction => $GetParam{ExpressionConjunction},
                     Comment               => $GetParam{Comment},
+                    # Add BypassStateMachine -> Need to add BypassStateMachine in mysqldb table change_condition
+                    BypassStateMachine    => $GetParam{BypassStateMachine},
+                    BypassStateMachineWO    => $GetParam{BypassStateMachineWO},
+                    # EO Rother OSS
                     ValidID               => $GetParam{ValidID},
                     UserID                => $Self->{UserID},
                 );
@@ -198,6 +202,8 @@ sub Run {
                     Name                  => $GetParam{Name},
                     ExpressionConjunction => $GetParam{ExpressionConjunction},
                     Comment               => $GetParam{Comment},
+                    BypassStateMachine    => $GetParam{BypassStateMachine},
+                    BypassStateMachineWO    => $GetParam{BypassStateMachineWO},
                     ValidID               => $GetParam{ValidID},
                     UserID                => $Self->{UserID},
                 );
@@ -800,12 +806,34 @@ sub Run {
     if ( $GetParam{ExpressionConjunction} eq 'all' ) {
         $ConditionData{allselected} = 'checked="checked"';
     }
-    else {
+    elsif ( $GetParam{ExpressionConjunction} eq 'any' ) {
         $ConditionData{anyselected} = 'checked="checked"';
     }
+    else {
+        $ConditionData{alldependingselected} = 'checked="checked"';
+    }
+
 
     # output header
     my $Output = $LayoutObject->Header( Type => 'Small' );
+
+    $ConditionData{BypassStateMachine} = $LayoutObject->BuildSelection(
+        Data        => ["Yes", "No"],
+        Name        => 'BypassStateMachine',
+        SelectedID  => $ConditionData{BypassStateMachine} || "No",
+        Sort        => 'AlphanumericValue',
+        Translation => 1,
+        Class       => 'Modernize',
+    );
+
+    $ConditionData{BypassStateMachineWO} = $LayoutObject->BuildSelection(
+        Data        => ["Yes", "No"],
+        Name        => 'BypassStateMachineWO',
+        SelectedID  => $ConditionData{BypassStateMachineWO} || "No",
+        Sort        => 'AlphanumericValue',
+        Translation => 1,
+        Class       => 'Modernize',
+    );
 
     # generate ValidOptionString
     $ConditionData{ValidOptionString} = $LayoutObject->BuildSelection(
