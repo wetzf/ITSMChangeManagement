@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -27,14 +27,14 @@ sub Data {
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Categoría ↔ Impacto ↔ Prioridad';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Gestionar la prioridad resultado de combinar Categoría ↔ Impacto.';
-    $Self->{Translation}->{'Priority allocation'} = 'Asignar prioridad';
+    $Self->{Translation}->{'Priority allocation'} = 'Asignación prioritaria';
 
     # Template: AdminITSMChangeNotification
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Gestión de Notificaciones de Cambios ITSM';
     $Self->{Translation}->{'Add Notification Rule'} = 'Agregar Regla de Notificación';
     $Self->{Translation}->{'Edit Notification Rule'} = 'Editar Regla de Notificación';
     $Self->{Translation}->{'A notification should have a name!'} = '¡Las Notificaciones deben tener un nombre!';
-    $Self->{Translation}->{'Name is required.'} = 'El nombre es requerido';
+    $Self->{Translation}->{'Name is required.'} = 'El nombre es requerido.';
 
     # Template: AdminITSMStateMachine
     $Self->{Translation}->{'Admin State Machine'} = 'Administración de Maquina de Estados';
@@ -47,15 +47,15 @@ sub Data {
     $Self->{Translation}->{'Delete this state transition'} = 'Eliminar este estado de transición';
     $Self->{Translation}->{'Add a new state transition for'} = 'Adicionar un estado de transición nuevo para';
     $Self->{Translation}->{'Please select a state!'} = '¡Por favor seleccione un estado!';
-    $Self->{Translation}->{'Please select a next state!'} = '!Por favor seleccione el siguiente estado¡';
+    $Self->{Translation}->{'Please select a next state!'} = '¡Por favor seleccione el siguiente estado!';
     $Self->{Translation}->{'Edit a state transition for'} = 'Editar un estado de transición para';
-    $Self->{Translation}->{'Do you really want to delete the state transition'} = '¿Realmente desea eliminar esta transición de estado?';
+    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Realmente desea eliminar esta transición de estado';
 
     # Template: AgentITSMChangeAdd
     $Self->{Translation}->{'Add Change'} = 'Agregar Cambio';
     $Self->{Translation}->{'ITSM Change'} = 'Cambio ITSM';
     $Self->{Translation}->{'Justification'} = 'Justificación';
-    $Self->{Translation}->{'Input invalid.'} = 'Entrada inválida';
+    $Self->{Translation}->{'Input invalid.'} = 'Entrada inválida.';
     $Self->{Translation}->{'Impact'} = 'Impacto';
     $Self->{Translation}->{'Requested Date'} = 'Fecha solicitada';
 
@@ -77,13 +77,16 @@ sub Data {
 
     # Template: AgentITSMChangeConditionEdit
     $Self->{Translation}->{'Edit Condition'} = 'Editar condición';
-    $Self->{Translation}->{'Need a valid name.'} = 'Se requiere un nombre válido';
+    $Self->{Translation}->{'Need a valid name.'} = 'Se requiere un nombre válido.';
     $Self->{Translation}->{'A valid name is needed.'} = 'Se requiere un nombre valido.';
     $Self->{Translation}->{'Duplicate name:'} = 'Nombre duplicado:';
     $Self->{Translation}->{'This name is already used by another condition.'} = 'Este nombre esta siendo usado por otra Condición.';
     $Self->{Translation}->{'Matching'} = 'Coincidentes';
     $Self->{Translation}->{'Any expression (OR)'} = 'Cualquier expresión (O)';
     $Self->{Translation}->{'All expressions (AND)'} = 'Todas las expresiones (Y)';
+    $Self->{Translation}->{'All expressions depending (AND)'} = '';
+    $Self->{Translation}->{'BypassStateMachine'} = '';
+    $Self->{Translation}->{'BypassStateMachineWO'} = '';
     $Self->{Translation}->{'Expressions'} = 'Expresiones';
     $Self->{Translation}->{'Selector'} = 'Selector';
     $Self->{Translation}->{'Operator'} = 'Operador';
@@ -115,7 +118,7 @@ sub Data {
     $Self->{Translation}->{'New Value'} = 'Nuevo Valor';
 
     # Template: AgentITSMChangeInvolvedPersons
-    $Self->{Translation}->{'Edit Involved Persons of %s%s'} = 'Editar personas involucradas de ';
+    $Self->{Translation}->{'Edit Involved Persons of %s%s'} = 'Editar personas involucradas de %s%s';
     $Self->{Translation}->{'Involved Persons'} = 'Personas Involucradas';
     $Self->{Translation}->{'ChangeManager'} = 'Administrador de Cambios';
     $Self->{Translation}->{'User invalid.'} = 'El usuario no es válido.';
@@ -183,9 +186,9 @@ sub Data {
     $Self->{Translation}->{'Change Initiator(s)'} = 'Iniciador(es) de Cambio(s)';
     $Self->{Translation}->{'CAB'} = 'CAB';
     $Self->{Translation}->{'Last changed'} = 'Último cambio';
-    $Self->{Translation}->{'Last changed by'} = 'Último cambio por';
+    $Self->{Translation}->{'Last changed by'} = 'La última vez que se modificó fue por';
     $Self->{Translation}->{'To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS).'} =
-        'Para abrir links en los siguientes bloques de descripción, podria necesitar presionar la teclas Ctrl, Cmd o Shift mientras presiona el link (depende del browser y el SO)';
+        'Para abrir links en los siguientes bloques de descripción, podría necesitar presionar la teclas Ctrl, Cmd o Shift mientras presiona el link (depende del browser y el SO).';
     $Self->{Translation}->{'Download Attachment'} = 'Descargar Adjunto';
 
     # Template: AgentITSMTemplateEditCAB
@@ -199,7 +202,7 @@ sub Data {
     $Self->{Translation}->{'This will create a new workorder from this template, so you can edit and save it.'} =
         'Esto creará una nueva orden de trabajo a partir de esta plantilla, para que la pueda editar y guardar.';
     $Self->{Translation}->{'A temporary change will be created which contains the workorder.'} =
-        ' Se creará un cambio temporalmente, el cual contendrá la orden de trabajo.';
+        'Se creará un cambio temporalmente, el cual contendrá la orden de trabajo.';
     $Self->{Translation}->{'The temporary change and new workorder will be deleted automatically after the workorder has been saved as template.'} =
         'El cambio temporal y la nueva orden de trabajo se eliminarán de forma automática después de que la orden de trabajo se haya guardado como plantilla.';
     $Self->{Translation}->{'Do you want to proceed?'} = '¿Desea proceder?';
@@ -279,8 +282,8 @@ sub Data {
     $Self->{Translation}->{'Was not able to create change from template!'} = 'No se pudo crear el cambio desde la plantilla!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeCABTemplate.pm
-    $Self->{Translation}->{'No ChangeID is given!'} = 'No se ha dado ChangeID';
-    $Self->{Translation}->{'No change found for changeID %s.'} = 'No se encontró cambio paraChangeID %s';
+    $Self->{Translation}->{'No ChangeID is given!'} = '¡No se ha dado ChangeID!';
+    $Self->{Translation}->{'No change found for changeID %s.'} = 'No se encontró cambio paraChangeID %s.';
     $Self->{Translation}->{'The CAB of change "%s" could not be serialized.'} = 'El CAB de cambio "%s" no pudo ser serializado.';
     $Self->{Translation}->{'Could not add the template.'} = 'No se pudo agregar la plantilla.';
 
@@ -294,7 +297,7 @@ sub Data {
     $Self->{Translation}->{'Could not update ConditionID %s!'} = '¡No se pudo actualizar la ConditionID%s!';
     $Self->{Translation}->{'Could not update ExpressionID %s!'} = '¡No se pudo actualizar la ExpressionID%s!';
     $Self->{Translation}->{'Could not add new Expression!'} = '¡No se pudo añadir una nueva expresión!';
-    $Self->{Translation}->{'Could not update ActionID %s!'} = '¡No se pudo actualizar ActionID%s¡';
+    $Self->{Translation}->{'Could not update ActionID %s!'} = '¡No se pudo actualizar ActionID %s!';
     $Self->{Translation}->{'Could not add new Action!'} = '¡No se pudo añadir Nueva Acción!';
     $Self->{Translation}->{'Could not delete ExpressionID %s!'} = '¡No se pudo borrar ExpressionID%s!';
     $Self->{Translation}->{'Could not delete ActionID %s!'} = '¡No se pudo borrar ActionID%s!';
@@ -313,7 +316,6 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = '¡No se puede mostrar el historial, ya que no se ha facilitado el ChangeID!';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = '¡Cambio "%s" no se encontró en la base de datos!';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = '¡Tipo desconocido "%s" encontrado!';
-    $Self->{Translation}->{'Change History'} = 'Historial de cambio';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
     $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = '¡No se puede mostrar el historial del zoom, no se ha facilitado HistoryEntryID!';
@@ -391,7 +393,7 @@ sub Data {
     $Self->{Translation}->{'WorkOrder State'} = 'Estado Orden de trabajo';
     $Self->{Translation}->{'WorkOrder Type'} = 'Tipo de Orden de trabajo';
     $Self->{Translation}->{'WorkOrder Agent'} = 'Agente de Orden de trabajo';
-    $Self->{Translation}->{'before'} = 'antes ';
+    $Self->{Translation}->{'before'} = 'antes';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeTemplate.pm
     $Self->{Translation}->{'The change "%s" could not be serialized.'} = 'El cambio "%s" no pudo ser serializado.';
@@ -534,7 +536,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = 'Grupo ITSMChangeBuilder';
     $Self->{Translation}->{'Group ITSMChangeManager'} = 'Grupo ITSMChangeManager';
 
-    # Database XML Definition: ITSMChangeManagement.sopm
+    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = 'solicitado';
     $Self->{Translation}->{'pending approval'} = 'aprobación pendiente';
     $Self->{Translation}->{'rejected'} = 'rechazado';
@@ -581,9 +583,6 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this action?'} = '¿De verdad quieres eliminar esta acción?';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '¿De verdad quieres eliminar esta condición?';
 
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
-    $Self->{Translation}->{'Ok'} = 'Ok';
-
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =
         'Una lista de los agentes que tienen permiso para tomar órdenes de trabajo. Key es un nombre de inicio de sesión. Content puede ser 0 ó 1.';
@@ -603,14 +602,14 @@ sub Data {
     $Self->{Translation}->{'Agent interface notification module to see the number of change advisory boards.'} =
         'Módulo de notificación de la interface del Agente para mostrar el número de change advisory boards.';
     $Self->{Translation}->{'Agent interface notification module to see the number of changes managed by the user.'} =
-        'Módulo de notificación de la interface del Agente para mostrar el número de  cambios administrados por el usuario.';
+        'Módulo de notificación de la interfaz del Agente para mostrar el número de cambios administrados por el usuario.';
     $Self->{Translation}->{'Agent interface notification module to see the number of changes.'} =
         'Módulo de notificación de la interface del Agente para mostrar el número de cambios.';
     $Self->{Translation}->{'Agent interface notification module to see the number of workorders.'} =
         'Módulo de notificación de la interfaz de agente para ver el número de órdenes de trabajo.';
     $Self->{Translation}->{'CAB Member Search'} = 'Búsqueda de miembros CAB';
     $Self->{Translation}->{'Cache time in minutes for the change management toolbars. Default: 3 hours (180 minutes).'} =
-        'Tiempo caché en minutos para las barras de tareas de gestión del cambio. Por defecto:  3 horas (180 minutos).';
+        'Tiempo caché en minutos para las barras de tareas de gestión del cambio. Por defecto: 3 horas (180 minutos).';
     $Self->{Translation}->{'Cache time in minutes for the change management. Default: 5 days (7200 minutes).'} =
         'Tiempo caché en minutos para la gestión del cambio. Por defecto: 5 días (7200 minutos).';
     $Self->{Translation}->{'Change CAB Templates'} = 'Cambiar las plantillas de CAB';
@@ -621,7 +620,7 @@ sub Data {
     $Self->{Translation}->{'Change Print.'} = 'Cambiar Impresión.';
     $Self->{Translation}->{'Change Schedule'} = 'Cambiar Programación';
     $Self->{Translation}->{'Change Schedule.'} = 'Cambiar Programación.';
-    $Self->{Translation}->{'Change Settings'} = 'Cambiar Configuraciones.';
+    $Self->{Translation}->{'Change Settings'} = 'Cambiar Configuraciones';
     $Self->{Translation}->{'Change Zoom'} = 'Cambiar Detalle';
     $Self->{Translation}->{'Change Zoom.'} = 'Ampliación del Cambio.';
     $Self->{Translation}->{'Change and Workorder Templates'} = 'Plantillas de Cambio y Órdenes de trabajo';
@@ -641,7 +640,7 @@ sub Data {
     $Self->{Translation}->{'Configures how often the notifications are sent when planned the start time or other time values have been reached/passed.'} =
         'Configura el intervalo de envío de notificaciones cuando alguno de los valores del tiempo, como la fecha de inicio planeada, se alcanzan/sobrepasan.';
     $Self->{Translation}->{'Create Change'} = 'Crear un Cambio';
-    $Self->{Translation}->{'Create Change (from Template)'} = 'Crear Cambio (desde Plantilla) ';
+    $Self->{Translation}->{'Create Change (from Template)'} = 'Crear Cambio (desde Plantilla)';
     $Self->{Translation}->{'Create a change (from template) from this ticket.'} = 'Crear un cambio (desde Plantilla) desde este ticket.';
     $Self->{Translation}->{'Create a change from this ticket.'} = 'Crear un cambio desde este ticket.';
     $Self->{Translation}->{'Create and manage ITSM Change Management notifications.'} = 'Crear y gestionar notificaciones de Gestión del Cambio ITSM.';
@@ -649,7 +648,7 @@ sub Data {
     $Self->{Translation}->{'Default type for a workorder. This entry must exist in general catalog class \'ITSM::ChangeManagement::WorkOrder::Type\'.'} =
         'Tipo default para las órdenes de trabajo. Este registro debe existir en la clase \'ITSM::ChangeManagement::WorkOrder::Type\' del catálogo general.';
     $Self->{Translation}->{'Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = "complex"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js.'} =
-        'Definir acciones donde está disponible un botón de configuración en el widget de objetos vinculados (LinkObject::ViewMode = "complex"). Tenga en cuenta que estas acciones deben haber registrado los siguientes archivos JS y CSS: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js y Core.Agent.LinkObject.js.';
+        'Definir Acciones en las que un botón de configuración está disponible en el widget de objetos vinculados (LinkObject::ViewMode = "complex"). Tenga en cuenta que estas Acciones deben haber registrado los siguientes archivos JS y CSS: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js y Core.Agent.LinkObject.js.';
     $Self->{Translation}->{'Define the signals for each workorder state.'} = 'Define las señales para cada estado de las órdenes de trabajo.';
     $Self->{Translation}->{'Define which columns are shown in the linked Changes widget (LinkObject::ViewMode = "complex"). Note: Only Change attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default.'} =
         'Definir qué columnas se muestran en el widget de Cambios vinculado (LinkObject::ViewMode = "complex"). Nota: Solo se permiten los atributos de cambio para las columnas predeterminadas. Configuraciones posibles: 0 = Deshabilitado, 1 = Disponible, 2 = Habilitado por defecto.';
@@ -871,11 +870,11 @@ sub Data {
     $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'Resumen del Cambio PIR en ITSM.';
     $Self->{Translation}->{'ITSM Change notification rules'} = 'Reglas de notificación del Cambio en ITSM';
     $Self->{Translation}->{'ITSM Changes'} = 'Cambios';
-    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'Resumen MyCAG en ITSM';
+    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'Resumen MyCAG en ITSM.';
     $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'Resumen de MyChanges en ITSM.';
     $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'Resumen MyWorkorders en ITSM.';
-    $Self->{Translation}->{'ITSM Template Delete.'} = 'Borrar plantilla en ITSM';
-    $Self->{Translation}->{'ITSM Template Edit CAB.'} = 'Editar Plantilla CAB en ITSM';
+    $Self->{Translation}->{'ITSM Template Delete.'} = 'Borrar plantilla en ITSM.';
+    $Self->{Translation}->{'ITSM Template Edit CAB.'} = 'Editar Plantilla CAB en ITSM.';
     $Self->{Translation}->{'ITSM Template Edit Content.'} = 'Editar contenido de Plantilla en ITSM.';
     $Self->{Translation}->{'ITSM Template Edit.'} = 'Editar Plantilla en ITSM.';
     $Self->{Translation}->{'ITSM Template Overview.'} = 'Resumen de Plantilla en ITSM.';
@@ -1000,11 +999,11 @@ sub Data {
     $Self->{Translation}->{'Set the default height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface.'} =
         'Establezca la altura por defecto (en píxeles) de los campos inline HTML en la pantalla de detalle de cambio y la pantalla de detalle de la orden de trabajo de la interfaz del agente.';
     $Self->{Translation}->{'Set the maximum height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface.'} =
-        'Establezca  la altura máxima (en píxeles) de los campos inline HTML en el detalle de la pantalla de cambio y la pantalla de detalle de la orden de trabajo de la interfaz del agente.';
+        'Establezca la altura máxima (en píxeles) de los campos inline HTML en el detalle de la pantalla de cambio y la pantalla de detalle de la orden de trabajo de la interfaz del agente.';
     $Self->{Translation}->{'Sets the minimal change counter size (if "AutoIncrement" was selected as ITSMChange::NumberGenerator). Default is 5, this means the counter starts from 10000.'} =
         'Estable el tamaño mínimo del contador de cambios (si se seleccionó "AutoIncrement" como ITSMChange::NumberGenerator). El valor por defecto es 5, esto significa que el contador comienza desde 10000.';
     $Self->{Translation}->{'Sets up the state machine for changes.'} = 'Configura la máquina de estados para los cambios.';
-    $Self->{Translation}->{'Sets up the state machine for workorders.'} = 'Configura la máquina de estados para las órdenes de trabajo';
+    $Self->{Translation}->{'Sets up the state machine for workorders.'} = 'Configura la máquina de estados para las órdenes de trabajo.';
     $Self->{Translation}->{'Shows a checkbox in the workorder edit screen of the agent interface that defines if the the following workorders should also be moved if a workorder is modified and the planned end time has changed.'} =
         'Muestra una casilla de verificación en la pantalla de edición de órdenes de trabajo de la interfaz del agente que define si los siguientes pedidos de trabajo también deberían moverse si un pedido en curso se modifica y la hora de finalización planificada ha cambiado.';
     $Self->{Translation}->{'Shows a link in the menu that allows changing the workorder agent, in the zoom view of the workorder of the agent interface.'} =
@@ -1014,7 +1013,7 @@ sub Data {
     $Self->{Translation}->{'Shows a link in the menu that allows defining a workorder as a template in the zoom view of the workorder, in the agent interface.'} =
         'Muestra un enlace en el menú que permite definir una orden de trabajo como plantilla en la vista de detalle del pedido de trabajo, en la interfaz de agente.';
     $Self->{Translation}->{'Shows a link in the menu that allows editing the report of a workorder, in the zoom view of the workorder of the agent interface.'} =
-        'Muestra un enlace en el menú que permite editar el informe de una orden de trabajo, en la vista ampliada de la orden de trabajo de la interfaz del agente. ';
+        'Muestra un enlace en el menú que permite editar el informe de una orden de trabajo, en la vista ampliada de la orden de trabajo de la interfaz del agente.';
     $Self->{Translation}->{'Shows a link in the menu that allows linking a change with another object in the change zoom view of the agent interface.'} =
         'Muestra un link en el menú para vincular un cambio con otro objeto, en la vista detallada de dicho cambio de la interfaz del agente.';
     $Self->{Translation}->{'Shows a link in the menu that allows linking a workorder with another object in the zoom view of the workorder of the agent interface.'} =
@@ -1072,8 +1071,8 @@ sub Data {
     $Self->{Translation}->{'Types of tickets, where in the ticket zoom view a link to add a change will be displayed.'} =
         'Tipos de tickets en cuya vista detallada aparecerá un vínculo para agregar un cambio.';
     $Self->{Translation}->{'User Search'} = 'Búsqueda de Usuario';
-    $Self->{Translation}->{'Workorder Add (from template).'} = 'Añadir Orden de trabajo (desde Plantilla)';
-    $Self->{Translation}->{'Workorder Add.'} = 'Añadir Orden de trabajo';
+    $Self->{Translation}->{'Workorder Add (from template).'} = 'Añadir Orden de trabajo (desde Plantilla).';
+    $Self->{Translation}->{'Workorder Add.'} = 'Añadir Orden de trabajo.';
     $Self->{Translation}->{'Workorder Agent.'} = 'Agente de Orden de trabajo.';
     $Self->{Translation}->{'Workorder Delete.'} = 'Borrar Orden de trabajo.';
     $Self->{Translation}->{'Workorder Edit.'} = 'Editar Orden de trabajo.';

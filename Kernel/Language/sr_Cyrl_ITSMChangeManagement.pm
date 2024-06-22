@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -84,6 +84,9 @@ sub Data {
     $Self->{Translation}->{'Matching'} = 'Подударање';
     $Self->{Translation}->{'Any expression (OR)'} = 'Сваки израз (OR)';
     $Self->{Translation}->{'All expressions (AND)'} = 'Сви изрази (AND)';
+    $Self->{Translation}->{'All expressions depending (AND)'} = '';
+    $Self->{Translation}->{'BypassStateMachine'} = '';
+    $Self->{Translation}->{'BypassStateMachineWO'} = '';
     $Self->{Translation}->{'Expressions'} = 'Изрази';
     $Self->{Translation}->{'Selector'} = 'Бирач';
     $Self->{Translation}->{'Operator'} = 'Оператор';
@@ -313,7 +316,6 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = 'Не може се приказати историјат, јер није дат ChangeID!';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = 'Промена "%s" није нађена у бази података!';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = 'Непознат тип "%s"!';
-    $Self->{Translation}->{'Change History'} = 'Историјат промене';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
     $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = 'Не могу се приказати детаљи историјата јер није дат HistoryEntryID!';
@@ -534,7 +536,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = 'Група ITSMChangeBuilder';
     $Self->{Translation}->{'Group ITSMChangeManager'} = 'Група ITSMChangeManager';
 
-    # Database XML Definition: ITSMChangeManagement.sopm
+    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = 'захтевано';
     $Self->{Translation}->{'pending approval'} = 'одобрење на чекању';
     $Self->{Translation}->{'rejected'} = 'одбијено';
@@ -580,9 +582,6 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this expression?'} = 'Да ли стварно желите да обришете овај израз?';
     $Self->{Translation}->{'Do you really want to delete this action?'} = 'Да ли стварно желите да обришете ову акцију?';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = 'Да ли заиста желите да обришете овај услов?';
-
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
-    $Self->{Translation}->{'Ok'} = 'У реду';
 
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =

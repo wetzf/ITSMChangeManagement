@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -27,7 +27,7 @@ sub Data {
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         '';
-    $Self->{Translation}->{'Priority allocation'} = '';
+    $Self->{Translation}->{'Priority allocation'} = 'Asignar Prioridad';
 
     # Template: AdminITSMChangeNotification
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '';
@@ -56,7 +56,7 @@ sub Data {
     $Self->{Translation}->{'ITSM Change'} = '';
     $Self->{Translation}->{'Justification'} = '';
     $Self->{Translation}->{'Input invalid.'} = '';
-    $Self->{Translation}->{'Impact'} = '';
+    $Self->{Translation}->{'Impact'} = 'Impacto';
     $Self->{Translation}->{'Requested Date'} = '';
 
     # Template: AgentITSMChangeAddFromTemplate
@@ -84,6 +84,9 @@ sub Data {
     $Self->{Translation}->{'Matching'} = '';
     $Self->{Translation}->{'Any expression (OR)'} = '';
     $Self->{Translation}->{'All expressions (AND)'} = '';
+    $Self->{Translation}->{'All expressions depending (AND)'} = '';
+    $Self->{Translation}->{'BypassStateMachine'} = '';
+    $Self->{Translation}->{'BypassStateMachineWO'} = '';
     $Self->{Translation}->{'Expressions'} = '';
     $Self->{Translation}->{'Selector'} = '';
     $Self->{Translation}->{'Operator'} = '';
@@ -182,8 +185,8 @@ sub Data {
     $Self->{Translation}->{'Accounted Time'} = '';
     $Self->{Translation}->{'Change Initiator(s)'} = '';
     $Self->{Translation}->{'CAB'} = '';
-    $Self->{Translation}->{'Last changed'} = '';
-    $Self->{Translation}->{'Last changed by'} = '';
+    $Self->{Translation}->{'Last changed'} = 'Último cambio';
+    $Self->{Translation}->{'Last changed by'} = 'Último cambio por';
     $Self->{Translation}->{'To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS).'} =
         '';
     $Self->{Translation}->{'Download Attachment'} = '';
@@ -313,7 +316,6 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = '';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = '';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = '';
-    $Self->{Translation}->{'Change History'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
     $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = '';
@@ -534,7 +536,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = '';
     $Self->{Translation}->{'Group ITSMChangeManager'} = '';
 
-    # Database XML Definition: ITSMChangeManagement.sopm
+    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = '';
     $Self->{Translation}->{'pending approval'} = '';
     $Self->{Translation}->{'rejected'} = '';
@@ -580,9 +582,6 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '';
-
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
-    $Self->{Translation}->{'Ok'} = '';
 
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =
@@ -649,7 +648,7 @@ sub Data {
     $Self->{Translation}->{'Default type for a workorder. This entry must exist in general catalog class \'ITSM::ChangeManagement::WorkOrder::Type\'.'} =
         '';
     $Self->{Translation}->{'Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = "complex"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js.'} =
-        '';
+        'Defina acciones donde un botón de configuración esté disponible en el widget de objetos vinculados (LinkObject::ViewMode = "complejo"). Tenga en cuenta que estas acciones deben haber registrado los siguientes archivos JS y CSS: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js y Core.Agent .LinkObject.js.';
     $Self->{Translation}->{'Define the signals for each workorder state.'} = '';
     $Self->{Translation}->{'Define which columns are shown in the linked Changes widget (LinkObject::ViewMode = "complex"). Note: Only Change attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default.'} =
         '';

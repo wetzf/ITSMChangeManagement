@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -27,7 +27,7 @@ sub Data {
     $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Kategorie ↔ Auswirkung ↔ Priorität';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
         'Verwalten Sie das Prioritätsergebnis der Kombination von Kategorie ↔ Auswirkung.';
-    $Self->{Translation}->{'Priority allocation'} = 'Priorität zuordnen';
+    $Self->{Translation}->{'Priority allocation'} = 'Prioritäts-Zuordnung';
 
     # Template: AdminITSMChangeNotification
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'ITSM ChangeManagement Benachrichtigungs-Verwaltung';
@@ -41,7 +41,7 @@ sub Data {
     $Self->{Translation}->{'Select a catalog class!'} = 'Wählen Sie eine Katalog-Klasse aus!';
     $Self->{Translation}->{'A catalog class is required!'} = 'Eine Katalog-Klasse ist erforderlich!';
     $Self->{Translation}->{'Add a state transition'} = 'Hinzufügen eines Status-Übergangs';
-    $Self->{Translation}->{'Catalog Class'} = 'Katalog-Klasse';
+    $Self->{Translation}->{'Catalog Class'} = 'Katalogklasse';
     $Self->{Translation}->{'Object Name'} = 'Objekt-Name';
     $Self->{Translation}->{'Overview over state transitions for'} = 'Übersicht über Status-Übergänge für';
     $Self->{Translation}->{'Delete this state transition'} = 'Diesen Status-Übergang löschen';
@@ -84,6 +84,9 @@ sub Data {
     $Self->{Translation}->{'Matching'} = 'Übereinstimmung';
     $Self->{Translation}->{'Any expression (OR)'} = 'Beliebiger logischer Ausdruck (ODER)';
     $Self->{Translation}->{'All expressions (AND)'} = 'Alle logischen Ausdrücke (UND)';
+    $Self->{Translation}->{'All expressions depending (AND)'} = '';
+    $Self->{Translation}->{'BypassStateMachine'} = '';
+    $Self->{Translation}->{'BypassStateMachineWO'} = '';
     $Self->{Translation}->{'Expressions'} = 'Logische Ausdrücke';
     $Self->{Translation}->{'Selector'} = 'Selektor';
     $Self->{Translation}->{'Operator'} = 'Operator';
@@ -104,7 +107,7 @@ sub Data {
     $Self->{Translation}->{'History of %s%s'} = 'Historie von %s%s';
     $Self->{Translation}->{'History Content'} = 'Änderungsverlauf';
     $Self->{Translation}->{'Workorder'} = 'Arbeitsauftrag';
-    $Self->{Translation}->{'Createtime'} = 'Erstellt am';
+    $Self->{Translation}->{'Createtime'} = 'Erstellt';
     $Self->{Translation}->{'Show details'} = 'Details anzeigen';
     $Self->{Translation}->{'Show workorder'} = 'Arbeitsauftrag anzeigen';
 
@@ -118,7 +121,7 @@ sub Data {
     $Self->{Translation}->{'Edit Involved Persons of %s%s'} = 'Beteiligte Personen von %s%s bearbeiten';
     $Self->{Translation}->{'Involved Persons'} = 'Beteiligte Personen';
     $Self->{Translation}->{'ChangeManager'} = 'Change-Manager';
-    $Self->{Translation}->{'User invalid.'} = 'Ungültiger Benutzer';
+    $Self->{Translation}->{'User invalid.'} = 'Ungültiger Benutzer.';
     $Self->{Translation}->{'ChangeBuilder'} = 'ChangeBuilder';
     $Self->{Translation}->{'Change Advisory Board'} = 'Change-Advisory-Board';
     $Self->{Translation}->{'CAB Template'} = 'CAB-Vorlage';
@@ -214,7 +217,7 @@ sub Data {
     # Template: AgentITSMWorkOrderAdd
     $Self->{Translation}->{'Add Workorder to %s%s'} = 'Arbeitsauftrag zu %s%s hinzufügen';
     $Self->{Translation}->{'Instruction'} = 'Anweisung';
-    $Self->{Translation}->{'Invalid workorder type.'} = 'Ungültiger Arbeitsauftrags-Typ';
+    $Self->{Translation}->{'Invalid workorder type.'} = 'Ungültiger Arbeitsauftrags-Typ.';
     $Self->{Translation}->{'The planned start time must be before the planned end time!'} = 'Die geplante Startzeit muss vor der geplanten Endzeit liegen!';
     $Self->{Translation}->{'Invalid format.'} = 'Ungültiges Format.';
 
@@ -313,10 +316,9 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = 'Kann History nicht anzeigen, keine Change-ID übermittelt!';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = 'Change "%s" in der Datenbank nicht gefunden!';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = 'Unbekannter Typ "%s" gefunden!';
-    $Self->{Translation}->{'Change History'} = 'Change-Historie';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
-    $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = 'Konnte Historien-Details nicht anzeigen, weil keine Historien-Eintrags-ID übermittelt wurde.';
+    $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = 'Konnte Historien-Details nicht anzeigen, weil keine Historien-Eintrags-ID übermittelt wurde!';
     $Self->{Translation}->{'HistoryEntry "%s" not found in database!'} = 'Historien-Eintrag "%s" in Datenbank nicht gefunden!';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeInvolvedPersons.pm
@@ -395,7 +397,7 @@ sub Data {
 
     # Perl Module: Kernel/Modules/AgentITSMChangeTemplate.pm
     $Self->{Translation}->{'The change "%s" could not be serialized.'} = 'Der Change "%s" konnte nicht serialisiert werden.';
-    $Self->{Translation}->{'Could not update the template "%s".'} = 'Konnte Vorlage "%s" nicht aktualisieren!';
+    $Self->{Translation}->{'Could not update the template "%s".'} = 'Konnte Vorlage "%s" nicht aktualisieren.';
     $Self->{Translation}->{'Could not delete change "%s".'} = 'Konnte Change "%s" nicht löschen.';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeTimeSlot.pm
@@ -456,7 +458,7 @@ sub Data {
     $Self->{Translation}->{'Was not able to take the workorder %s!'} = 'Konnte Arbeitsauftrag %s nicht nehmen!';
 
     # Perl Module: Kernel/Modules/AgentITSMWorkOrderTemplate.pm
-    $Self->{Translation}->{'The workorder "%s" could not be serialized.'} = 'Der Arbeitsauftrag "%s" konnte nicht serialisiert werden!';
+    $Self->{Translation}->{'The workorder "%s" could not be serialized.'} = 'Der Arbeitsauftrag "%s" konnte nicht serialisiert werden.';
 
     # Perl Module: Kernel/Output/HTML/Layout/ITSMChange.pm
     $Self->{Translation}->{'Need config option %s!'} = 'Benötige Systemkonfigurations-Option %s!';
@@ -476,8 +478,8 @@ sub Data {
     # Perl Module: Kernel/System/ITSMChange/History.pm
     $Self->{Translation}->{'%s: %s'} = '%s: %s';
     $Self->{Translation}->{'New Action (ID=%s)'} = 'Neue Aktion (ID=%s)';
-    $Self->{Translation}->{'Action (ID=%s) deleted'} = 'Aktion (ID=%s) gelöscht.';
-    $Self->{Translation}->{'All Actions of Condition (ID=%s) deleted'} = 'Alle Aktionen der Bedingung (ID=%s) gelöscht.';
+    $Self->{Translation}->{'Action (ID=%s) deleted'} = 'Aktion (ID=%s) gelöscht';
+    $Self->{Translation}->{'All Actions of Condition (ID=%s) deleted'} = 'Alle Aktionen der Bedingung (ID=%s) gelöscht';
     $Self->{Translation}->{'Action (ID=%s) executed: %s'} = 'Aktion (ID=%s) ausgeführt: %s';
     $Self->{Translation}->{'%s (Action ID=%s): (new=%s, old=%s)'} = '%s (Aktions-ID=%s): (neu=%s, alt=%s)';
     $Self->{Translation}->{'Change (ID=%s) reached actual end time.'} = 'Change (ID=%s) hat die tatsächliche Endzeit erreicht.';
@@ -534,7 +536,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = 'Gruppe ITSMChangeBuilder';
     $Self->{Translation}->{'Group ITSMChangeManager'} = 'Gruppe ITSMChangeManager';
 
-    # Database XML Definition: ITSMChangeManagement.sopm
+    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = 'Angefragt';
     $Self->{Translation}->{'pending approval'} = 'Ausstehende Genehmigung';
     $Self->{Translation}->{'rejected'} = 'Zurückgewiesen';
@@ -581,12 +583,9 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this action?'} = 'Wollen Sie diese Aktion wirklich löschen?';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = 'Wollen Sie diese Bedingung wirklich löschen?';
 
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
-    $Self->{Translation}->{'Ok'} = 'Ok';
-
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =
-        'Eine Liste der Agenten, die Berechtigungen haben, Arbeitsaufträge zu übernehmen haben. "Schlüssel" ist der Anmeldename. "Inhalt" ist 0 oder 1';
+        'Eine Liste der Agenten, die Berechtigungen haben, Arbeitsaufträge zu übernehmen haben. "Schlüssel" ist der Anmeldename. "Inhalt" ist 0 oder 1.';
     $Self->{Translation}->{'A list of workorder states, at which the ActualStartTime of a workorder will be set if it was empty at this point.'} =
         'Eine Liste von Arbeitsauftrags-Status, bei denen die tatsächliche Startzeit eines Arbeitsauftrags festgelegt wird, wenn diese vorher nicht festgelegt war.';
     $Self->{Translation}->{'Actual end time'} = 'Tatsächliche Endzeit';
@@ -599,7 +598,7 @@ sub Data {
     $Self->{Translation}->{'Add a workorder to the change.'} = 'Fügt einen Arbeitsauftrag zum Change hinzu.';
     $Self->{Translation}->{'Add from template'} = 'Aus Vorlage hinzufügen';
     $Self->{Translation}->{'Admin of the CIP matrix.'} = 'Admin der CIP-Matrix.';
-    $Self->{Translation}->{'Admin of the state machine.'} = 'Admin der State Machine';
+    $Self->{Translation}->{'Admin of the state machine.'} = 'Admin der State Machine.';
     $Self->{Translation}->{'Agent interface notification module to see the number of change advisory boards.'} =
         'Benachrichtigung-Modul für das Agenten-Interface um die Zahl der Change-Advisory-Boards anzuzeigen.';
     $Self->{Translation}->{'Agent interface notification module to see the number of changes managed by the user.'} =
@@ -610,17 +609,17 @@ sub Data {
         'Benachrichtigung-Modul für das Agenten-Interface, um die Anzahl der Arbeitsaufträge anzuzeigen.';
     $Self->{Translation}->{'CAB Member Search'} = 'CAB-Mitgliedersuche';
     $Self->{Translation}->{'Cache time in minutes for the change management toolbars. Default: 3 hours (180 minutes).'} =
-        'Cache-Zeit in Minuten für die Change Management Werkzeugleiste. Standard: 3 Stunden (180 Minuten)';
+        'Cache-Zeit in Minuten für die Change Management Werkzeugleiste. Standard: 3 Stunden (180 Minuten).';
     $Self->{Translation}->{'Cache time in minutes for the change management. Default: 5 days (7200 minutes).'} =
         'Cache-Zeit in Minuten für das Change-Management. Standard: 5 Tage (7200 Minuten).';
     $Self->{Translation}->{'Change CAB Templates'} = 'Change-CAB Vorlagen';
     $Self->{Translation}->{'Change History.'} = 'Change-Historie.';
-    $Self->{Translation}->{'Change Involved Persons.'} = 'Change-Beteiligte Personen';
+    $Self->{Translation}->{'Change Involved Persons.'} = 'Change-Beteiligte Personen.';
     $Self->{Translation}->{'Change Overview "Small" Limit'} = 'Change-Übersicht Limit für Ansicht "Klein"';
     $Self->{Translation}->{'Change Overview.'} = 'Change-Übersicht.';
     $Self->{Translation}->{'Change Print.'} = 'Change-Ausdruck.';
     $Self->{Translation}->{'Change Schedule'} = 'Change-Zeitplan';
-    $Self->{Translation}->{'Change Schedule.'} = '';
+    $Self->{Translation}->{'Change Schedule.'} = 'Change-Planung.';
     $Self->{Translation}->{'Change Settings'} = 'Change-Einstellungen';
     $Self->{Translation}->{'Change Zoom'} = 'Change-Detailansicht';
     $Self->{Translation}->{'Change Zoom.'} = 'Change-Detailansicht.';
@@ -644,12 +643,12 @@ sub Data {
     $Self->{Translation}->{'Create Change (from Template)'} = 'Change erstellen (aus Vorlage)';
     $Self->{Translation}->{'Create a change (from template) from this ticket.'} = 'Einen Change (aus Vorlage) aus diesem Ticket erstellen.';
     $Self->{Translation}->{'Create a change from this ticket.'} = 'Einen Change aus diesem Ticket erstellen.';
-    $Self->{Translation}->{'Create and manage ITSM Change Management notifications.'} = 'ITSM Change-Benachrichtigungen erstellen und verwalten';
+    $Self->{Translation}->{'Create and manage ITSM Change Management notifications.'} = 'ITSM Change-Benachrichtigungen erstellen und verwalten.';
     $Self->{Translation}->{'Create and manage change notifications.'} = 'Change-Benachrichtigungen erstellen und verwalten.';
     $Self->{Translation}->{'Default type for a workorder. This entry must exist in general catalog class \'ITSM::ChangeManagement::WorkOrder::Type\'.'} =
         'Standardtyp für einen Arbeitsauftrag. Dieser Eintrag muss in der General Katalog-Klasse \'ITSM::ChangeManagement::WorkOrder::Type\' existieren.';
     $Self->{Translation}->{'Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = "complex"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js.'} =
-        'Definieren Sie Actions, in denen im Verknüpfte-Objekte-Widget ein Einstellungen-Knopf verfügbar sein soll (LinkObject::ViewMode = "complex"). Bitte beachten Sie, dass für diese Actions die folgenden JS- und CSS-Dateien registriert sein müssen:  Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js und Core.Agent.LinkObject.js.';
+        'Definieren Sie Actions, in denen im Verknüpfte-Objekte-Widget ein Einstellungen-Knopf verfügbar sein soll (LinkObject::ViewMode = "complex"). Bitte beachten Sie, dass für diese Actions die folgenden JS- und CSS-Dateien registriert sein müssen: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js und Core.Agent.LinkObject.js.';
     $Self->{Translation}->{'Define the signals for each workorder state.'} = 'Definieren eines Signals für einen Arbeitsauftragsstatus.';
     $Self->{Translation}->{'Define which columns are shown in the linked Changes widget (LinkObject::ViewMode = "complex"). Note: Only Change attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default.'} =
         'Definiert, welche Spalten im Widget "Verknüpfte Objekte" (LinkObject::ViewMode = "complex"). Bitte beachten: Es sind nur Change-Attribute für die Standardspalten erlaubt. Mögliche Einstellungen: 0 = Deaktiviert, 1 = Verfügbar, 2 = Standardmäßig aktiviert.';
@@ -863,22 +862,22 @@ sub Data {
     $Self->{Translation}->{'Forward schedule of changes. Overview over approved changes.'} =
         'Zeitplan für Changes. Übersicht über genehmigte Changes.';
     $Self->{Translation}->{'History Zoom'} = 'Historiendetails';
-    $Self->{Translation}->{'ITSM Change CAB Templates.'} = 'ITSM Change-CAB Vorlagen';
+    $Self->{Translation}->{'ITSM Change CAB Templates.'} = 'ITSM Change-CAB Vorlagen.';
     $Self->{Translation}->{'ITSM Change Condition Edit.'} = 'ITSM Change-Bedingungen bearbeiten.';
-    $Self->{Translation}->{'ITSM Change Condition Overview.'} = 'ITSM Change-Bedingungs-Übersicht';
-    $Self->{Translation}->{'ITSM Change Manager Overview.'} = 'ITSM Change-Manager-Übersicht';
+    $Self->{Translation}->{'ITSM Change Condition Overview.'} = 'ITSM Change-Bedingungs-Übersicht.';
+    $Self->{Translation}->{'ITSM Change Manager Overview.'} = 'ITSM Change-Manager-Übersicht.';
     $Self->{Translation}->{'ITSM Change Notifications'} = 'ITSM Change-Benachrichtigungen';
-    $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'ITSM Change PIR-Übersicht';
+    $Self->{Translation}->{'ITSM Change PIR Overview.'} = 'ITSM Change PIR-Übersicht.';
     $Self->{Translation}->{'ITSM Change notification rules'} = 'ITSM Change Benachrichtigungs-Regeln';
     $Self->{Translation}->{'ITSM Changes'} = 'ITSM Changes';
-    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'ITSM Meine CABs-Übersicht';
-    $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'ITSM "Meine Changes"-Übersicht';
-    $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'ITSM "Meine Arbeitsaufträge"-Übersicht';
+    $Self->{Translation}->{'ITSM MyCAB Overview.'} = 'ITSM Meine CABs-Übersicht.';
+    $Self->{Translation}->{'ITSM MyChanges Overview.'} = 'ITSM "Meine Changes"-Übersicht.';
+    $Self->{Translation}->{'ITSM MyWorkorders Overview.'} = 'ITSM "Meine Arbeitsaufträge"-Übersicht.';
     $Self->{Translation}->{'ITSM Template Delete.'} = 'ITSM Vorlage löschen.';
     $Self->{Translation}->{'ITSM Template Edit CAB.'} = 'ITSM Vorlage CAB bearbeiten.';
     $Self->{Translation}->{'ITSM Template Edit Content.'} = 'ITSM Vorlage Inhalt bearbeiten.';
     $Self->{Translation}->{'ITSM Template Edit.'} = 'ITSM Vorlage bearbeiten.';
-    $Self->{Translation}->{'ITSM Template Overview.'} = 'ITSM Vorlagen-Übersicht';
+    $Self->{Translation}->{'ITSM Template Overview.'} = 'ITSM Vorlagen-Übersicht.';
     $Self->{Translation}->{'ITSM event module that cleans up conditions.'} = 'ITSM-Ereignismodul zum Aufräumen von Bedingungen.';
     $Self->{Translation}->{'ITSM event module that deletes the cache for a toolbar.'} = 'ITSM-Ereignismodul, das den Cache für eine Werkzeugleiste löscht.';
     $Self->{Translation}->{'ITSM event module that deletes the history of changes.'} = 'ITSM-Ereignismodul, das die Historie von Changes löscht.';
@@ -901,7 +900,7 @@ sub Data {
     $Self->{Translation}->{'List of all workorder events to be displayed in the GUI.'} = 'Liste aller Arbeitsauftrags-Ereignisse, die in der grafischen Benutzeroberfläche angezeigt werden sollen.';
     $Self->{Translation}->{'Lookup of CAB members for autocompletion.'} = 'Nachschlagen von CAB-Mitgliedern zur automatischen Vervollständigung.';
     $Self->{Translation}->{'Lookup of agents, used for autocompletion.'} = 'Nachschlagen von Agenten zur automatischen Vervollständigung.';
-    $Self->{Translation}->{'Manage ITSM Change Management state machine.'} = 'ITSM Change Management State Machine';
+    $Self->{Translation}->{'Manage ITSM Change Management state machine.'} = 'ITSM Change Management State Machine.';
     $Self->{Translation}->{'Manage the category ↔ impact ↔ priority matrix.'} = 'Die Kategorie ↔ Auswirkung ↔ Priorität - Matrix verwalten.';
     $Self->{Translation}->{'Module to check if WorkOrderAdd or WorkOrderAddFromTemplate should be permitted.'} =
         'Modul zur Überprüfung ob das Hinzufügen von Arbeitsaufträgen oder Hinzufügen von Arbeitsaufträgen aus Vorlagen erlaubt ist.';
@@ -991,7 +990,7 @@ sub Data {
     $Self->{Translation}->{'Save change as a template.'} = 'Change als Vorlage speichern.';
     $Self->{Translation}->{'Save workorder as a template.'} = 'Arbeitsauftrag als Vorlage speichern.';
     $Self->{Translation}->{'Schedule'} = 'Zeitplan';
-    $Self->{Translation}->{'Screen after creating a workorder'} = 'Ansicht nach Arbeitsauftrags-Erstellung';
+    $Self->{Translation}->{'Screen after creating a workorder'} = 'Ansicht nach Arbeitsauftragserstellung';
     $Self->{Translation}->{'Search Changes'} = 'Changes suchen';
     $Self->{Translation}->{'Search Changes.'} = 'Changes suchen.';
     $Self->{Translation}->{'Selects the change number generator module. "AutoIncrement" increments the change number, the SystemID and the counter are used with SystemID.counter format (e.g. 100118, 100119). With "Date", the change numbers will be generated by the current date and a counter; this format looks like Year.Month.Day.counter, e.g. 2010062400001, 2010062400002. With "DateChecksum", the counter will be appended as checksum to the string of date plus the SystemID. The checksum will be rotated on a daily basis. This format looks like Year.Month.Day.SystemID.Counter.CheckSum, e.g. 2010062410000017, 2010062410000026.'} =
@@ -1022,13 +1021,13 @@ sub Data {
     $Self->{Translation}->{'Shows a link in the menu that allows moving the time slot of a change in its zoom view of the agent interface.'} =
         'Zeigt in der Change-Detailansicht des Agenten-Interface einen Menü-Link zum Ändern des Zeitfensters.';
     $Self->{Translation}->{'Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt einen Link im Menü an, über den ein Arbeitsauftrag in die ITSM-Detailansicht in der Agentenoberfläche übernommen werden kann.';
     $Self->{Translation}->{'Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface.'} =
         'Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Zugriff auf die Bedingungen.';
     $Self->{Translation}->{'Shows a link in the menu to access the history of a change in the its zoom view of the agent interface.'} =
         'Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Zugriff auf die Historie.';
     $Self->{Translation}->{'Shows a link in the menu to access the history of a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt einen Link im Menü an, über den die Historie eines Arbeitsauftrags in der ITSM-Detailansicht des Agentenbereichs angezeigt werden kann.';
     $Self->{Translation}->{'Shows a link in the menu to add a workorder in the change zoom view of the agent interface.'} =
         'Zeigt im Menü der Change-Detailansicht im Agenten-Interface einen Link zum Hinzufügen eines Arbeitsauftrags.';
     $Self->{Translation}->{'Shows a link in the menu to delete a change in its zoom view of the agent interface.'} =
@@ -1038,15 +1037,15 @@ sub Data {
     $Self->{Translation}->{'Shows a link in the menu to edit a change in the its zoom view of the agent interface.'} =
         'Zeigt in der Change Zoom Ansicht des Agenten-Interfaces einen Menu Link zum Bearbeiten.';
     $Self->{Translation}->{'Shows a link in the menu to edit a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt einen Link im Menü an, über den ein Arbeitsauftrag in der ITSM-Detailansicht im Agentenbereich bearbeitet werden kann.';
     $Self->{Translation}->{'Shows a link in the menu to go back in the change zoom view of the agent interface.'} =
         'Zeigt in der Change-Detailansicht des Agenten-Interface einen Menü-Link zum Zurückgehen.';
     $Self->{Translation}->{'Shows a link in the menu to go back in the workorder zoom view of the agent interface.'} =
         'Zeigt im Menü der Arbeitsauftrag-Detailansicht im Agenten-Interface einen Link zum Zurückgehen.';
     $Self->{Translation}->{'Shows a link in the menu to print a change in the its zoom view of the agent interface.'} =
-        'Zeigt in der "Change Zoom" Ansicht der Agenten-Oberfläche einen  Menu Link der es erlaubt den Change auszudrucken.';
+        'Zeigt in der "Change Zoom" Ansicht der Agenten-Oberfläche einen Menu Link der es erlaubt den Change auszudrucken.';
     $Self->{Translation}->{'Shows a link in the menu to print a workorder in the its zoom view of the agent interface.'} =
-        '';
+        'Zeigt einen Link im Menü an, über den ein Arbeitsauftrag in der ITSM-Detailansicht im Agentenbereich gedruckt werden kann.';
     $Self->{Translation}->{'Shows a link in the menu to reset a change and its workorders in its zoom view of the agent interface.'} =
         'Zeigt in der Change-Detailansicht des Agenten-Interface einen Menü-Link, der es erlaubt den Change und seine Arbeitsaufträge zurückzusetzen.';
     $Self->{Translation}->{'Shows a link in the menu to show the involved persons in a change, in the zoom view of the change in the agent interface.'} =
@@ -1067,7 +1066,7 @@ sub Data {
     $Self->{Translation}->{'The identifier for a workorder, e.g. Workorder#, MyWorkorder#. The default is Workorder#.'} =
         'Arbeitsauftrag-Identifikator, z. B. Arbeitsauftrag#, MeineArbeitsaufträge#. Als Standard wird "Workorder#" verwendet.';
     $Self->{Translation}->{'This ACL module restricts the usuage of the ticket types that are defined in the sysconfig option \'ITSMChange::AddChangeLinkTicketTypes\', to users of the groups as defined in "ITSMChange::RestrictTicketTypes::Groups". As this ACL could collide with other ACLs which are also related to the ticket type, this sysconfig option is disabled by default and should only be activated if needed.'} =
-        'Dieses ACL Modul beschränkt die Nutzung von Ticket-Typen, die in der Systemkonfiguration unter "ITSMChange::AddChangeLinkTicketTypes" definiert sind, zu den Nutzern der Gruppen aus "ITSMChange::RestrictTicketTypes::Groups". Weil diese ACL mit anderen ACLs, welche gebunden an den Tickettypen sind, kollidieren könnte, ist diese Option standardmäßig deaktiviert und sollte nur nach Bedarf aktiviert werden. ';
+        'Dieses ACL Modul beschränkt die Nutzung von Ticket-Typen, die in der Systemkonfiguration unter "ITSMChange::AddChangeLinkTicketTypes" definiert sind, zu den Nutzern der Gruppen aus "ITSMChange::RestrictTicketTypes::Groups". Weil diese ACL mit anderen ACLs, welche gebunden an den Tickettypen sind, kollidieren könnte, ist diese Option standardmäßig deaktiviert und sollte nur nach Bedarf aktiviert werden.';
     $Self->{Translation}->{'Time Slot'} = 'Zeitfenster';
     $Self->{Translation}->{'Types of tickets, where in the ticket zoom view a link to add a change will be displayed.'} =
         'Typen der Tickets, in denen in der Ticket-Detailansicht ein Link angezeigt wird, um einen Change zu erstellen.';

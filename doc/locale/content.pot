@@ -1,0 +1,3059 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
+# This file is distributed under the same license as the OTOBO ITSMChangeManagement Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OTOBO ITSMChangeManagement Guide rel-11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-22 04:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../content/index.rst:20
+msgid "Sacrifice to Sphinx"
+msgstr ""
+
+#: ../../content/index.rst:23
+msgid "Description"
+msgstr ""
+
+#: ../../content/index.rst:24
+msgid "The OTOBO::ITSM Change Management package."
+msgstr ""
+
+#: ../../content/index.rst:27
+msgid "System requirements"
+msgstr ""
+
+#: ../../content/index.rst:30
+msgid "Framework"
+msgstr ""
+
+#: ../../content/index.rst:31
+msgid "OTOBO 11.0.x"
+msgstr ""
+
+#: ../../content/index.rst:34
+msgid "Packages"
+msgstr ""
+
+#: ../../content/index.rst:35
+msgid "ITSMCore 11.0.1"
+msgstr ""
+
+#: ../../content/index.rst:38
+msgid "Third-party software"
+msgstr ""
+
+#: ../../content/index.rst:39
+msgid "\\-"
+msgstr ""
+
+#: ../../content/index.rst:42
+msgid "Usage"
+msgstr ""
+
+#: ../../content/index.rst:45
+msgid "Setup"
+msgstr ""
+
+#: ../../content/index.rst:48
+msgid "Configuration Reference"
+msgstr ""
+
+#: ../../content/index.rst:51
+msgid "Core::Cache"
+msgstr ""
+
+#: ../../content/index.rst:54
+msgid "ITSMChange::CacheTTL"
+msgstr ""
+
+#: ../../content/index.rst:55
+msgid "Cache time in minutes for the change management. Default: 5 days (7200 minutes)."
+msgstr ""
+
+#: ../../content/index.rst:58
+msgid "ITSMChange::ToolBar::CacheTTL"
+msgstr ""
+
+#: ../../content/index.rst:59
+msgid "Cache time in minutes for the change management toolbars. Default: 3 hours (180 minutes)."
+msgstr ""
+
+#: ../../content/index.rst:62
+msgid "Core::DB::Mirror"
+msgstr ""
+
+#: ../../content/index.rst:65
+msgid "ITSMChange::ChangeSearch::MirrorDB"
+msgstr ""
+
+#: ../../content/index.rst:66
+msgid "Defines if the change search and the workorder search functions could use the mirror DB."
+msgstr ""
+
+#: ../../content/index.rst:69
+msgid "Core::DynamicFields::ObjectTypeRegistration"
+msgstr ""
+
+#: ../../content/index.rst:72
+msgid "DynamicFields::ObjectType###ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:73
+#: ../../content/index.rst:77
+msgid "DynamicField object registration."
+msgstr ""
+
+#: ../../content/index.rst:76
+msgid "DynamicFields::ObjectType###ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:80
+msgid "Core::Event::DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:83
+msgid "DynamicField::EventModulePost###100-UpdateITSMChangeConditions"
+msgstr ""
+
+#: ../../content/index.rst:84
+msgid "DynamicField event module to handle the update of conditions if dynamic fields are added, updated or deleted."
+msgstr ""
+
+#: ../../content/index.rst:87
+msgid "Core::Event::ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:90
+msgid "ITSMChange::EventModule###01-HistoryAdd"
+msgstr ""
+
+#: ../../content/index.rst:91
+#: ../../content/index.rst:123
+#: ../../content/index.rst:134
+msgid "ITSM event module that updates the history of changes."
+msgstr ""
+
+#: ../../content/index.rst:94
+msgid "ITSMChange::EventModule###02-Notification"
+msgstr ""
+
+#: ../../content/index.rst:95
+#: ../../content/index.rst:138
+#: ../../content/index.rst:153
+#: ../../content/index.rst:172
+msgid "ITSM event module that sends notifications."
+msgstr ""
+
+#: ../../content/index.rst:98
+msgid "ITSMChange::EventModule###03-Condition"
+msgstr ""
+
+#: ../../content/index.rst:99
+#: ../../content/index.rst:142
+#: ../../content/index.rst:176
+msgid "ITSM event module that matches conditions and executes actions."
+msgstr ""
+
+#: ../../content/index.rst:102
+msgid "ITSMChange::EventModule###80-ToolBarChangeManagerCacheDelete"
+msgstr ""
+
+#: ../../content/index.rst:103
+#: ../../content/index.rst:107
+#: ../../content/index.rst:111
+#: ../../content/index.rst:180
+msgid "ITSM event module that deletes the cache for a toolbar."
+msgstr ""
+
+#: ../../content/index.rst:106
+msgid "ITSMChange::EventModule###81-ToolBarMyChangesCacheDelete"
+msgstr ""
+
+#: ../../content/index.rst:110
+msgid "ITSMChange::EventModule###82-ToolBarMyCABCacheDelete"
+msgstr ""
+
+#: ../../content/index.rst:114
+msgid "ITSMChange::EventModule###90-ConditionDelete"
+msgstr ""
+
+#: ../../content/index.rst:115
+msgid "ITSM event module that cleans up conditions."
+msgstr ""
+
+#: ../../content/index.rst:118
+msgid "ITSMChange::EventModule###91-HistoryDelete"
+msgstr ""
+
+#: ../../content/index.rst:119
+msgid "ITSM event module that deletes the history of changes."
+msgstr ""
+
+#: ../../content/index.rst:122
+msgid "ITSMChangeManagementNotification::EventModule###01-HistoryAdd"
+msgstr ""
+
+#: ../../content/index.rst:126
+msgid "ITSMChange::EventModule###1000-GenericInterface"
+msgstr ""
+
+#: ../../content/index.rst:127
+#: ../../content/index.rst:184
+msgid "Performs the configured action for each event (as an Invoker) for each configured Webservice."
+msgstr ""
+
+#: ../../content/index.rst:130
+msgid "Core::Event::ITSMChangeCronjob"
+msgstr ""
+
+#: ../../content/index.rst:133
+msgid "ITSMChangeCronjob::EventModule###01-HistoryAdd"
+msgstr ""
+
+#: ../../content/index.rst:137
+msgid "ITSMChangeCronjob::EventModule###02-Notification"
+msgstr ""
+
+#: ../../content/index.rst:141
+msgid "ITSMChangeCronjob::EventModule###03-Condition"
+msgstr ""
+
+#: ../../content/index.rst:145
+msgid "Core::Event::ITSMCondition"
+msgstr ""
+
+#: ../../content/index.rst:148
+msgid "ITSMCondition::EventModule###01-HistoryAdd"
+msgstr ""
+
+#: ../../content/index.rst:149
+msgid "ITSM event module that updates the history of conditions."
+msgstr ""
+
+#: ../../content/index.rst:152
+msgid "ITSMCondition::EventModule###02-Notification"
+msgstr ""
+
+#: ../../content/index.rst:156
+msgid "Core::Event::ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:159
+msgid "ITSMWorkOrder::EventModule###01-WorkOrderNumberCalc"
+msgstr ""
+
+#: ../../content/index.rst:160
+msgid "ITSM event module to recalculate the workorder numbers."
+msgstr ""
+
+#: ../../content/index.rst:163
+msgid "ITSMWorkOrder::EventModule###02-WorkOrderActualTimesSet"
+msgstr ""
+
+#: ../../content/index.rst:164
+msgid "ITSM event module to set the actual start and end times of workorders."
+msgstr ""
+
+#: ../../content/index.rst:167
+msgid "ITSMWorkOrder::EventModule###03-HistoryAdd"
+msgstr ""
+
+#: ../../content/index.rst:168
+msgid "ITSM event module that updates the history of workorders."
+msgstr ""
+
+#: ../../content/index.rst:171
+msgid "ITSMWorkOrder::EventModule###04-Notification"
+msgstr ""
+
+#: ../../content/index.rst:175
+msgid "ITSMWorkOrder::EventModule###05-Condition"
+msgstr ""
+
+#: ../../content/index.rst:179
+msgid "ITSMWorkOrder::EventModule###80-ToolBarMyWorkOrdersCacheDelete"
+msgstr ""
+
+#: ../../content/index.rst:183
+msgid "ITSMWorkOrder::EventModule###1000-GenericInterface"
+msgstr ""
+
+#: ../../content/index.rst:187
+msgid "Core::ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:190
+msgid "ITSMChange::AddChangeLinkTicketTypes"
+msgstr ""
+
+#: ../../content/index.rst:191
+msgid "Types of tickets, where in the ticket zoom view a link to add a change will be displayed."
+msgstr ""
+
+#: ../../content/index.rst:194
+msgid "ITSMChange::RestrictTicketTypes::Groups"
+msgstr ""
+
+#: ../../content/index.rst:195
+msgid "Only users of these groups have the permission to use the ticket types as defined in \"ITSMChange::AddChangeLinkTicketTypes\" if the feature \"Ticket::Acl::Module###200-Ticket::Acl::Module\" is enabled."
+msgstr ""
+
+#: ../../content/index.rst:198
+msgid "ITSMChange::Hook"
+msgstr ""
+
+#: ../../content/index.rst:199
+msgid "The identifier for a change, e.g. Change#, MyChange#. The default is Change#."
+msgstr ""
+
+#: ../../content/index.rst:202
+msgid "ITSMChange::StateLock::AllowEndStates"
+msgstr ""
+
+#: ../../content/index.rst:203
+msgid "Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state."
+msgstr ""
+
+#: ../../content/index.rst:206
+msgid "ITSMChange::State::Signal"
+msgstr ""
+
+#: ../../content/index.rst:207
+msgid "Defines the signals for each ITSM change state."
+msgstr ""
+
+#: ../../content/index.rst:210
+msgid "ITSMChange::Category::Default"
+msgstr ""
+
+#: ../../content/index.rst:211
+msgid "Defines the default value for the category of a change."
+msgstr ""
+
+#: ../../content/index.rst:214
+msgid "ITSMChange::Impact::Default"
+msgstr ""
+
+#: ../../content/index.rst:215
+msgid "Defines the default value for the impact of a change."
+msgstr ""
+
+#: ../../content/index.rst:218
+msgid "ITSMChange::Permission###06-AddWorkOrderCheck"
+msgstr ""
+
+#: ../../content/index.rst:219
+msgid "Module to check if WorkOrderAdd or WorkOrderAddFromTemplate should be permitted."
+msgstr ""
+
+#: ../../content/index.rst:222
+msgid "ITSMChange::Permission###10-ChangeManagerCheck"
+msgstr ""
+
+#: ../../content/index.rst:223
+#: ../../content/index.rst:555
+msgid "Module to check the change manager."
+msgstr ""
+
+#: ../../content/index.rst:226
+msgid "ITSMChange::Permission###20-ChangeBuilderCheck"
+msgstr ""
+
+#: ../../content/index.rst:227
+#: ../../content/index.rst:559
+msgid "Module to check the change builder."
+msgstr ""
+
+#: ../../content/index.rst:230
+msgid "ITSMChange::Permission###30-ChangeAgentCheck"
+msgstr ""
+
+#: ../../content/index.rst:231
+msgid "Module to check the agent."
+msgstr ""
+
+#: ../../content/index.rst:234
+msgid "ITSMChange::Permission###40-CABCheck"
+msgstr ""
+
+#: ../../content/index.rst:235
+#: ../../content/index.rst:567
+msgid "Module to check the CAB members."
+msgstr ""
+
+#: ../../content/index.rst:238
+msgid "ITSMChange::NumberGenerator"
+msgstr ""
+
+#: ../../content/index.rst:239
+msgid "Selects the change number generator module. \"AutoIncrement\" increments the change number, the SystemID and the counter are used with SystemID.counter format (e.g. 100118, 100119). With \"Date\", the change numbers will be generated by the current date and a counter; this format looks like Year.Month.Day.counter, e.g. 2010062400001, 2010062400002. With \"DateChecksum\", the counter will be appended as checksum to the string of date plus the SystemID. The checksum will be rotated on a daily basis. This format looks like Year.Month.Day.SystemID.Counter.CheckSum, e.g. 2010062410000017, 2010062410000026."
+msgstr ""
+
+#: ../../content/index.rst:242
+msgid "ITSMChange::NumberGenerator::MinCounterSize"
+msgstr ""
+
+#: ../../content/index.rst:243
+#: ../../content/index.rst:247
+msgid "Sets the minimal change counter size (if \"AutoIncrement\" was selected as ITSMChange::NumberGenerator). Default is 5, this means the counter starts from 10000."
+msgstr ""
+
+#: ../../content/index.rst:246
+msgid "ITSMChange::NumberGenerator::AutoIncrement::MinCounterSize"
+msgstr ""
+
+#: ../../content/index.rst:250
+msgid "ITSMChange::NumberGenerator::Date::UseFormattedCounter"
+msgstr ""
+
+#: ../../content/index.rst:251
+msgid "Enables the minimal change counter size (if \"Date\" was selected as ITSMChange::NumberGenerator)."
+msgstr ""
+
+#: ../../content/index.rst:254
+msgid "Core::ITSMCondition::Action::ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:257
+msgid "ITSMChange::Mapping::Action::Object::Attribute"
+msgstr ""
+
+#: ../../content/index.rst:258
+#: ../../content/index.rst:380
+msgid "Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:261
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###ChangeStateID"
+msgstr ""
+
+#: ../../content/index.rst:262
+#: ../../content/index.rst:384
+msgid "Defines the operators that are selectable for the attribute ChangeStateID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:265
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###ChangeTitle"
+msgstr ""
+
+#: ../../content/index.rst:266
+#: ../../content/index.rst:388
+msgid "Defines the operators that are selectable for the attribute ChangeTitle in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:269
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###CategoryID"
+msgstr ""
+
+#: ../../content/index.rst:270
+#: ../../content/index.rst:392
+msgid "Defines the operators that are selectable for the attribute CategoryID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:273
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###ImpactID"
+msgstr ""
+
+#: ../../content/index.rst:274
+#: ../../content/index.rst:396
+msgid "Defines the operators that are selectable for the attribute ImpactID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:277
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###PriorityID"
+msgstr ""
+
+#: ../../content/index.rst:278
+#: ../../content/index.rst:400
+msgid "Defines the operators that are selectable for the attribute PriorityID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:281
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###ChangeManagerID"
+msgstr ""
+
+#: ../../content/index.rst:282
+#: ../../content/index.rst:404
+msgid "Defines the operators that are selectable for the attribute ChangeManagerID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:285
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###ChangeBuilderID"
+msgstr ""
+
+#: ../../content/index.rst:286
+#: ../../content/index.rst:408
+msgid "Defines the operators that are selectable for the attribute ChangeBuilderID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:289
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###RequestedTime"
+msgstr ""
+
+#: ../../content/index.rst:290
+#: ../../content/index.rst:412
+msgid "Defines the operators that are selectable for the attribute RequestedTime in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:293
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###PlannedStartTime"
+msgstr ""
+
+#: ../../content/index.rst:294
+#: ../../content/index.rst:349
+#: ../../content/index.rst:416
+#: ../../content/index.rst:471
+msgid "Defines the operators that are selectable for the attribute PlannedStartTime in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:297
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###PlannedEndTime"
+msgstr ""
+
+#: ../../content/index.rst:298
+#: ../../content/index.rst:353
+#: ../../content/index.rst:420
+#: ../../content/index.rst:475
+msgid "Defines the operators that are selectable for the attribute PlannedEndTime in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:301
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###ActualStartTime"
+msgstr ""
+
+#: ../../content/index.rst:302
+#: ../../content/index.rst:357
+#: ../../content/index.rst:424
+#: ../../content/index.rst:479
+msgid "Defines the operators that are selectable for the attribute ActualStartTime in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:305
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###ActualEndTime"
+msgstr ""
+
+#: ../../content/index.rst:306
+#: ../../content/index.rst:361
+#: ../../content/index.rst:428
+#: ../../content/index.rst:483
+msgid "Defines the operators that are selectable for the attribute ActualEndTime in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:309
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:310
+#: ../../content/index.rst:365
+#: ../../content/index.rst:432
+#: ../../content/index.rst:487
+msgid "Defines the operators that are selectable for the attribute PlannedEffort in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:313
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:314
+#: ../../content/index.rst:369
+#: ../../content/index.rst:436
+#: ../../content/index.rst:491
+msgid "Defines the operators that are selectable for the attribute AccountedTime in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:317
+msgid "ITSMChange::Mapping::Action::Attribute::Operator###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:318
+#: ../../content/index.rst:373
+#: ../../content/index.rst:440
+#: ../../content/index.rst:495
+msgid "Defines the operators that are selectable for the attribute DynamicField in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:321
+msgid "Core::ITSMCondition::Action::ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:324
+msgid "ITSMWorkOrder::Mapping::Action::Object::Attribute"
+msgstr ""
+
+#: ../../content/index.rst:325
+#: ../../content/index.rst:447
+msgid "Defines the object attributes that are selectable for workorder objects in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:328
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###WorkOrderNumber"
+msgstr ""
+
+#: ../../content/index.rst:329
+#: ../../content/index.rst:451
+msgid "Defines the operators that are selectable for the attribute WorkOrderNumber in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:332
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###WorkOrderStateID"
+msgstr ""
+
+#: ../../content/index.rst:333
+#: ../../content/index.rst:455
+msgid "Defines the operators that are selectable for the attribute WorkOrderStateID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:336
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###WorkOrderTypeID"
+msgstr ""
+
+#: ../../content/index.rst:337
+#: ../../content/index.rst:459
+msgid "Defines the operators that are selectable for the attribute WorkOrderTypeID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:340
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###WorkOrderTitle"
+msgstr ""
+
+#: ../../content/index.rst:341
+#: ../../content/index.rst:463
+msgid "Defines the operators that are selectable for the attribute WorkOrderTitle in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:344
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###WorkOrderAgentID"
+msgstr ""
+
+#: ../../content/index.rst:345
+#: ../../content/index.rst:467
+msgid "Defines the operators that are selectable for the attribute WorkOrderAgentID in the change condition edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:348
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###PlannedStartTime"
+msgstr ""
+
+#: ../../content/index.rst:352
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###PlannedEndTime"
+msgstr ""
+
+#: ../../content/index.rst:356
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###ActualStartTime"
+msgstr ""
+
+#: ../../content/index.rst:360
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###ActualEndTime"
+msgstr ""
+
+#: ../../content/index.rst:364
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:368
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:372
+msgid "ITSMWorkOrder::Mapping::Action::Attribute::Operator###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:376
+msgid "Core::ITSMCondition::Expression::ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:379
+msgid "ITSMChange::Mapping::Expression::Object::Attribute"
+msgstr ""
+
+#: ../../content/index.rst:383
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###ChangeStateID"
+msgstr ""
+
+#: ../../content/index.rst:387
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###ChangeTitle"
+msgstr ""
+
+#: ../../content/index.rst:391
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###CategoryID"
+msgstr ""
+
+#: ../../content/index.rst:395
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###ImpactID"
+msgstr ""
+
+#: ../../content/index.rst:399
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###PriorityID"
+msgstr ""
+
+#: ../../content/index.rst:403
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###ChangeManagerID"
+msgstr ""
+
+#: ../../content/index.rst:407
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###ChangeBuilderID"
+msgstr ""
+
+#: ../../content/index.rst:411
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###RequestedTime"
+msgstr ""
+
+#: ../../content/index.rst:415
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###PlannedStartTime"
+msgstr ""
+
+#: ../../content/index.rst:419
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###PlannedEndTime"
+msgstr ""
+
+#: ../../content/index.rst:423
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###ActualStartTime"
+msgstr ""
+
+#: ../../content/index.rst:427
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###ActualEndTime"
+msgstr ""
+
+#: ../../content/index.rst:431
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:435
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:439
+msgid "ITSMChange::Mapping::Expression::Attribute::Operator###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:443
+msgid "Core::ITSMCondition::Expression::ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:446
+msgid "ITSMWorkOrder::Mapping::Expression::Object::Attribute"
+msgstr ""
+
+#: ../../content/index.rst:450
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###WorkOrderNumber"
+msgstr ""
+
+#: ../../content/index.rst:454
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###WorkOrderStateID"
+msgstr ""
+
+#: ../../content/index.rst:458
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###WorkOrderTypeID"
+msgstr ""
+
+#: ../../content/index.rst:462
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###WorkOrderTitle"
+msgstr ""
+
+#: ../../content/index.rst:466
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###WorkOrderAgentID"
+msgstr ""
+
+#: ../../content/index.rst:470
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###PlannedStartTime"
+msgstr ""
+
+#: ../../content/index.rst:474
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###PlannedEndTime"
+msgstr ""
+
+#: ../../content/index.rst:478
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###ActualStartTime"
+msgstr ""
+
+#: ../../content/index.rst:482
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###ActualEndTime"
+msgstr ""
+
+#: ../../content/index.rst:486
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:490
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:494
+msgid "ITSMWorkOrder::Mapping::Expression::Attribute::Operator###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:498
+msgid "Core::ITSMCondition::ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:501
+msgid "ITSMChange::Attribute::CompareValue::FieldType"
+msgstr ""
+
+#: ../../content/index.rst:502
+msgid "Defines the field type of CompareValue fields for change attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown."
+msgstr ""
+
+#: ../../content/index.rst:505
+msgid "Core::ITSMCondition::ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:508
+msgid "ITSMWorkOrder::Attribute::CompareValue::FieldType"
+msgstr ""
+
+#: ../../content/index.rst:509
+msgid "Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown."
+msgstr ""
+
+#: ../../content/index.rst:512
+msgid "Core::ITSMStateMachine"
+msgstr ""
+
+#: ../../content/index.rst:515
+msgid "ITSMStateMachine::Object###Change"
+msgstr ""
+
+#: ../../content/index.rst:516
+msgid "Sets up the state machine for changes."
+msgstr ""
+
+#: ../../content/index.rst:519
+msgid "ITSMStateMachine::Object###WorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:520
+msgid "Sets up the state machine for workorders."
+msgstr ""
+
+#: ../../content/index.rst:523
+msgid "Core::ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:526
+msgid "ITSMWorkOrder::Hook"
+msgstr ""
+
+#: ../../content/index.rst:527
+msgid "The identifier for a workorder, e.g. Workorder#, MyWorkorder#. The default is Workorder#."
+msgstr ""
+
+#: ../../content/index.rst:530
+msgid "ITSMWorkOrder::StateLock::AllowEndStates"
+msgstr ""
+
+#: ../../content/index.rst:531
+msgid "Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state."
+msgstr ""
+
+#: ../../content/index.rst:534
+msgid "ITSMWorkOrder::State::Signal"
+msgstr ""
+
+#: ../../content/index.rst:535
+msgid "Define the signals for each workorder state."
+msgstr ""
+
+#: ../../content/index.rst:538
+msgid "ITSMWorkOrder::Type::Default"
+msgstr ""
+
+#: ../../content/index.rst:539
+msgid "Default type for a workorder. This entry must exist in general catalog class 'ITSM::ChangeManagement::WorkOrder::Type'."
+msgstr ""
+
+#: ../../content/index.rst:542
+msgid "ITSMWorkOrder::ActualStartTimeSet::States"
+msgstr ""
+
+#: ../../content/index.rst:543
+msgid "A list of workorder states, at which the ActualStartTime of a workorder will be set if it was empty at this point."
+msgstr ""
+
+#: ../../content/index.rst:546
+msgid "ITSMWorkOrder::TakePermission::List"
+msgstr ""
+
+#: ../../content/index.rst:547
+msgid "A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1."
+msgstr ""
+
+#: ../../content/index.rst:550
+msgid "ITSMWorkOrder::TimePeriod"
+msgstr ""
+
+#: ../../content/index.rst:551
+msgid "Defines the period (in years), in which start and end times can be selected."
+msgstr ""
+
+#: ../../content/index.rst:554
+msgid "ITSMWorkOrder::Permission###10-ChangeManagerCheck"
+msgstr ""
+
+#: ../../content/index.rst:558
+msgid "ITSMWorkOrder::Permission###20-ChangeBuilderCheck"
+msgstr ""
+
+#: ../../content/index.rst:562
+msgid "ITSMWorkOrder::Permission###30-WorkOrderAgentCheck"
+msgstr ""
+
+#: ../../content/index.rst:563
+msgid "Module to check the workorder agent."
+msgstr ""
+
+#: ../../content/index.rst:566
+msgid "ITSMWorkOrder::Permission###40-CABCheck"
+msgstr ""
+
+#: ../../content/index.rst:570
+msgid "ITSMWorkOrder::TakePermission###10-EmptyAgent"
+msgstr ""
+
+#: ../../content/index.rst:571
+msgid "Module to check whether no workorder agent is set."
+msgstr ""
+
+#: ../../content/index.rst:574
+msgid "ITSMWorkOrder::TakePermission###20-ListAgent"
+msgstr ""
+
+#: ../../content/index.rst:575
+msgid "Module to check whether the agent is contained in the configured list."
+msgstr ""
+
+#: ../../content/index.rst:578
+msgid "Core::Notifications"
+msgstr ""
+
+#: ../../content/index.rst:581
+msgid "ITSMChange::SendNotifications"
+msgstr ""
+
+#: ../../content/index.rst:582
+msgid "Defines whether notifications should be sent."
+msgstr ""
+
+#: ../../content/index.rst:585
+msgid "ITSMChange::TimeReachedNotifications###Frequency"
+msgstr ""
+
+#: ../../content/index.rst:586
+msgid "Configures how often the notifications are sent when planned the start time or other time values have been reached/passed."
+msgstr ""
+
+#: ../../content/index.rst:589
+msgid "ITSMChange::TimeReachedNotifications###Hours"
+msgstr ""
+
+#: ../../content/index.rst:590
+msgid "If frequency is 'regularly', you can configure how often the notifications are sent (every X hours)."
+msgstr ""
+
+#: ../../content/index.rst:593
+msgid "Core::Stats"
+msgstr ""
+
+#: ../../content/index.rst:596
+msgid "Stats::DynamicObjectRegistration###ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:597
+msgid "Determines if the common stats module may generate stats about changes."
+msgstr ""
+
+#: ../../content/index.rst:600
+msgid "Stats::DynamicObjectRegistration###ITSMChangeManagementHistory"
+msgstr ""
+
+#: ../../content/index.rst:601
+msgid "Determines if the common stats module may generate stats about changes regarding change state updates within a timeperiod."
+msgstr ""
+
+#: ../../content/index.rst:604
+msgid "Stats::DynamicObjectRegistration###ITSMChangeManagementChangesIncidents"
+msgstr ""
+
+#: ../../content/index.rst:605
+msgid "Determines if the common stats module may generate stats about changes regarding the relation between changes and incident tickets."
+msgstr ""
+
+#: ../../content/index.rst:608
+msgid "Stats::DynamicObjectRegistration###ITSMChangeManagementRfcRequester"
+msgstr ""
+
+#: ../../content/index.rst:609
+msgid "Determines if the common stats module may generate stats about the number of Rfc tickets a requester created."
+msgstr ""
+
+#: ../../content/index.rst:612
+msgid "Stats::DynamicObjectRegistration###ITSMChangeManagementChangesPerCIClasses"
+msgstr ""
+
+#: ../../content/index.rst:613
+msgid "Determines if the common stats module may generate stats about changes done for config item classes."
+msgstr ""
+
+#: ../../content/index.rst:616
+msgid "Core::Ticket::ACL"
+msgstr ""
+
+#: ../../content/index.rst:619
+msgid "Ticket::Acl::Module###200-Ticket::Acl::Module"
+msgstr ""
+
+#: ../../content/index.rst:620
+msgid "This ACL module restricts the usuage of the ticket types that are defined in the sysconfig option 'ITSMChange::AddChangeLinkTicketTypes', to users of the groups as defined in \"ITSMChange::RestrictTicketTypes::Groups\". As this ACL could collide with other ACLs which are also related to the ticket type, this sysconfig option is disabled by default and should only be activated if needed."
+msgstr ""
+
+#: ../../content/index.rst:623
+msgid "Daemon::SchedulerCronTaskManager::Task"
+msgstr ""
+
+#: ../../content/index.rst:626
+msgid "Daemon::SchedulerCronTaskManager::Task###ITSMChangesCheck"
+msgstr ""
+
+#: ../../content/index.rst:627
+msgid "Run task to check if specific times have been reached in changes and workorders."
+msgstr ""
+
+#: ../../content/index.rst:630
+msgid "Frontend::Admin"
+msgstr ""
+
+#: ../../content/index.rst:633
+msgid "Events###ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:634
+msgid "List of all change events to be displayed in the GUI."
+msgstr ""
+
+#: ../../content/index.rst:637
+msgid "Events###ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:638
+msgid "List of all workorder events to be displayed in the GUI."
+msgstr ""
+
+#: ../../content/index.rst:641
+msgid "Frontend::Admin::ModuleRegistration"
+msgstr ""
+
+#: ../../content/index.rst:644
+msgid "Frontend::Module###AdminITSMChangeNotification"
+msgstr ""
+
+#: ../../content/index.rst:645
+#: ../../content/index.rst:649
+#: ../../content/index.rst:653
+#: ../../content/index.rst:657
+#: ../../content/index.rst:847
+#: ../../content/index.rst:851
+#: ../../content/index.rst:855
+#: ../../content/index.rst:859
+#: ../../content/index.rst:863
+#: ../../content/index.rst:867
+#: ../../content/index.rst:871
+#: ../../content/index.rst:875
+#: ../../content/index.rst:879
+#: ../../content/index.rst:883
+#: ../../content/index.rst:887
+#: ../../content/index.rst:891
+#: ../../content/index.rst:895
+#: ../../content/index.rst:899
+#: ../../content/index.rst:903
+#: ../../content/index.rst:907
+#: ../../content/index.rst:911
+#: ../../content/index.rst:915
+#: ../../content/index.rst:919
+#: ../../content/index.rst:923
+#: ../../content/index.rst:927
+#: ../../content/index.rst:931
+#: ../../content/index.rst:935
+#: ../../content/index.rst:939
+#: ../../content/index.rst:943
+#: ../../content/index.rst:947
+#: ../../content/index.rst:951
+#: ../../content/index.rst:955
+#: ../../content/index.rst:959
+#: ../../content/index.rst:963
+#: ../../content/index.rst:967
+#: ../../content/index.rst:971
+#: ../../content/index.rst:975
+#: ../../content/index.rst:979
+#: ../../content/index.rst:983
+#: ../../content/index.rst:987
+#: ../../content/index.rst:991
+#: ../../content/index.rst:995
+#: ../../content/index.rst:999
+#: ../../content/index.rst:1003
+#: ../../content/index.rst:1007
+msgid "Frontend module registration for the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:648
+msgid "Frontend::Module###AdminITSMChangeCIPAllocate"
+msgstr ""
+
+#: ../../content/index.rst:652
+msgid "Frontend::Module###AdminITSMStateMachine"
+msgstr ""
+
+#: ../../content/index.rst:656
+msgid "Frontend::Module###AgentITSMChangeCABTemplate"
+msgstr ""
+
+#: ../../content/index.rst:660
+msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
+msgstr ""
+
+#: ../../content/index.rst:663
+msgid "Frontend::NavigationModule###AdminITSMChangeCIPAllocate"
+msgstr ""
+
+#: ../../content/index.rst:664
+#: ../../content/index.rst:668
+#: ../../content/index.rst:672
+msgid "Admin area navigation for the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:667
+msgid "Frontend::NavigationModule###AdminITSMChangeNotification"
+msgstr ""
+
+#: ../../content/index.rst:671
+msgid "Frontend::NavigationModule###AdminITSMStateMachine"
+msgstr ""
+
+#: ../../content/index.rst:675
+msgid "Frontend::Admin::ModuleRegistration::Loader"
+msgstr ""
+
+#: ../../content/index.rst:678
+msgid "Loader::Module::AdminITSMChangeNotification###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:679
+#: ../../content/index.rst:683
+#: ../../content/index.rst:1014
+#: ../../content/index.rst:1018
+#: ../../content/index.rst:1022
+#: ../../content/index.rst:1026
+#: ../../content/index.rst:1030
+#: ../../content/index.rst:1034
+#: ../../content/index.rst:1038
+#: ../../content/index.rst:1042
+#: ../../content/index.rst:1046
+#: ../../content/index.rst:1050
+#: ../../content/index.rst:1054
+#: ../../content/index.rst:1058
+#: ../../content/index.rst:1062
+#: ../../content/index.rst:1066
+#: ../../content/index.rst:1070
+#: ../../content/index.rst:1074
+#: ../../content/index.rst:1078
+#: ../../content/index.rst:1082
+#: ../../content/index.rst:1086
+#: ../../content/index.rst:1090
+#: ../../content/index.rst:1801
+msgid "Loader module registration for the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:682
+msgid "Loader::Module::AdminITSMChangeCIPAllocate###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:686
+msgid "Frontend::Admin::ModuleRegistration::MainMenu"
+msgstr ""
+
+#: ../../content/index.rst:689
+msgid "Frontend::Navigation###AdminITSMChangeCIPAllocate###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:690
+#: ../../content/index.rst:694
+#: ../../content/index.rst:698
+#: ../../content/index.rst:1097
+#: ../../content/index.rst:1101
+#: ../../content/index.rst:1105
+#: ../../content/index.rst:1109
+#: ../../content/index.rst:1113
+#: ../../content/index.rst:1117
+#: ../../content/index.rst:1121
+#: ../../content/index.rst:1125
+#: ../../content/index.rst:1129
+#: ../../content/index.rst:1133
+#: ../../content/index.rst:1137
+#: ../../content/index.rst:1141
+#: ../../content/index.rst:1808
+msgid "Main menu item registration."
+msgstr ""
+
+#: ../../content/index.rst:693
+msgid "Frontend::Navigation###AdminITSMChangeNotification###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:697
+msgid "Frontend::Navigation###AdminITSMStateMachine###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:701
+msgid "Frontend::Admin::View::ITSMChangeNotification"
+msgstr ""
+
+#: ../../content/index.rst:704
+msgid "ITSMChange::Frontend::AdminITSMChangeNotification###RichText"
+msgstr ""
+
+#: ../../content/index.rst:705
+msgid "Uses richtext for viewing and editing ticket notification."
+msgstr ""
+
+#: ../../content/index.rst:708
+msgid "ITSMChange::Frontend::AdminITSMChangeNotification###RichTextWidth"
+msgstr ""
+
+#: ../../content/index.rst:709
+msgid "Defines the width for the rich text editor component for this screen. Enter number (pixels) or percent value (relative)."
+msgstr ""
+
+#: ../../content/index.rst:712
+msgid "ITSMChange::Frontend::AdminITSMChangeNotification###RichTextHeight"
+msgstr ""
+
+#: ../../content/index.rst:713
+msgid "Defines the height for the rich text editor component for this screen. Enter number (pixels) or percent value (relative)."
+msgstr ""
+
+#: ../../content/index.rst:716
+msgid "Frontend::Agent::ITSMChange::MenuModule"
+msgstr ""
+
+#: ../../content/index.rst:719
+msgid "ITSMChange::Frontend::MenuModule###000-Back"
+msgstr ""
+
+#: ../../content/index.rst:720
+msgid "Shows a link in the menu to go back in the change zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:723
+msgid "ITSMChange::Frontend::MenuModule###010-History"
+msgstr ""
+
+#: ../../content/index.rst:724
+msgid "Shows a link in the menu to access the history of a change in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:727
+msgid "ITSMChange::Frontend::MenuModule###020-Print"
+msgstr ""
+
+#: ../../content/index.rst:728
+msgid "Shows a link in the menu to print a change in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:731
+msgid "ITSMChange::Frontend::MenuModule###030-Edit"
+msgstr ""
+
+#: ../../content/index.rst:732
+msgid "Shows a link in the menu to edit a change in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:735
+msgid "ITSMChange::Frontend::MenuModule###040-InvolvedPersons"
+msgstr ""
+
+#: ../../content/index.rst:736
+msgid "Shows a link in the menu to show the involved persons in a change, in the zoom view of the change in the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:739
+msgid "ITSMChange::Frontend::MenuModule###050-WorkOrderAdd"
+msgstr ""
+
+#: ../../content/index.rst:740
+#: ../../content/index.rst:744
+msgid "Shows a link in the menu to add a workorder in the change zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:743
+msgid "ITSMChange::Frontend::MenuModule###055-WorkOrderAddFromTemplate"
+msgstr ""
+
+#: ../../content/index.rst:747
+msgid "ITSMChange::Frontend::MenuModule###060-Conditions"
+msgstr ""
+
+#: ../../content/index.rst:748
+msgid "Shows a link in the menu to access the conditions of a change in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:751
+msgid "ITSMChange::Frontend::MenuModule###070-Link"
+msgstr ""
+
+#: ../../content/index.rst:752
+msgid "Shows a link in the menu that allows linking a change with another object in the change zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:755
+msgid "ITSMChange::Frontend::MenuModule###080-MoveTimeSlot"
+msgstr ""
+
+#: ../../content/index.rst:756
+msgid "Shows a link in the menu that allows moving the time slot of a change in its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:759
+msgid "ITSMChange::Frontend::MenuModule###090-Template"
+msgstr ""
+
+#: ../../content/index.rst:760
+msgid "Shows a link in the menu that allows defining a change as a template in the zoom view of the change, in the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:763
+msgid "ITSMChange::Frontend::MenuModule###100-ChangeDelete"
+msgstr ""
+
+#: ../../content/index.rst:764
+msgid "Shows a link in the menu to delete a change in its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:767
+msgid "ITSMChange::Frontend::MenuModule###110-ChangeReset"
+msgstr ""
+
+#: ../../content/index.rst:768
+msgid "Shows a link in the menu to reset a change and its workorders in its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:771
+msgid "Frontend::Agent::ITSMChangeOverview"
+msgstr ""
+
+#: ../../content/index.rst:774
+msgid "ITSMChange::Frontend::Overview###Small"
+msgstr ""
+
+#: ../../content/index.rst:775
+msgid "Defines an overview module to show the small view of a change list."
+msgstr ""
+
+#: ../../content/index.rst:778
+msgid "Frontend::Agent::ITSMTemplateOverview"
+msgstr ""
+
+#: ../../content/index.rst:781
+msgid "ITSMChange::Frontend::TemplateOverview###Small"
+msgstr ""
+
+#: ../../content/index.rst:782
+msgid "Defines an overview module to show the small view of a template list."
+msgstr ""
+
+#: ../../content/index.rst:785
+msgid "Frontend::Agent::ITSMWorkOrder::MenuModule"
+msgstr ""
+
+#: ../../content/index.rst:788
+msgid "ITSMWorkOrder::Frontend::MenuModule###000-Back"
+msgstr ""
+
+#: ../../content/index.rst:789
+msgid "Shows a link in the menu to go back in the workorder zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:792
+msgid "ITSMWorkOrder::Frontend::MenuModule###010-History"
+msgstr ""
+
+#: ../../content/index.rst:793
+msgid "Shows a link in the menu to access the history of a workorder in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:796
+msgid "ITSMWorkOrder::Frontend::MenuModule###020-Print"
+msgstr ""
+
+#: ../../content/index.rst:797
+msgid "Shows a link in the menu to print a workorder in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:800
+msgid "ITSMWorkOrder::Frontend::MenuModule###030-Edit"
+msgstr ""
+
+#: ../../content/index.rst:801
+msgid "Shows a link in the menu to edit a workorder in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:804
+msgid "ITSMWorkOrder::Frontend::MenuModule###035-Take"
+msgstr ""
+
+#: ../../content/index.rst:805
+msgid "Shows a link in the menu that allows taking a workorder in the its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:808
+msgid "ITSMWorkOrder::Frontend::MenuModule###040-WorkOrderAgent"
+msgstr ""
+
+#: ../../content/index.rst:809
+msgid "Shows a link in the menu that allows changing the workorder agent, in the zoom view of the workorder of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:812
+msgid "ITSMWorkOrder::Frontend::MenuModule###050-Report"
+msgstr ""
+
+#: ../../content/index.rst:813
+msgid "Shows a link in the menu that allows editing the report of a workorder, in the zoom view of the workorder of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:816
+msgid "ITSMWorkOrder::Frontend::MenuModule###060-Link"
+msgstr ""
+
+#: ../../content/index.rst:817
+msgid "Shows a link in the menu that allows linking a workorder with another object in the zoom view of the workorder of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:820
+msgid "ITSMWorkOrder::Frontend::MenuModule###080-Template"
+msgstr ""
+
+#: ../../content/index.rst:821
+msgid "Shows a link in the menu that allows defining a workorder as a template in the zoom view of the workorder, in the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:824
+msgid "ITSMWorkOrder::Frontend::MenuModule###090-WorkOrderDelete"
+msgstr ""
+
+#: ../../content/index.rst:825
+msgid "Shows a link in the menu to delete a workorder in its zoom view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:828
+msgid "Frontend::Agent::LinkObject"
+msgstr ""
+
+#: ../../content/index.rst:831
+msgid "LinkObject::ComplexTable::SettingsVisibility###ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:832
+msgid "Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = \"complex\"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js."
+msgstr ""
+
+#: ../../content/index.rst:835
+msgid "LinkObject::ComplexTable###ITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:836
+msgid "Define which columns are shown in the linked Changes widget (LinkObject::ViewMode = \"complex\"). Note: Only Change attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default."
+msgstr ""
+
+#: ../../content/index.rst:839
+msgid "LinkObject::ComplexTable###ITSMWorkOrder"
+msgstr ""
+
+#: ../../content/index.rst:840
+msgid "Define which columns are shown in the linked Workorder widget (LinkObject::ViewMode = \"complex\"). Note: Only Workorder attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default."
+msgstr ""
+
+#: ../../content/index.rst:843
+msgid "Frontend::Agent::ModuleRegistration"
+msgstr ""
+
+#: ../../content/index.rst:846
+msgid "Frontend::Module###AgentITSMCABMemberSearch"
+msgstr ""
+
+#: ../../content/index.rst:850
+msgid "Frontend::Module###AgentITSMChange"
+msgstr ""
+
+#: ../../content/index.rst:854
+msgid "Frontend::Module###AgentITSMChangeAdd"
+msgstr ""
+
+#: ../../content/index.rst:858
+msgid "Frontend::Module###AgentITSMChangeAddFromTemplate"
+msgstr ""
+
+#: ../../content/index.rst:862
+msgid "Frontend::Module###AgentITSMChangeCondition"
+msgstr ""
+
+#: ../../content/index.rst:866
+msgid "Frontend::Module###AgentITSMChangeConditionEdit"
+msgstr ""
+
+#: ../../content/index.rst:870
+msgid "Frontend::Module###AgentITSMChangeEdit"
+msgstr ""
+
+#: ../../content/index.rst:874
+msgid "Frontend::Module###AgentITSMChangeDelete"
+msgstr ""
+
+#: ../../content/index.rst:878
+msgid "Frontend::Module###AgentITSMChangeHistory"
+msgstr ""
+
+#: ../../content/index.rst:882
+msgid "Frontend::Module###AgentITSMChangeHistoryZoom"
+msgstr ""
+
+#: ../../content/index.rst:886
+msgid "Frontend::Module###AgentITSMChangeInvolvedPersons"
+msgstr ""
+
+#: ../../content/index.rst:890
+msgid "Frontend::Module###AgentITSMChangeManager"
+msgstr ""
+
+#: ../../content/index.rst:894
+msgid "Frontend::Module###AgentITSMChangeMyCAB"
+msgstr ""
+
+#: ../../content/index.rst:898
+msgid "Frontend::Module###AgentITSMChangeMyChanges"
+msgstr ""
+
+#: ../../content/index.rst:902
+msgid "Frontend::Module###AgentITSMChangeMyWorkOrders"
+msgstr ""
+
+#: ../../content/index.rst:906
+msgid "Frontend::Module###AgentITSMChangePIR"
+msgstr ""
+
+#: ../../content/index.rst:910
+msgid "Frontend::Module###AgentITSMChangePrint"
+msgstr ""
+
+#: ../../content/index.rst:914
+msgid "Frontend::Module###AgentITSMChangePSA"
+msgstr ""
+
+#: ../../content/index.rst:918
+msgid "Frontend::Module###AgentITSMChangeReset"
+msgstr ""
+
+#: ../../content/index.rst:922
+msgid "Frontend::Module###AgentITSMChangeSchedule"
+msgstr ""
+
+#: ../../content/index.rst:926
+msgid "Frontend::Module###AgentITSMChangeSearch"
+msgstr ""
+
+#: ../../content/index.rst:930
+msgid "Frontend::Module###AgentITSMChangeTemplate"
+msgstr ""
+
+#: ../../content/index.rst:934
+msgid "Frontend::Module###AgentITSMChangeTimeSlot"
+msgstr ""
+
+#: ../../content/index.rst:938
+msgid "Frontend::Module###AgentITSMChangeZoom"
+msgstr ""
+
+#: ../../content/index.rst:942
+msgid "Frontend::Module###AgentITSMTemplateDelete"
+msgstr ""
+
+#: ../../content/index.rst:946
+msgid "Frontend::Module###AgentITSMTemplateEdit"
+msgstr ""
+
+#: ../../content/index.rst:950
+msgid "Frontend::Module###AgentITSMTemplateEditCAB"
+msgstr ""
+
+#: ../../content/index.rst:954
+msgid "Frontend::Module###AgentITSMTemplateEditContent"
+msgstr ""
+
+#: ../../content/index.rst:958
+msgid "Frontend::Module###AgentITSMTemplateOverview"
+msgstr ""
+
+#: ../../content/index.rst:962
+msgid "Frontend::Module###AgentITSMUserSearch"
+msgstr ""
+
+#: ../../content/index.rst:966
+msgid "Frontend::Module###AgentITSMWorkOrderAdd"
+msgstr ""
+
+#: ../../content/index.rst:970
+msgid "Frontend::Module###AgentITSMWorkOrderAddFromTemplate"
+msgstr ""
+
+#: ../../content/index.rst:974
+msgid "Frontend::Module###AgentITSMWorkOrderAgent"
+msgstr ""
+
+#: ../../content/index.rst:978
+msgid "Frontend::Module###AgentITSMWorkOrderDelete"
+msgstr ""
+
+#: ../../content/index.rst:982
+msgid "Frontend::Module###AgentITSMWorkOrderEdit"
+msgstr ""
+
+#: ../../content/index.rst:986
+msgid "Frontend::Module###AgentITSMWorkOrderHistory"
+msgstr ""
+
+#: ../../content/index.rst:990
+msgid "Frontend::Module###AgentITSMWorkOrderHistoryZoom"
+msgstr ""
+
+#: ../../content/index.rst:994
+msgid "Frontend::Module###AgentITSMWorkOrderReport"
+msgstr ""
+
+#: ../../content/index.rst:998
+msgid "Frontend::Module###AgentITSMWorkOrderTake"
+msgstr ""
+
+#: ../../content/index.rst:1002
+msgid "Frontend::Module###AgentITSMWorkOrderTemplate"
+msgstr ""
+
+#: ../../content/index.rst:1006
+msgid "Frontend::Module###AgentITSMWorkOrderZoom"
+msgstr ""
+
+#: ../../content/index.rst:1010
+msgid "Frontend::Agent::ModuleRegistration::Loader"
+msgstr ""
+
+#: ../../content/index.rst:1013
+msgid "Loader::Module::AgentITSMChange###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1017
+msgid "Loader::Module::AgentITSMChangeAdd###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1021
+msgid "Loader::Module::AgentITSMChangeCondition###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1025
+msgid "Loader::Module::AgentITSMChangeConditionEdit###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1029
+msgid "Loader::Module::AgentITSMChangeEdit###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1033
+msgid "Loader::Module::AgentITSMChangeHistory###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1037
+msgid "Loader::Module::AgentITSMChangeInvolvedPersons###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1041
+msgid "Loader::Module::AgentITSMChangeManager###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1045
+msgid "Loader::Module::AgentITSMChangeMyCAB###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1049
+msgid "Loader::Module::AgentITSMChangeMyChanges###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1053
+msgid "Loader::Module::AgentITSMChangeMyWorkOrders###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1057
+msgid "Loader::Module::AgentITSMChangePIR###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1061
+msgid "Loader::Module::AgentITSMChangePSA###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1065
+msgid "Loader::Module::AgentITSMChangeSearch###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1069
+msgid "Loader::Module::AgentITSMChangeTimeSlot###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1073
+msgid "Loader::Module::AgentITSMChangeZoom###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1077
+msgid "Loader::Module::AgentITSMTemplateEditCAB###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1081
+msgid "Loader::Module::AgentITSMTemplateOverview###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1085
+msgid "Loader::Module::AgentITSMWorkOrderHistory###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1089
+msgid "Loader::Module::AgentITSMWorkOrderZoom###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1093
+msgid "Frontend::Agent::ModuleRegistration::MainMenu"
+msgstr ""
+
+#: ../../content/index.rst:1096
+msgid "Frontend::Navigation###AgentITSMChange###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1100
+msgid "Frontend::Navigation###AgentITSMChangeAdd###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1104
+msgid "Frontend::Navigation###AgentITSMChangeAddFromTemplate###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1108
+msgid "Frontend::Navigation###AgentITSMChangeManager###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1112
+msgid "Frontend::Navigation###AgentITSMChangeMyCAB###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1116
+msgid "Frontend::Navigation###AgentITSMChangeMyChanges###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1120
+msgid "Frontend::Navigation###AgentITSMChangeMyWorkOrders###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1124
+msgid "Frontend::Navigation###AgentITSMChangePIR###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1128
+msgid "Frontend::Navigation###AgentITSMChangePSA###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1132
+msgid "Frontend::Navigation###AgentITSMChangeSchedule###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1136
+msgid "Frontend::Navigation###AgentITSMChangeSearch###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1140
+msgid "Frontend::Navigation###AgentITSMTemplateOverview###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1144
+msgid "Frontend::Agent::ModuleRegistration::MainMenu::Search"
+msgstr ""
+
+#: ../../content/index.rst:1147
+msgid "Frontend::Search###Change"
+msgstr ""
+
+#: ../../content/index.rst:1148
+msgid "Change search backend router of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1151
+msgid "Frontend::Search::JavaScript###Change"
+msgstr ""
+
+#: ../../content/index.rst:1152
+msgid "JavaScript function for the search frontend."
+msgstr ""
+
+#: ../../content/index.rst:1155
+msgid "Frontend::Agent::ToolBar"
+msgstr ""
+
+#: ../../content/index.rst:1158
+msgid "Frontend::ToolBarModule###101-ITSMChangeManagement::ChangeManager"
+msgstr ""
+
+#: ../../content/index.rst:1159
+msgid "Agent interface notification module to see the number of changes managed by the user."
+msgstr ""
+
+#: ../../content/index.rst:1162
+msgid "Frontend::ToolBarModule###102-ITSMChangeManagement::MyChanges"
+msgstr ""
+
+#: ../../content/index.rst:1163
+msgid "Agent interface notification module to see the number of changes."
+msgstr ""
+
+#: ../../content/index.rst:1166
+msgid "Frontend::ToolBarModule###103-ITSMChangeManagement::MyWorkOrders"
+msgstr ""
+
+#: ../../content/index.rst:1167
+msgid "Agent interface notification module to see the number of workorders."
+msgstr ""
+
+#: ../../content/index.rst:1170
+msgid "Frontend::ToolBarModule###104-ITSMChangeManagement::MyCAB"
+msgstr ""
+
+#: ../../content/index.rst:1171
+msgid "Agent interface notification module to see the number of change advisory boards."
+msgstr ""
+
+#: ../../content/index.rst:1174
+msgid "Frontend::Agent::View::ITSMChangeAdd"
+msgstr ""
+
+#: ../../content/index.rst:1177
+msgid "ITSMChange::Frontend::AgentITSMChangeAdd###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1178
+msgid "Required privileges to create changes."
+msgstr ""
+
+#: ../../content/index.rst:1181
+msgid "ITSMChange::Frontend::AgentITSMChangeAdd###RequestedTime"
+msgstr ""
+
+#: ../../content/index.rst:1182
+#: ../../content/index.rst:1236
+msgid "Defines if the requested date should be set by customer."
+msgstr ""
+
+#: ../../content/index.rst:1185
+msgid "ITSMChange::Frontend::AgentITSMChangeAdd###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1186
+msgid "Dynamic fields shown in the change add screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1189
+msgid "Frontend::Agent::View::ITSMChangeAddFromTemplate"
+msgstr ""
+
+#: ../../content/index.rst:1192
+msgid "ITSMChange::Frontend::AgentITSMChangeAddFromTemplate###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1193
+msgid "Required privileges to create changes from templates."
+msgstr ""
+
+#: ../../content/index.rst:1196
+msgid "Frontend::Agent::View::ITSMChangeCABTemplate"
+msgstr ""
+
+#: ../../content/index.rst:1199
+msgid "ITSMChange::Frontend::AgentITSMChangeCABTemplate###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1200
+msgid "Required privileges to create a template from a changes' CAB."
+msgstr ""
+
+#: ../../content/index.rst:1203
+msgid "Frontend::Agent::View::ITSMChangeCondition"
+msgstr ""
+
+#: ../../content/index.rst:1206
+msgid "ITSMChange::Frontend::AgentITSMChangeCondition###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1207
+msgid "Required privileges to view the conditions of changes."
+msgstr ""
+
+#: ../../content/index.rst:1210
+msgid "Frontend::Agent::View::ITSMChangeConditionEdit"
+msgstr ""
+
+#: ../../content/index.rst:1213
+msgid "ITSMChange::Frontend::AgentITSMChangeConditionEdit###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1214
+msgid "Required privileges to edit the conditions of changes."
+msgstr ""
+
+#: ../../content/index.rst:1217
+msgid "Frontend::Agent::View::ITSMChangeDelete"
+msgstr ""
+
+#: ../../content/index.rst:1220
+msgid "ITSMChange::Frontend::AgentITSMChangeDelete###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1221
+msgid "Required privileges to delete changes."
+msgstr ""
+
+#: ../../content/index.rst:1224
+msgid "ITSMChange::Frontend::AgentITSMChangeDelete###ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1225
+msgid "Defines the change states that will be allowed to delete."
+msgstr ""
+
+#: ../../content/index.rst:1228
+msgid "Frontend::Agent::View::ITSMChangeEdit"
+msgstr ""
+
+#: ../../content/index.rst:1231
+msgid "ITSMChange::Frontend::AgentITSMChangeEdit###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1232
+msgid "Required privileges to edit changes."
+msgstr ""
+
+#: ../../content/index.rst:1235
+msgid "ITSMChange::Frontend::AgentITSMChangeEdit###RequestedTime"
+msgstr ""
+
+#: ../../content/index.rst:1239
+msgid "ITSMChange::Frontend::AgentITSMChangeEdit###ChangeState"
+msgstr ""
+
+#: ../../content/index.rst:1240
+msgid "Defines if the change state can be set in the change edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1243
+msgid "ITSMChange::Frontend::AgentITSMChangeEdit###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1244
+msgid "Dynamic fields shown in the change edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1247
+msgid "Frontend::Agent::View::ITSMChangeHistory"
+msgstr ""
+
+#: ../../content/index.rst:1250
+msgid "ITSMChange::Frontend::HistoryOrder"
+msgstr ""
+
+#: ../../content/index.rst:1251
+msgid "Shows the change history (reverse ordered) in the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1254
+msgid "ITSMChange::Frontend::AgentITSMChangeHistory###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1255
+msgid "Required privileges to view the history of a change."
+msgstr ""
+
+#: ../../content/index.rst:1258
+msgid "Frontend::Agent::View::ITSMChangeHistoryZoom"
+msgstr ""
+
+#: ../../content/index.rst:1261
+msgid "ITSMChange::Frontend::AgentITSMChangeHistoryZoom###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1262
+msgid "Required privileges to view the history zoom of a change."
+msgstr ""
+
+#: ../../content/index.rst:1265
+msgid "Frontend::Agent::View::ITSMChangeInvolvedPersons"
+msgstr ""
+
+#: ../../content/index.rst:1268
+msgid "ITSMChange::Frontend::AgentITSMChangeInvolvedPersons###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1269
+msgid "Required privileges to edit the involved persons of a change."
+msgstr ""
+
+#: ../../content/index.rst:1272
+msgid "Frontend::Agent::View::ITSMChangeManagerOverview"
+msgstr ""
+
+#: ../../content/index.rst:1275
+msgid "ITSMChange::Frontend::AgentITSMChangeManager###Filter::ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1276
+msgid "Defines the change states that will be used as filters in the change manager overview."
+msgstr ""
+
+#: ../../content/index.rst:1279
+msgid "ITSMChange::Frontend::AgentITSMChangeManager###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1280
+msgid "Defines the default sort order in the change manager overview."
+msgstr ""
+
+#: ../../content/index.rst:1283
+msgid "ITSMChange::Frontend::AgentITSMChangeManager###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1284
+msgid "Required privileges to view list of changes where the user is the change manager."
+msgstr ""
+
+#: ../../content/index.rst:1287
+msgid "ITSMChange::Frontend::AgentITSMChangeManager###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1288
+msgid "Defines the shown columns in the change manager overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1291
+msgid "ITSMChange::Frontend::AgentITSMChangeManager###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1292
+msgid "Defines the default sort criteria in the change manager overview."
+msgstr ""
+
+#: ../../content/index.rst:1295
+msgid "Frontend::Agent::View::ITSMChangeMyCABOverview"
+msgstr ""
+
+#: ../../content/index.rst:1298
+msgid "ITSMChange::Frontend::AgentITSMChangeMyCAB###Filter::ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1299
+msgid "Defines the change states that will be used as filters in the MyCAB overview."
+msgstr ""
+
+#: ../../content/index.rst:1302
+msgid "ITSMChange::Frontend::AgentITSMChangeMyCAB###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1303
+msgid "Defines the default sort order in the MyCAB overview."
+msgstr ""
+
+#: ../../content/index.rst:1306
+msgid "ITSMChange::Frontend::AgentITSMChangeMyCAB###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1307
+msgid "Required privileges to view list of changes where the user is a CAB member."
+msgstr ""
+
+#: ../../content/index.rst:1310
+msgid "ITSMChange::Frontend::AgentITSMChangeMyCAB###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1311
+msgid "Defines the shown columns in the MyCAB overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1314
+msgid "ITSMChange::Frontend::AgentITSMChangeMyCAB###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1315
+msgid "Defines the default sort criteria of the changes in the MyCAB overview."
+msgstr ""
+
+#: ../../content/index.rst:1318
+msgid "Frontend::Agent::View::ITSMChangeMyChangesOverview"
+msgstr ""
+
+#: ../../content/index.rst:1321
+msgid "ITSMChange::Frontend::AgentITSMChangeMyChanges###Filter::ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1322
+msgid "Defines the change states that will be used as filters in the MyChanges overview."
+msgstr ""
+
+#: ../../content/index.rst:1325
+msgid "ITSMChange::Frontend::AgentITSMChangeMyChanges###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1326
+msgid "Defines the default sort order in the MyChanges overview."
+msgstr ""
+
+#: ../../content/index.rst:1329
+msgid "ITSMChange::Frontend::AgentITSMChangeMyChanges###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1330
+msgid "Required privileges to view the list of own changes."
+msgstr ""
+
+#: ../../content/index.rst:1333
+msgid "ITSMChange::Frontend::AgentITSMChangeMyChanges###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1334
+msgid "Defines the shown columns in the MyChanges overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1337
+msgid "ITSMChange::Frontend::AgentITSMChangeMyChanges###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1338
+msgid "Defines the default sort criteria of the changes in the MyChanges overview."
+msgstr ""
+
+#: ../../content/index.rst:1341
+msgid "Frontend::Agent::View::ITSMChangeMyWorkOrdersOverview"
+msgstr ""
+
+#: ../../content/index.rst:1344
+msgid "ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###Filter::WorkOrderStates"
+msgstr ""
+
+#: ../../content/index.rst:1345
+msgid "Defines the workorder states that will be used as filters in the MyWorkorders overview."
+msgstr ""
+
+#: ../../content/index.rst:1348
+msgid "ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1349
+msgid "Defines the default sort order in the MyWorkorders overview."
+msgstr ""
+
+#: ../../content/index.rst:1352
+msgid "ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1353
+msgid "Required privileges to view the list of own workorders."
+msgstr ""
+
+#: ../../content/index.rst:1356
+msgid "ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1357
+msgid "Defines the shown columns in the MyWorkorders overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1360
+msgid "ITSMChange::Frontend::AgentITSMChangeMyWorkOrders###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1361
+msgid "Defines the default sort criteria of the changes in the MyWorkorders overview."
+msgstr ""
+
+#: ../../content/index.rst:1364
+msgid "Frontend::Agent::View::ITSMChangeOverview"
+msgstr ""
+
+#: ../../content/index.rst:1367
+msgid "ITSMChange::Frontend::AgentITSMChange###Filter::ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1368
+msgid "Defines the change states that will be used as filters in the change overview."
+msgstr ""
+
+#: ../../content/index.rst:1371
+msgid "ITSMChange::Frontend::AgentITSMChange###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1372
+msgid "Defines the default sort order in the change overview."
+msgstr ""
+
+#: ../../content/index.rst:1375
+msgid "ITSMChange::Frontend::AgentITSMChange###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1376
+msgid "Required privileges to access the overview of all changes."
+msgstr ""
+
+#: ../../content/index.rst:1379
+msgid "ITSMChange::Frontend::AgentITSMChange###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1380
+msgid "Defines the shown columns in the change overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1383
+msgid "ITSMChange::Frontend::AgentITSMChange###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1384
+msgid "Defines the default sort criteria in the change overview."
+msgstr ""
+
+#: ../../content/index.rst:1387
+msgid "Frontend::Agent::View::ITSMChangePIROverview"
+msgstr ""
+
+#: ../../content/index.rst:1390
+msgid "ITSMChange::Frontend::AgentITSMChangePIR###Filter::WorkOrderStates"
+msgstr ""
+
+#: ../../content/index.rst:1391
+msgid "Defines the workorder states that will be used as filters in the PIR overview."
+msgstr ""
+
+#: ../../content/index.rst:1394
+msgid "ITSMChange::Frontend::AgentITSMChangePIR###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1395
+msgid "Defines the default sort order in the PIR overview."
+msgstr ""
+
+#: ../../content/index.rst:1398
+msgid "ITSMChange::Frontend::AgentITSMChangePIR###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1399
+msgid "Required privileges to view the list of changes with an upcoming PIR (Post Implementation Review)."
+msgstr ""
+
+#: ../../content/index.rst:1402
+msgid "ITSMChange::Frontend::AgentITSMChangePIR###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1403
+msgid "Defines the shown columns in the PIR overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1406
+msgid "ITSMChange::Frontend::AgentITSMChangePIR###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1407
+msgid "Defines the default sort criteria of the changes in the PIR overview."
+msgstr ""
+
+#: ../../content/index.rst:1410
+msgid "ITSMChange::Frontend::AgentITSMChangePIR###WorkOrderTypes"
+msgstr ""
+
+#: ../../content/index.rst:1411
+msgid "Defines the workorder types that will be used to show the PIR overview."
+msgstr ""
+
+#: ../../content/index.rst:1414
+msgid "Frontend::Agent::View::ITSMChangePSAOverview"
+msgstr ""
+
+#: ../../content/index.rst:1417
+msgid "ITSMChange::Frontend::AgentITSMChangePSA###Filter::ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1418
+msgid "Defines the change states that will be used as filters in the Change PSA overview."
+msgstr ""
+
+#: ../../content/index.rst:1421
+msgid "ITSMChange::Frontend::AgentITSMChangePSA###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1422
+msgid "Defines the default sort order in the change PSA overview."
+msgstr ""
+
+#: ../../content/index.rst:1425
+msgid "ITSMChange::Frontend::AgentITSMChangePSA###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1426
+msgid "Required privileges to view the list of change PSA."
+msgstr ""
+
+#: ../../content/index.rst:1429
+msgid "ITSMChange::Frontend::AgentITSMChangePSA###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1430
+msgid "Defines the shown columns in the Change PSA overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1433
+msgid "ITSMChange::Frontend::AgentITSMChangePSA###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1434
+msgid "Defines the default sort criteria in the change PSA overview."
+msgstr ""
+
+#: ../../content/index.rst:1437
+msgid "Frontend::Agent::View::ITSMChangePrint"
+msgstr ""
+
+#: ../../content/index.rst:1440
+msgid "ITSMChange::Frontend::AgentITSMChangePrint###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:1441
+msgid "Defines if it will be possible to print the accounted time."
+msgstr ""
+
+#: ../../content/index.rst:1444
+msgid "ITSMChange::Frontend::AgentITSMChangePrint###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1445
+msgid "Required privileges to print a change."
+msgstr ""
+
+#: ../../content/index.rst:1448
+msgid "ITSMChange::Frontend::AgentITSMChangePrint###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:1449
+msgid "Defines if it will be possible to print the planned effort."
+msgstr ""
+
+#: ../../content/index.rst:1452
+msgid "ITSMChange::Frontend::AgentITSMChangePrint###RequestedTime"
+msgstr ""
+
+#: ../../content/index.rst:1453
+msgid "Defines if the requested date should be print by customer."
+msgstr ""
+
+#: ../../content/index.rst:1456
+msgid "ITSMChange::Frontend::AgentITSMChangePrint###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1457
+msgid "Dynamic fields (for changes and workorders) shown in the change print screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1460
+msgid "Frontend::Agent::View::ITSMChangeReset"
+msgstr ""
+
+#: ../../content/index.rst:1463
+msgid "ITSMChange::Frontend::AgentITSMChangeReset###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1464
+msgid "Required privileges to reset changes."
+msgstr ""
+
+#: ../../content/index.rst:1467
+msgid "Frontend::Agent::View::ITSMChangeScheduleOverview"
+msgstr ""
+
+#: ../../content/index.rst:1470
+msgid "ITSMChange::Frontend::AgentITSMChangeSchedule###Filter::ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1471
+msgid "Defines the change states that will be used as filters in the Change Schedule overview."
+msgstr ""
+
+#: ../../content/index.rst:1474
+msgid "ITSMChange::Frontend::AgentITSMChangeSchedule###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1475
+msgid "Defines the default sort order in the change schedule overview."
+msgstr ""
+
+#: ../../content/index.rst:1478
+msgid "ITSMChange::Frontend::AgentITSMChangeSchedule###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1479
+msgid "Required privileges to view the list of Change Schedule."
+msgstr ""
+
+#: ../../content/index.rst:1482
+msgid "ITSMChange::Frontend::AgentITSMChangeSchedule###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1483
+msgid "Defines the shown columns in the Change Schedule overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1486
+msgid "ITSMChange::Frontend::AgentITSMChangeSchedule###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1487
+msgid "Defines the default sort criteria in the change schedule overview."
+msgstr ""
+
+#: ../../content/index.rst:1490
+msgid "Frontend::Agent::View::ITSMChangeSearch"
+msgstr ""
+
+#: ../../content/index.rst:1493
+msgid "ITSMChange::Frontend::AgentITSMChangeSearch###RequestedTime"
+msgstr ""
+
+#: ../../content/index.rst:1494
+msgid "Defines if the requested date should be searched by customer."
+msgstr ""
+
+#: ../../content/index.rst:1497
+msgid "ITSMChange::Frontend::AgentITSMChangeSearch###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1498
+msgid "Dynamic fields shown in the change search screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1501
+msgid "ITSMChange::Frontend::AgentITSMChangeSearch###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1502
+msgid "Defines the shown columns in the change search. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1505
+msgid "ITSMChange::Frontend::AgentITSMChangeSearch###SearchCSVData"
+msgstr ""
+
+#: ../../content/index.rst:1506
+msgid "Data used to export the search result in CSV format."
+msgstr ""
+
+#: ../../content/index.rst:1509
+msgid "Frontend::Agent::View::ITSMChangeTemplate"
+msgstr ""
+
+#: ../../content/index.rst:1512
+msgid "ITSMChange::Frontend::AgentITSMChangeTemplate###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1513
+msgid "Required privileges to create a template from a change."
+msgstr ""
+
+#: ../../content/index.rst:1516
+msgid "Frontend::Agent::View::ITSMChangeTemplateDelete"
+msgstr ""
+
+#: ../../content/index.rst:1519
+msgid "ITSMChange::Frontend::AgentITSMTemplateDelete###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1520
+msgid "Required privileges to delete a template."
+msgstr ""
+
+#: ../../content/index.rst:1523
+msgid "Frontend::Agent::View::ITSMChangeTemplateEdit"
+msgstr ""
+
+#: ../../content/index.rst:1526
+msgid "ITSMChange::Frontend::AgentITSMTemplateEdit###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1527
+msgid "Required privileges to edit a template."
+msgstr ""
+
+#: ../../content/index.rst:1530
+msgid "Frontend::Agent::View::ITSMChangeTemplateEditCAB"
+msgstr ""
+
+#: ../../content/index.rst:1533
+msgid "ITSMChange::Frontend::AgentITSMTemplateEditCAB###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1534
+#: ../../content/index.rst:1541
+msgid "Required privileges to edit the content of a template."
+msgstr ""
+
+#: ../../content/index.rst:1537
+msgid "Frontend::Agent::View::ITSMChangeTemplateEditContent"
+msgstr ""
+
+#: ../../content/index.rst:1540
+msgid "ITSMChange::Frontend::AgentITSMTemplateEditContent###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1544
+msgid "ITSMChange::Frontend::AgentITSMTemplateEditContent###DefaultChangeTitle"
+msgstr ""
+
+#: ../../content/index.rst:1545
+msgid "Defines the default change title for a dummy change which is needed to edit a workorder template."
+msgstr ""
+
+#: ../../content/index.rst:1548
+msgid "Frontend::Agent::View::ITSMChangeTemplateOverview"
+msgstr ""
+
+#: ../../content/index.rst:1551
+msgid "ITSMChange::Frontend::AgentITSMTemplateOverview###Filter::TemplateTypes"
+msgstr ""
+
+#: ../../content/index.rst:1552
+msgid "Defines the template types that will be used as filters in the template overview."
+msgstr ""
+
+#: ../../content/index.rst:1555
+msgid "ITSMChange::Frontend::AgentITSMTemplateOverview###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1556
+msgid "Defines the default sort order in the template overview."
+msgstr ""
+
+#: ../../content/index.rst:1559
+msgid "ITSMChange::Frontend::AgentITSMTemplateOverview###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1560
+msgid "Required privileges to view overview over all templates."
+msgstr ""
+
+#: ../../content/index.rst:1563
+msgid "ITSMChange::Frontend::AgentITSMTemplateOverview###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1564
+msgid "Defines the shown columns in the template overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1567
+msgid "ITSMChange::Frontend::AgentITSMTemplateOverview###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1568
+msgid "Defines the default sort criteria of the changes in the template overview."
+msgstr ""
+
+#: ../../content/index.rst:1571
+msgid "Frontend::Agent::View::ITSMChangeTimeSlot"
+msgstr ""
+
+#: ../../content/index.rst:1574
+msgid "ITSMChange::Frontend::AgentITSMChangeTimeSlot###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1575
+msgid "Required privileges to move changes in time."
+msgstr ""
+
+#: ../../content/index.rst:1578
+msgid "Frontend::Agent::View::ITSMChangeZoom"
+msgstr ""
+
+#: ../../content/index.rst:1581
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:1582
+#: ../../content/index.rst:1702
+#: ../../content/index.rst:1728
+msgid "Defines if the accounted time should be shown."
+msgstr ""
+
+#: ../../content/index.rst:1585
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1586
+msgid "Required privileges to view changes."
+msgstr ""
+
+#: ../../content/index.rst:1589
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:1590
+#: ../../content/index.rst:1637
+#: ../../content/index.rst:1677
+#: ../../content/index.rst:1736
+msgid "Defines if the planned effort should be shown."
+msgstr ""
+
+#: ../../content/index.rst:1593
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###RequestedTime"
+msgstr ""
+
+#: ../../content/index.rst:1594
+msgid "Defines if the requested date should be shown by customer."
+msgstr ""
+
+#: ../../content/index.rst:1597
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###WorkOrderState"
+msgstr ""
+
+#: ../../content/index.rst:1598
+msgid "Defines if the workorder state should be shown."
+msgstr ""
+
+#: ../../content/index.rst:1601
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###WorkOrderTitle"
+msgstr ""
+
+#: ../../content/index.rst:1602
+msgid "Defines if the workorder title should be shown."
+msgstr ""
+
+#: ../../content/index.rst:1605
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###WorkOrderGraph"
+msgstr ""
+
+#: ../../content/index.rst:1606
+msgid "Defines shown graph attributes."
+msgstr ""
+
+#: ../../content/index.rst:1609
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###Tooltip::WorkOrderAttributes"
+msgstr ""
+
+#: ../../content/index.rst:1610
+msgid "Defines the shown attributes of a workorder in the tooltip of the workorder graph in the change zoom. To show workorder dynamic fields in the tooltip, they must be specified like DynamicField_WorkOrderFieldName1, DynamicField_WorkOrderFieldName2, etc."
+msgstr ""
+
+#: ../../content/index.rst:1613
+msgid "ITSMChange::Frontend::AgentITSMChangeZoom###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1614
+msgid "Dynamic fields shown in the change zoom screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1617
+msgid "ITSMChange::Frontend::AgentHTMLFieldHeightDefault"
+msgstr ""
+
+#: ../../content/index.rst:1618
+msgid "Set the default height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1621
+msgid "ITSMChange::Frontend::AgentHTMLFieldHeightMax"
+msgstr ""
+
+#: ../../content/index.rst:1622
+msgid "Set the maximum height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1625
+msgid "Frontend::Agent::View::ITSMWorkOrderAdd"
+msgstr ""
+
+#: ../../content/index.rst:1628
+msgid "ITSMChange::Frontend::AgentITSMWorkOrderAdd###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1629
+msgid "Dynamic fields shown in the workorder add screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1632
+msgid "ITSMChange::Frontend::AgentITSMWorkOrderAdd###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1633
+#: ../../content/index.rst:1644
+msgid "Required privileges to add a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1636
+msgid "ITSMChange::Frontend::AgentITSMWorkOrderAdd###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:1640
+msgid "Frontend::Agent::View::ITSMWorkOrderAddFromTemplate"
+msgstr ""
+
+#: ../../content/index.rst:1643
+msgid "ITSMChange::Frontend::AgentITSMWorkOrderAddFromTemplate###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1647
+msgid "Frontend::Agent::View::ITSMWorkOrderAgent"
+msgstr ""
+
+#: ../../content/index.rst:1650
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderAgent###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1651
+msgid "Required privileges to change the workorder agent."
+msgstr ""
+
+#: ../../content/index.rst:1654
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderTake###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1655
+msgid "Required privileges in order for an agent to take a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1658
+msgid "Frontend::Agent::View::ITSMWorkOrderDelete"
+msgstr ""
+
+#: ../../content/index.rst:1661
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderDelete###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1662
+msgid "Required privileges to delete a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1665
+msgid "Frontend::Agent::View::ITSMWorkOrderEdit"
+msgstr ""
+
+#: ../../content/index.rst:1668
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderEdit###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1669
+msgid "Dynamic fields shown in the workorder edit screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1672
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderEdit###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1673
+msgid "Required privileges to edit a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1676
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderEdit###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:1680
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderEdit###MoveFollowingWorkOrders"
+msgstr ""
+
+#: ../../content/index.rst:1681
+msgid "Shows a checkbox in the workorder edit screen of the agent interface that defines if the the following workorders should also be moved if a workorder is modified and the planned end time has changed."
+msgstr ""
+
+#: ../../content/index.rst:1684
+msgid "Frontend::Agent::View::ITSMWorkOrderHistory"
+msgstr ""
+
+#: ../../content/index.rst:1687
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderHistory###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1688
+msgid "Required privileges to view the history of a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1691
+msgid "Frontend::Agent::View::ITSMWorkOrderHistoryZoom"
+msgstr ""
+
+#: ../../content/index.rst:1694
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderHistoryZoom###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1695
+msgid "Required privileges to view the history zoom of a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1698
+msgid "Frontend::Agent::View::ITSMWorkOrderReport"
+msgstr ""
+
+#: ../../content/index.rst:1701
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderReport###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:1705
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderReport###ActualTimeSpan"
+msgstr ""
+
+#: ../../content/index.rst:1706
+msgid "Defines if the actual start and end times should be set."
+msgstr ""
+
+#: ../../content/index.rst:1709
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderReport###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1710
+msgid "Dynamic fields shown in the workorder report screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1713
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderReport###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1714
+msgid "Required privileges to write a report for the workorder."
+msgstr ""
+
+#: ../../content/index.rst:1717
+msgid "Frontend::Agent::View::ITSMWorkOrderTemplate"
+msgstr ""
+
+#: ../../content/index.rst:1720
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderTemplate###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1721
+msgid "Required privileges to create a template from a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1724
+msgid "Frontend::Agent::View::ITSMWorkOrderZoom"
+msgstr ""
+
+#: ../../content/index.rst:1727
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderZoom###AccountedTime"
+msgstr ""
+
+#: ../../content/index.rst:1731
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderZoom###Permission"
+msgstr ""
+
+#: ../../content/index.rst:1732
+msgid "Required privileges to view a workorder."
+msgstr ""
+
+#: ../../content/index.rst:1735
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderZoom###PlannedEffort"
+msgstr ""
+
+#: ../../content/index.rst:1739
+msgid "ITSMWorkOrder::Frontend::AgentITSMWorkOrderZoom###DynamicField"
+msgstr ""
+
+#: ../../content/index.rst:1740
+msgid "Dynamic fields shown in the workorder zoom screen of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1743
+msgid "Frontend::Agent::View::Preferences"
+msgstr ""
+
+#: ../../content/index.rst:1746
+msgid "PreferencesGroups###UserCreateWorkOrderNextMask"
+msgstr ""
+
+#: ../../content/index.rst:1747
+msgid "Parameters for the UserCreateWorkOrderNextMask object in the preference view of the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1750
+msgid "PreferencesGroups###ChangeOverviewSmallPageShown"
+msgstr ""
+
+#: ../../content/index.rst:1751
+msgid "Parameters for the pages (in which the changes are shown) of the small change overview."
+msgstr ""
+
+#: ../../content/index.rst:1754
+msgid "PreferencesGroups###UserITSMChangeManagementTemplateEdit"
+msgstr ""
+
+#: ../../content/index.rst:1755
+msgid "Stores change and workorder ids and their corresponding template id, while a user is editing a template."
+msgstr ""
+
+#: ../../content/index.rst:1758
+msgid "Frontend::Agent::View::Stats"
+msgstr ""
+
+#: ../../content/index.rst:1761
+msgid "Stats::ExchangeAxis"
+msgstr ""
+
+#: ../../content/index.rst:1762
+msgid "Determines if an agent can exchange the X-axis of a stat if he generates one."
+msgstr ""
+
+#: ../../content/index.rst:1765
+msgid "Frontend::Agent::View::TicketZoom::MenuModule"
+msgstr ""
+
+#: ../../content/index.rst:1768
+msgid "Ticket::Frontend::MenuModule###317-ITSMChangeAdd"
+msgstr ""
+
+#: ../../content/index.rst:1769
+#: ../../content/index.rst:1773
+msgid "Module to show a link to create a change from this ticket. The ticket will be automatically linked with the new change."
+msgstr ""
+
+#: ../../content/index.rst:1772
+msgid "Ticket::Frontend::MenuModule###318-ITSMChangeAddFromTemplate"
+msgstr ""
+
+#: ../../content/index.rst:1776
+msgid "Frontend::Base::Loader"
+msgstr ""
+
+#: ../../content/index.rst:1779
+msgid "Loader::Agent::CommonJS###100-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1780
+msgid "List of JS files to always be loaded for the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:1783
+msgid "Frontend::Base::NavBarModule"
+msgstr ""
+
+#: ../../content/index.rst:1786
+msgid "Frontend::AdminModuleGroups###200-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1787
+msgid "Defines available groups for the admin overview screen."
+msgstr ""
+
+#: ../../content/index.rst:1790
+msgid "Frontend::Customer::ModuleRegistration"
+msgstr ""
+
+#: ../../content/index.rst:1793
+msgid "CustomerFrontend::Module###CustomerITSMChangeSchedule"
+msgstr ""
+
+#: ../../content/index.rst:1794
+msgid "Frontend module registration for the customer interface."
+msgstr ""
+
+#: ../../content/index.rst:1797
+msgid "Frontend::Customer::ModuleRegistration::Loader"
+msgstr ""
+
+#: ../../content/index.rst:1800
+msgid "Loader::Module::CustomerITSMChangeSchedule###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1804
+msgid "Frontend::Customer::ModuleRegistration::MainMenu"
+msgstr ""
+
+#: ../../content/index.rst:1807
+msgid "CustomerFrontend::Navigation###CustomerITSMChangeSchedule###003-ITSMChangeManagement"
+msgstr ""
+
+#: ../../content/index.rst:1811
+msgid "Frontend::Customer::View::ITSMChangeScheduleOverview"
+msgstr ""
+
+#: ../../content/index.rst:1814
+msgid "ITSMChange::Frontend::CustomerITSMChangeSchedule###Filter::ChangeStates"
+msgstr ""
+
+#: ../../content/index.rst:1815
+msgid "Defines the change states that will be used as filters in the customer change schedule overview."
+msgstr ""
+
+#: ../../content/index.rst:1818
+msgid "ITSMChange::Frontend::CustomerITSMChangeSchedule###Order::Default"
+msgstr ""
+
+#: ../../content/index.rst:1819
+msgid "Defines the default sort order in the customer change schedule overview."
+msgstr ""
+
+#: ../../content/index.rst:1822
+msgid "ITSMChange::Frontend::CustomerITSMChangeSchedule###ShowColumns"
+msgstr ""
+
+#: ../../content/index.rst:1823
+msgid "Defines the shown columns in the customer change schedule overview. This option has no effect on the position of the column."
+msgstr ""
+
+#: ../../content/index.rst:1826
+msgid "ITSMChange::Frontend::CustomerITSMChangeSchedule###ShowOnlyChangesWithAllowedServices"
+msgstr ""
+
+#: ../../content/index.rst:1827
+msgid "Defines that only changes containing Workorders linked with services, which the customer user has permission to use will be shown. Any other changes will not be displayed."
+msgstr ""
+
+#: ../../content/index.rst:1830
+msgid "ITSMChange::Frontend::CustomerITSMChangeSchedule###SortBy::Default"
+msgstr ""
+
+#: ../../content/index.rst:1831
+msgid "Defines the default sort criteria of the changes in the customer change schedule overview."
+msgstr ""
+
+#: ../../content/index.rst:1834
+msgid "About"
+msgstr ""
+
+#: ../../content/index.rst:1837
+msgid "Contact"
+msgstr ""
+
+#: ../../content/index.rst:1838
+msgid "Rother OSS GmbH"
+msgstr ""
+
+#: ../../content/index.rst:1839
+msgid "Email: hello@otobo.de"
+msgstr ""
+
+#: ../../content/index.rst:1840
+msgid "Web: https://otobo.de"
+msgstr ""
+
+#: ../../content/index.rst:1843
+msgid "Version"
+msgstr ""
+
+#: ../../content/index.rst:1844
+msgid "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-datestamp|"
+msgstr ""
+

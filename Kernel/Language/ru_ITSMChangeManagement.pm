@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -32,7 +32,7 @@ sub Data {
     # Template: AdminITSMChangeNotification
     $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'Управление уведомлениями в ITSM ChangeManagement';
     $Self->{Translation}->{'Add Notification Rule'} = 'Добавить правило уведомления';
-    $Self->{Translation}->{'Edit Notification Rule'} = '';
+    $Self->{Translation}->{'Edit Notification Rule'} = 'Редактирование правила уведомления';
     $Self->{Translation}->{'A notification should have a name!'} = 'Уведомление должно иметь имя';
     $Self->{Translation}->{'Name is required.'} = 'Требуется имя';
 
@@ -84,6 +84,9 @@ sub Data {
     $Self->{Translation}->{'Matching'} = 'Сопоставление';
     $Self->{Translation}->{'Any expression (OR)'} = 'Любое выражение (OR)';
     $Self->{Translation}->{'All expressions (AND)'} = 'Все выражения (AND)';
+    $Self->{Translation}->{'All expressions depending (AND)'} = '';
+    $Self->{Translation}->{'BypassStateMachine'} = '';
+    $Self->{Translation}->{'BypassStateMachineWO'} = '';
     $Self->{Translation}->{'Expressions'} = 'Выражения';
     $Self->{Translation}->{'Selector'} = 'Переключатель';
     $Self->{Translation}->{'Operator'} = 'Оператор';
@@ -313,7 +316,6 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = 'Невозможно отобразить историю, так как не задан ChangeID!';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = 'Изменение "%s" не найдено в БД!';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = 'Обнаружен неизвестный тип "% s"!';
-    $Self->{Translation}->{'Change History'} = 'История Изменений';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
     $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = 'Невозможно отобразить историю, не задан HistoryEntryID!';
@@ -353,8 +355,8 @@ sub Data {
     $Self->{Translation}->{'unknown workorder title'} = 'Неизвестный заголовок Задачи';
     $Self->{Translation}->{'ChangeState'} = 'Состояние изменения';
     $Self->{Translation}->{'PlannedEffort'} = 'Планируемые ресурсы???';
-    $Self->{Translation}->{'CAB Agents'} = '';
-    $Self->{Translation}->{'CAB Customers'} = '';
+    $Self->{Translation}->{'CAB Agents'} = 'Агенты CAB';
+    $Self->{Translation}->{'CAB Customers'} = 'Клиенты CAB';
     $Self->{Translation}->{'RequestedTime'} = 'RequestedTime';
     $Self->{Translation}->{'PlannedStartTime'} = 'Запланированное время начала';
     $Self->{Translation}->{'PlannedEndTime'} = 'Запланированное время окончания';
@@ -474,31 +476,31 @@ sub Data {
     $Self->{Translation}->{'My Work Orders'} = 'Мои Задачи';
 
     # Perl Module: Kernel/System/ITSMChange/History.pm
-    $Self->{Translation}->{'%s: %s'} = '';
-    $Self->{Translation}->{'New Action (ID=%s)'} = '';
-    $Self->{Translation}->{'Action (ID=%s) deleted'} = '';
-    $Self->{Translation}->{'All Actions of Condition (ID=%s) deleted'} = '';
-    $Self->{Translation}->{'Action (ID=%s) executed: %s'} = '';
-    $Self->{Translation}->{'%s (Action ID=%s): (new=%s, old=%s)'} = '';
-    $Self->{Translation}->{'Change (ID=%s) reached actual end time.'} = '';
-    $Self->{Translation}->{'Change (ID=%s) reached actual start time.'} = '';
-    $Self->{Translation}->{'New Change (ID=%s)'} = '';
-    $Self->{Translation}->{'New Attachment: %s'} = '';
-    $Self->{Translation}->{'Deleted Attachment %s'} = '';
-    $Self->{Translation}->{'CAB Deleted %s'} = '';
-    $Self->{Translation}->{'%s: (new=%s, old=%s)'} = '';
-    $Self->{Translation}->{'Link to %s (ID=%s) added'} = '';
-    $Self->{Translation}->{'Link to %s (ID=%s) deleted'} = '';
-    $Self->{Translation}->{'Notification sent to %s (Event: %s)'} = '';
-    $Self->{Translation}->{'Change (ID=%s) reached planned end time.'} = '';
-    $Self->{Translation}->{'Change (ID=%s) reached planned start time.'} = '';
-    $Self->{Translation}->{'Change (ID=%s) reached requested time.'} = '';
-    $Self->{Translation}->{'New Condition (ID=%s)'} = '';
-    $Self->{Translation}->{'Condition (ID=%s) deleted'} = '';
-    $Self->{Translation}->{'All Conditions of Change (ID=%s) deleted'} = '';
-    $Self->{Translation}->{'%s (Condition ID=%s): (new=%s, old=%s)'} = '';
-    $Self->{Translation}->{'New Expression (ID=%s)'} = '';
-    $Self->{Translation}->{'Expression (ID=%s) deleted'} = '';
+    $Self->{Translation}->{'%s: %s'} = '%s: %s';
+    $Self->{Translation}->{'New Action (ID=%s)'} = 'Новая операция (ID=%s)';
+    $Self->{Translation}->{'Action (ID=%s) deleted'} = 'Операция (ID=%s) удалена';
+    $Self->{Translation}->{'All Actions of Condition (ID=%s) deleted'} = 'Все условия операций (ID=%s) удалены';
+    $Self->{Translation}->{'Action (ID=%s) executed: %s'} = 'Операция (ID=%s) выполнена: %s';
+    $Self->{Translation}->{'%s (Action ID=%s): (new=%s, old=%s)'} = '%s (ID операция=%s): ( новая=%s, старая=%s)';
+    $Self->{Translation}->{'Change (ID=%s) reached actual end time.'} = 'Изменение (ID=%s) достигло фактического времени окончания.';
+    $Self->{Translation}->{'Change (ID=%s) reached actual start time.'} = 'Изменение (ID=%s) достигло фактического времени начала.';
+    $Self->{Translation}->{'New Change (ID=%s)'} = 'Новое изменение (ID=%s)';
+    $Self->{Translation}->{'New Attachment: %s'} = 'Новое вложение: %s';
+    $Self->{Translation}->{'Deleted Attachment %s'} = 'Удалено вложение %s';
+    $Self->{Translation}->{'CAB Deleted %s'} = 'CAB удален %s';
+    $Self->{Translation}->{'%s: (new=%s, old=%s)'} = '%s: (новый=%s, старый=%s)';
+    $Self->{Translation}->{'Link to %s (ID=%s) added'} = 'Добавлена ссылка на %s (ID=%s)';
+    $Self->{Translation}->{'Link to %s (ID=%s) deleted'} = 'Ссылка на %s (ID=%s) удалена';
+    $Self->{Translation}->{'Notification sent to %s (Event: %s)'} = 'Уведомление отправлено на %s (Событие: %s)';
+    $Self->{Translation}->{'Change (ID=%s) reached planned end time.'} = 'Изменение (ID=%s) достигло запланированного времени окончания.';
+    $Self->{Translation}->{'Change (ID=%s) reached planned start time.'} = 'Изменение (ID=%s) достигло запланированного времени начала.';
+    $Self->{Translation}->{'Change (ID=%s) reached requested time.'} = 'Изменение (ID=%s) достигло запрошенного времени.';
+    $Self->{Translation}->{'New Condition (ID=%s)'} = 'Новое условие (ID=%s)';
+    $Self->{Translation}->{'Condition (ID=%s) deleted'} = 'Условие (ID=%s) удалено';
+    $Self->{Translation}->{'All Conditions of Change (ID=%s) deleted'} = 'Все условия изменения (ID=%s) удалены';
+    $Self->{Translation}->{'%s (Condition ID=%s): (new=%s, old=%s)'} = '%s (ID условия=%s): ( новое=%s, старое=%s)';
+    $Self->{Translation}->{'New Expression (ID=%s)'} = 'Новое выражение (ID=%s)';
+    $Self->{Translation}->{'Expression (ID=%s) deleted'} = 'Выражение (ID=%s) удалено';
     $Self->{Translation}->{'All Expressions of Condition (ID=%s) deleted'} = '';
     $Self->{Translation}->{'%s (Expression ID=%s): (new=%s, old=%s)'} = '';
     $Self->{Translation}->{'Workorder (ID=%s) reached actual end time.'} = '';
@@ -534,7 +536,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = '';
     $Self->{Translation}->{'Group ITSMChangeManager'} = '';
 
-    # Database XML Definition: ITSMChangeManagement.sopm
+    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = 'запрошено';
     $Self->{Translation}->{'pending approval'} = 'отложенное утверждение';
     $Self->{Translation}->{'rejected'} = 'отвергнуто';
@@ -580,9 +582,6 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '';
-
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
-    $Self->{Translation}->{'Ok'} = 'О.К.';
 
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =

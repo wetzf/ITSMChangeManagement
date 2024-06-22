@@ -12,8 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
 "PO-Revision-Date: 2021-07-01 02:17+0000\n"
 "Last-Translator: Fredy Aragón <fredmac48@hotmail.com>\n"
-"Language-Team: Spanish <https://translate.otobo.org/projects/otobo10/"
-"itsmchangemanagement/es/>\n"
+"Language-Team: Spanish <https://translate.otobo.org/projects/otobo10/itsmchangemanagement/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -507,8 +506,7 @@ msgstr "Esto creará una nueva orden de trabajo a partir de esta plantilla, para
 
 #. Template: AgentITSMTemplateEditContent
 msgid "A temporary change will be created which contains the workorder."
-msgstr ""
-"Se creará un cambio temporalmente, el cual contendrá la orden de trabajo."
+msgstr "Se creará un cambio temporalmente, el cual contendrá la orden de trabajo."
 
 #. Template: AgentITSMTemplateEditContent
 msgid "The temporary change and new workorder will be deleted automatically after the workorder has been saved as template."
@@ -1374,163 +1372,163 @@ msgstr "Grupo ITSMChangeBuilder"
 msgid "Group ITSMChangeManager"
 msgstr "Grupo ITSMChangeManager"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "requested"
 msgstr "solicitado"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "pending approval"
 msgstr "aprobación pendiente"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "rejected"
 msgstr "rechazado"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "approved"
 msgstr "aprobado"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "in progress"
 msgstr "en progreso"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "pending pir"
 msgstr "revisión post-implementación pendiente"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "successful"
 msgstr "exitoso"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "failed"
 msgstr "fallido"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "canceled"
 msgstr "cancelada"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "retracted"
 msgstr "devuelto"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "created"
 msgstr "creado"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "accepted"
 msgstr "aceptada"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "ready"
 msgstr "lista"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "approval"
 msgstr "aprobación"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "workorder"
 msgstr "orden de trabajo"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "backout"
 msgstr "plan de vuelta atrás"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "decision"
 msgstr "decisión"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "pir"
 msgstr "revisión post-implementación"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "ChangeStateID"
 msgstr "ChangeStateID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "CategoryID"
 msgstr "CategoryID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "ImpactID"
 msgstr "ImpactoID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "PriorityID"
 msgstr "PrioridadID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "ChangeManagerID"
 msgstr "GestorCambioID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "ChangeBuilderID"
 msgstr "ConstructorCambioID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderStateID"
 msgstr "EstadoOrdenTrabajoID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderTypeID"
 msgstr "TipoOrdenTrabajoID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "WorkOrderAgentID"
 msgstr "AgenteOrdenTrabajoID"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is"
 msgstr "es"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is not"
 msgstr "no es"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is empty"
 msgstr "está vacío(a)"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is not empty"
 msgstr "no está vacío(a)"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is greater than"
 msgstr "es mayor que"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is less than"
 msgstr "es menor que"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is before"
 msgstr "está antes"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "is after"
 msgstr "está después"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "contains"
 msgstr "contiene"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "not contains"
 msgstr "no contiene"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "begins with"
 msgstr "comienza con"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "ends with"
 msgstr "termina con"
 
-#. Database XML Definition: ITSMChangeManagement.sopm
+#. Database XML / SOPM Definition: ITSMChangeManagement.sopm
 msgid "set"
 msgstr "configurada"
 
@@ -1604,9 +1602,7 @@ msgstr "Módulo de notificación de la interface del Agente para mostrar el núm
 
 #. SysConfig
 msgid "Agent interface notification module to see the number of changes managed by the user."
-msgstr ""
-"Módulo de notificación de la interfaz del Agente para mostrar el número de "
-"cambios administrados por el usuario."
+msgstr "Módulo de notificación de la interfaz del Agente para mostrar el número de cambios administrados por el usuario."
 
 #. SysConfig
 msgid "Agent interface notification module to see the number of changes."
@@ -1622,9 +1618,7 @@ msgstr "Búsqueda de miembros CAB"
 
 #. SysConfig
 msgid "Cache time in minutes for the change management toolbars. Default: 3 hours (180 minutes)."
-msgstr ""
-"Tiempo caché en minutos para las barras de tareas de gestión del cambio. Por "
-"defecto: 3 horas (180 minutos)."
+msgstr "Tiempo caché en minutos para las barras de tareas de gestión del cambio. Por defecto: 3 horas (180 minutos)."
 
 #. SysConfig
 msgid "Cache time in minutes for the change management. Default: 5 days (7200 minutes)."
@@ -2348,8 +2342,7 @@ msgstr "Controla la disponibilidad para el controlador de búsqueda ITSMChange."
 
 #. SysConfig
 msgid "It controls availability for ITSMWorkOrder search driver."
-msgstr ""
-"Controla la disponibilidad para el controlador de búsqueda ITSMWorkOrder."
+msgstr "Controla la disponibilidad para el controlador de búsqueda ITSMWorkOrder."
 
 #. SysConfig
 msgid "Link another object to the change."
@@ -2693,10 +2686,7 @@ msgstr "Establezca la altura por defecto (en píxeles) de los campos inline HTML
 
 #. SysConfig
 msgid "Set the maximum height (in pixels) of inline HTML fields in the change zoom screen and workorder zoom screen of the agent interface."
-msgstr ""
-"Establezca la altura máxima (en píxeles) de los campos inline HTML en el "
-"detalle de la pantalla de cambio y la pantalla de detalle de la orden de "
-"trabajo de la interfaz del agente."
+msgstr "Establezca la altura máxima (en píxeles) de los campos inline HTML en el detalle de la pantalla de cambio y la pantalla de detalle de la orden de trabajo de la interfaz del agente."
 
 #. SysConfig
 msgid "Sets the minimal change counter size (if \"AutoIncrement\" was selected as ITSMChange::NumberGenerator). Default is 5, this means the counter starts from 10000."
@@ -2728,10 +2718,7 @@ msgstr "Muestra un enlace en el menú que permite definir una orden de trabajo c
 
 #. SysConfig
 msgid "Shows a link in the menu that allows editing the report of a workorder, in the zoom view of the workorder of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú que permite editar el informe de una orden de "
-"trabajo, en la vista ampliada de la orden de trabajo de la interfaz del "
-"agente."
+msgstr "Muestra un enlace en el menú que permite editar el informe de una orden de trabajo, en la vista ampliada de la orden de trabajo de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu that allows linking a change with another object in the change zoom view of the agent interface."
@@ -2747,27 +2734,19 @@ msgstr "Muestra un vínculo en el menú que permite mover el periodo de tiempo d
 
 #. SysConfig
 msgid "Shows a link in the menu that allows taking a workorder in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú que permite tomar una orden de trabajo en la "
-"vista de detalle de la interfaz del agente."
+msgstr "Muestra un enlace en el menú que permite tomar una orden de trabajo en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the conditions of a change in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú para acceder a las condiciones de un cambio en "
-"la vista de detalle de la interfaz del agente."
+msgstr "Muestra un enlace en el menú para acceder a las condiciones de un cambio en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the history of a change in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú para acceder al historial de un cambio en la "
-"vista de detalle de la interfaz del agente."
+msgstr "Muestra un enlace en el menú para acceder al historial de un cambio en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to access the history of a workorder in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú para acceder al historial de una orden de "
-"trabajo en la vista de detalle de la interfaz del agente."
+msgstr "Muestra un enlace en el menú para acceder al historial de una orden de trabajo en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to add a workorder in the change zoom view of the agent interface."
@@ -2783,15 +2762,11 @@ msgstr "Muestra un enlace en el menú para eliminar una orden de trabajo en su v
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a change in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú para editar un cambio en la vista de detalle de "
-"la interfaz del agente."
+msgstr "Muestra un enlace en el menú para editar un cambio en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to edit a workorder in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú para editar una orden de trabajo en la vista de "
-"detalle de la interfaz del agente."
+msgstr "Muestra un enlace en el menú para editar una orden de trabajo en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to go back in the change zoom view of the agent interface."
@@ -2803,15 +2778,11 @@ msgstr "Muestra un enlace en el menú para volver a la vista ampliada de la orde
 
 #. SysConfig
 msgid "Shows a link in the menu to print a change in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú para imprimir un cambio en la vista de detalle "
-"de la interfaz del agente."
+msgstr "Muestra un enlace en el menú para imprimir un cambio en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to print a workorder in the zoom view of the agent interface."
-msgstr ""
-"Muestra un enlace en el menú para imprimir una orden de trabajo en la vista "
-"de detalle de la interfaz del agente."
+msgstr "Muestra un enlace en el menú para imprimir una orden de trabajo en la vista de detalle de la interfaz del agente."
 
 #. SysConfig
 msgid "Shows a link in the menu to reset a change and its workorders in its zoom view of the agent interface."
@@ -2947,10 +2918,7 @@ msgstr "La última vez que se modificó fue por"
 
 #. Template: AgentITSMChangeZoom
 msgid "To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS)."
-msgstr ""
-"Para abrir links en los siguientes bloques de descripción, podría necesitar "
-"presionar la teclas Ctrl, Cmd o Shift mientras presiona el link (depende del "
-"browser y el SO)."
+msgstr "Para abrir links en los siguientes bloques de descripción, podría necesitar presionar la teclas Ctrl, Cmd o Shift mientras presiona el link (depende del browser y el SO)."
 
 #. Template: AgentITSMChangeZoom
 msgid "Download Attachment"
@@ -2978,12 +2946,7 @@ msgstr "Cambie el enrutador del backend de búsqueda de la interfaz de agente."
 
 #. SysConfig
 msgid "Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = \"complex\"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js."
-msgstr ""
-"Definir Acciones en las que un botón de configuración está disponible en el "
-"widget de objetos vinculados (LinkObject::ViewMode = \"complex\"). Tenga en "
-"cuenta que estas Acciones deben haber registrado los siguientes archivos JS "
-"y CSS: Core.AllocationList.css, Core.UI.AllocationList.js, "
-"Core.UI.Table.Sort.js, Core.Agent.TableFilters.js y Core.Agent.LinkObject.js."
+msgstr "Definir Acciones en las que un botón de configuración está disponible en el widget de objetos vinculados (LinkObject::ViewMode = \"complex\"). Tenga en cuenta que estas Acciones deben haber registrado los siguientes archivos JS y CSS: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js y Core.Agent.LinkObject.js."
 
 #. SysConfig
 msgid "Defines if the requested date should be print by customer."
@@ -3052,3 +3015,16 @@ msgstr "Muestra un link en el menú para imprimir un cambio en su vista detallad
 #. SysConfig
 msgid "Shows a link in the menu to print a workorder in the its zoom view of the agent interface."
 msgstr "Muestra un enlace en el menú para imprimir una orden de trabajo en la vista ampliada de la interfaz de agente."
+
+#. Template: AgentITSMChangeConditionEdit
+msgid "All expressions depending (AND)"
+msgstr ""
+
+#. Template: AgentITSMChangeConditionEdit
+msgid "BypassStateMachine"
+msgstr ""
+
+#. Template: AgentITSMChangeConditionEdit
+msgid "BypassStateMachineWO"
+msgstr ""
+

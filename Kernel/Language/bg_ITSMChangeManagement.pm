@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -24,74 +24,77 @@ sub Data {
     my $Self = shift;
 
     # Template: AdminITSMChangeCIPAllocate
-    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = '';
+    $Self->{Translation}->{'Category ↔ Impact ↔ Priority'} = 'Категория ↔ Влияние ↔ Приоритет';
     $Self->{Translation}->{'Manage the priority result of combinating Category ↔ Impact.'} =
-        '';
-    $Self->{Translation}->{'Priority allocation'} = '';
+        'Приоритетна контролна категория на базата на комбинация ↔ Въздействие.';
+    $Self->{Translation}->{'Priority allocation'} = 'Приоритетно разпределение';
 
     # Template: AdminITSMChangeNotification
-    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = '';
-    $Self->{Translation}->{'Add Notification Rule'} = '';
-    $Self->{Translation}->{'Edit Notification Rule'} = '';
-    $Self->{Translation}->{'A notification should have a name!'} = '';
-    $Self->{Translation}->{'Name is required.'} = '';
+    $Self->{Translation}->{'ITSM ChangeManagement Notification Management'} = 'ITSM ChangeManagement Управление на известията';
+    $Self->{Translation}->{'Add Notification Rule'} = 'Добавяне на правило за уведомяване';
+    $Self->{Translation}->{'Edit Notification Rule'} = 'Редактиране на правилото за уведомяване';
+    $Self->{Translation}->{'A notification should have a name!'} = 'Едно известие трябва да има име!';
+    $Self->{Translation}->{'Name is required.'} = 'Името е задължително.';
 
     # Template: AdminITSMStateMachine
-    $Self->{Translation}->{'Admin State Machine'} = '';
-    $Self->{Translation}->{'Select a catalog class!'} = '';
-    $Self->{Translation}->{'A catalog class is required!'} = '';
-    $Self->{Translation}->{'Add a state transition'} = '';
+    $Self->{Translation}->{'Admin State Machine'} = 'Административнo състояние на машината';
+    $Self->{Translation}->{'Select a catalog class!'} = 'Изберете каталожен клас!';
+    $Self->{Translation}->{'A catalog class is required!'} = 'Необходим е клас по каталог!';
+    $Self->{Translation}->{'Add a state transition'} = 'Добавете преход на състояние';
     $Self->{Translation}->{'Catalog Class'} = 'Класове в каталога';
-    $Self->{Translation}->{'Object Name'} = '';
-    $Self->{Translation}->{'Overview over state transitions for'} = '';
-    $Self->{Translation}->{'Delete this state transition'} = '';
-    $Self->{Translation}->{'Add a new state transition for'} = '';
-    $Self->{Translation}->{'Please select a state!'} = '';
-    $Self->{Translation}->{'Please select a next state!'} = '';
-    $Self->{Translation}->{'Edit a state transition for'} = '';
-    $Self->{Translation}->{'Do you really want to delete the state transition'} = '';
+    $Self->{Translation}->{'Object Name'} = 'Име на обект';
+    $Self->{Translation}->{'Overview over state transitions for'} = 'Преглед на преходите за състояния на';
+    $Self->{Translation}->{'Delete this state transition'} = 'Изтрийте този преход на състоянието';
+    $Self->{Translation}->{'Add a new state transition for'} = 'Добавете нов преход на състояние за';
+    $Self->{Translation}->{'Please select a state!'} = 'Моля, изберете състояние!';
+    $Self->{Translation}->{'Please select a next state!'} = 'Моля, изберете следващо състояние!';
+    $Self->{Translation}->{'Edit a state transition for'} = 'Редактирайте прехода на състояние за';
+    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Наистина ли искате да изтриете прехода на състоянието';
 
     # Template: AgentITSMChangeAdd
-    $Self->{Translation}->{'Add Change'} = '';
-    $Self->{Translation}->{'ITSM Change'} = '';
-    $Self->{Translation}->{'Justification'} = '';
-    $Self->{Translation}->{'Input invalid.'} = '';
+    $Self->{Translation}->{'Add Change'} = 'Добавяне на промяна';
+    $Self->{Translation}->{'ITSM Change'} = 'Промяна на ITSM';
+    $Self->{Translation}->{'Justification'} = 'Обосновка';
+    $Self->{Translation}->{'Input invalid.'} = 'Въведеното е невалидно.';
     $Self->{Translation}->{'Impact'} = 'Влияние';
-    $Self->{Translation}->{'Requested Date'} = '';
+    $Self->{Translation}->{'Requested Date'} = 'Заявена дата';
 
     # Template: AgentITSMChangeAddFromTemplate
-    $Self->{Translation}->{'Select Change Template'} = '';
-    $Self->{Translation}->{'Time type'} = '';
-    $Self->{Translation}->{'Invalid time type.'} = '';
-    $Self->{Translation}->{'New time'} = '';
+    $Self->{Translation}->{'Select Change Template'} = 'Изберете шаблон за промяна';
+    $Self->{Translation}->{'Time type'} = 'Тип време';
+    $Self->{Translation}->{'Invalid time type.'} = 'Невалиден тип време.';
+    $Self->{Translation}->{'New time'} = 'Ново време';
 
     # Template: AgentITSMChangeCABTemplate
-    $Self->{Translation}->{'Save Change CAB as template'} = '';
-    $Self->{Translation}->{'go to involved persons screen'} = '';
-    $Self->{Translation}->{'Invalid Name'} = '';
+    $Self->{Translation}->{'Save Change CAB as template'} = 'Запазете Change CAB като шаблон';
+    $Self->{Translation}->{'go to involved persons screen'} = 'отидете на екрана за участващи лица';
+    $Self->{Translation}->{'Invalid Name'} = 'Невалидно име';
 
     # Template: AgentITSMChangeCondition
-    $Self->{Translation}->{'Conditions and Actions'} = '';
-    $Self->{Translation}->{'Delete Condition'} = '';
-    $Self->{Translation}->{'Add new condition'} = '';
+    $Self->{Translation}->{'Conditions and Actions'} = 'Условия и действия';
+    $Self->{Translation}->{'Delete Condition'} = 'Изтриване на условие';
+    $Self->{Translation}->{'Add new condition'} = 'Добавете ново условие';
 
     # Template: AgentITSMChangeConditionEdit
-    $Self->{Translation}->{'Edit Condition'} = '';
-    $Self->{Translation}->{'Need a valid name.'} = '';
-    $Self->{Translation}->{'A valid name is needed.'} = '';
-    $Self->{Translation}->{'Duplicate name:'} = '';
-    $Self->{Translation}->{'This name is already used by another condition.'} = '';
-    $Self->{Translation}->{'Matching'} = '';
-    $Self->{Translation}->{'Any expression (OR)'} = '';
-    $Self->{Translation}->{'All expressions (AND)'} = '';
-    $Self->{Translation}->{'Expressions'} = '';
-    $Self->{Translation}->{'Selector'} = '';
-    $Self->{Translation}->{'Operator'} = '';
-    $Self->{Translation}->{'Delete Expression'} = '';
-    $Self->{Translation}->{'No Expressions found.'} = '';
-    $Self->{Translation}->{'Add new expression'} = '';
-    $Self->{Translation}->{'Delete Action'} = '';
-    $Self->{Translation}->{'No Actions found.'} = '';
+    $Self->{Translation}->{'Edit Condition'} = 'Редактиране на условие';
+    $Self->{Translation}->{'Need a valid name.'} = 'Изисква се валидно име.';
+    $Self->{Translation}->{'A valid name is needed.'} = 'Необходимо е валидно име.';
+    $Self->{Translation}->{'Duplicate name:'} = 'Дублирано име:';
+    $Self->{Translation}->{'This name is already used by another condition.'} = 'Това име вече се използва от друго условие.';
+    $Self->{Translation}->{'Matching'} = 'Съпоставяне';
+    $Self->{Translation}->{'Any expression (OR)'} = 'Всеки израз (OR)';
+    $Self->{Translation}->{'All expressions (AND)'} = 'Всички изрази (AND)';
+    $Self->{Translation}->{'All expressions depending (AND)'} = '';
+    $Self->{Translation}->{'BypassStateMachine'} = '';
+    $Self->{Translation}->{'BypassStateMachineWO'} = '';
+    $Self->{Translation}->{'Expressions'} = 'Изрази';
+    $Self->{Translation}->{'Selector'} = 'Селектор';
+    $Self->{Translation}->{'Operator'} = 'Оператор';
+    $Self->{Translation}->{'Delete Expression'} = 'Изтриване на израз';
+    $Self->{Translation}->{'No Expressions found.'} = 'Няма намерени изрази.';
+    $Self->{Translation}->{'Add new expression'} = 'Добавете нов израз';
+    $Self->{Translation}->{'Delete Action'} = 'Изтриване на действие';
+    $Self->{Translation}->{'No Actions found.'} = 'Няма намерени действия.';
     $Self->{Translation}->{'Add new action'} = '';
 
     # Template: AgentITSMChangeDelete
@@ -102,9 +105,9 @@ sub Data {
 
     # Template: AgentITSMChangeHistory
     $Self->{Translation}->{'History of %s%s'} = '';
-    $Self->{Translation}->{'History Content'} = '';
+    $Self->{Translation}->{'History Content'} = 'Съдържание на историята';
     $Self->{Translation}->{'Workorder'} = '';
-    $Self->{Translation}->{'Createtime'} = '';
+    $Self->{Translation}->{'Createtime'} = 'Време на създаване';
     $Self->{Translation}->{'Show details'} = '';
     $Self->{Translation}->{'Show workorder'} = '';
 
@@ -130,7 +133,7 @@ sub Data {
     $Self->{Translation}->{'Current CAB'} = '';
 
     # Template: AgentITSMChangeOverviewNavBar
-    $Self->{Translation}->{'Context Settings'} = '';
+    $Self->{Translation}->{'Context Settings'} = 'Настройки на контекста';
     $Self->{Translation}->{'Changes per page'} = '';
 
     # Template: AgentITSMChangeOverviewSmall
@@ -183,7 +186,7 @@ sub Data {
     $Self->{Translation}->{'Change Initiator(s)'} = '';
     $Self->{Translation}->{'CAB'} = '';
     $Self->{Translation}->{'Last changed'} = 'Последна промяна';
-    $Self->{Translation}->{'Last changed by'} = '';
+    $Self->{Translation}->{'Last changed by'} = 'Последно променен от';
     $Self->{Translation}->{'To open links in the following description blocks, you might need to press Ctrl or Cmd or Shift key while clicking the link (depending on your browser and OS).'} =
         '';
     $Self->{Translation}->{'Download Attachment'} = '';
@@ -209,7 +212,7 @@ sub Data {
     $Self->{Translation}->{'Edit Content'} = '';
     $Self->{Translation}->{'Create by'} = '';
     $Self->{Translation}->{'Change by'} = '';
-    $Self->{Translation}->{'Change Time'} = '';
+    $Self->{Translation}->{'Change Time'} = 'Промяна на времето';
 
     # Template: AgentITSMWorkOrderAdd
     $Self->{Translation}->{'Add Workorder to %s%s'} = '';
@@ -313,7 +316,6 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = '';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = '';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = '';
-    $Self->{Translation}->{'Change History'} = '';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
     $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = '';
@@ -534,7 +536,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = '';
     $Self->{Translation}->{'Group ITSMChangeManager'} = '';
 
-    # Database XML Definition: ITSMChangeManagement.sopm
+    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = '';
     $Self->{Translation}->{'pending approval'} = '';
     $Self->{Translation}->{'rejected'} = '';
@@ -580,9 +582,6 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '';
-
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
-    $Self->{Translation}->{'Ok'} = '';
 
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =
@@ -649,7 +648,7 @@ sub Data {
     $Self->{Translation}->{'Default type for a workorder. This entry must exist in general catalog class \'ITSM::ChangeManagement::WorkOrder::Type\'.'} =
         '';
     $Self->{Translation}->{'Define Actions where a settings button is available in the linked objects widget (LinkObject::ViewMode = "complex"). Please note that these Actions must have registered the following JS and CSS files: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js and Core.Agent.LinkObject.js.'} =
-        '';
+        'Дефинирайте действия, при които е наличен бутон за настройки в приспособлението за свързани обекти (LinkObject::ViewMode = "complex"). Моля, обърнете внимание, че тези действия трябва да са регистрирали следните JS и CSS файлове: Core.AllocationList.css, Core.UI.AllocationList.js, Core.UI.Table.Sort.js, Core.Agent.TableFilters.js и Core.Agent .LinkObject.js.';
     $Self->{Translation}->{'Define the signals for each workorder state.'} = '';
     $Self->{Translation}->{'Define which columns are shown in the linked Changes widget (LinkObject::ViewMode = "complex"). Note: Only Change attributes are allowed for DefaultColumns. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by default.'} =
         '';

@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2021 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -84,6 +84,9 @@ sub Data {
     $Self->{Translation}->{'Matching'} = '匹配';
     $Self->{Translation}->{'Any expression (OR)'} = '任意表达式(或)';
     $Self->{Translation}->{'All expressions (AND)'} = '所有表达式(与)';
+    $Self->{Translation}->{'All expressions depending (AND)'} = '';
+    $Self->{Translation}->{'BypassStateMachine'} = '';
+    $Self->{Translation}->{'BypassStateMachineWO'} = '';
     $Self->{Translation}->{'Expressions'} = '表达式';
     $Self->{Translation}->{'Selector'} = '选择器';
     $Self->{Translation}->{'Operator'} = '操作符';
@@ -313,7 +316,6 @@ sub Data {
     $Self->{Translation}->{'Can\'t show history, as no ChangeID is given!'} = '不能显示历史，因为没有指定变更ID！';
     $Self->{Translation}->{'Change "%s" not found in the database!'} = '数据库中没有找到变更"%s"！';
     $Self->{Translation}->{'Unknown type "%s" encountered!'} = '遇到了未知的类型"%s"！';
-    $Self->{Translation}->{'Change History'} = '变更历史';
 
     # Perl Module: Kernel/Modules/AgentITSMChangeHistoryZoom.pm
     $Self->{Translation}->{'Can\'t show history zoom, no HistoryEntryID is given!'} = '不能显示历史详情，因为没有指定HistoryEntryID！';
@@ -534,7 +536,7 @@ sub Data {
     $Self->{Translation}->{'Group ITSMChangeBuilder'} = 'ITSM变更创建人组';
     $Self->{Translation}->{'Group ITSMChangeManager'} = 'ITSM变更经理组';
 
-    # Database XML Definition: ITSMChangeManagement.sopm
+    # Database XML / SOPM Definition: ITSMChangeManagement.sopm
     $Self->{Translation}->{'requested'} = '请求的';
     $Self->{Translation}->{'pending approval'} = '待审批';
     $Self->{Translation}->{'rejected'} = '被拒绝';
@@ -580,9 +582,6 @@ sub Data {
     $Self->{Translation}->{'Do you really want to delete this expression?'} = '你确定要删除这个表达式吗？';
     $Self->{Translation}->{'Do you really want to delete this action?'} = '你确定要删除这个操作吗？';
     $Self->{Translation}->{'Do you really want to delete this condition?'} = '你确定要删除这个条件吗？';
-
-    # JS File: ITSM.Agent.ChangeManagement.ConfirmDialog
-    $Self->{Translation}->{'Ok'} = '确定';
 
     # SysConfig
     $Self->{Translation}->{'A list of the agents who have permission to take workorders. Key is a login name. Content is 0 or 1.'} =
