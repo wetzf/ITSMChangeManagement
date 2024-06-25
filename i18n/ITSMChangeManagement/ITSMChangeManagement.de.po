@@ -14,9 +14,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "POT-Creation-Date: 2019-04-09 12:23+0000\n"
-"PO-Revision-Date: 2024-05-17 08:13+0000\n"
+"PO-Revision-Date: 2024-06-25 08:13+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
-"Language-Team: German <http://weblate.otobo.org/projects/opm-packages/itsm-changemanagement/de/>\n"
+"Language-Team: German <http://weblate.otobo.org/projects/opm-packages/"
+"itsm-changemanagement/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -106,7 +107,7 @@ msgstr "Einen Status-Übergang bearbeiten für"
 
 #. Template: AdminITSMStateMachine
 msgid "Do you really want to delete the state transition"
-msgstr "Wollen Sie diesen Status-Übergang wirklich löschen?"
+msgstr "Wollen Sie diesen Status-Übergang wirklich löschen"
 
 #. Template: AgentITSMChangeAdd
 msgid "Add Change"
@@ -3031,4 +3032,3 @@ msgstr ""
 #. Template: AgentITSMChangeConditionEdit
 msgid "BypassStateMachineWO"
 msgstr ""
-
