@@ -49,7 +49,7 @@ sub Data {
     $Self->{Translation}->{'Please select a state!'} = 'Bitte wählen Sie einen Status!';
     $Self->{Translation}->{'Please select a next state!'} = 'Bitte wählen sie den Folge-Status!';
     $Self->{Translation}->{'Edit a state transition for'} = 'Einen Status-Übergang bearbeiten für';
-    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Wollen Sie diesen Status-Übergang wirklich löschen?';
+    $Self->{Translation}->{'Do you really want to delete the state transition'} = 'Wollen Sie diesen Status-Übergang wirklich löschen';
 
     # Template: AgentITSMChangeAdd
     $Self->{Translation}->{'Add Change'} = 'Change hinzufügen';
