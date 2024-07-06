@@ -638,7 +638,7 @@ sub Data {
     $Self->{Translation}->{'Configure which screen should be shown after a new workorder has been created.'} =
         'Konfigurieren Sie, welche Ansicht angezeigt werden soll, nachdem ein neuer Arbeitsauftrag erstellt wurde.';
     $Self->{Translation}->{'Configures how often the notifications are sent when planned the start time or other time values have been reached/passed.'} =
-        'Konfiguriert, wie häufig Benachrichtigungen verschickt werden wenn die geplante Startzeit oder andere Zeiten erreicht wurden bzw. schon vorbei sind.';
+        'Konfiguriert, wie häufig Benachrichtigungen verschickt werden, wenn die geplante Startzeit oder andere Zeiten erreicht wurden bzw. schon vergangen sind.';
     $Self->{Translation}->{'Create Change'} = 'Change erstellen';
     $Self->{Translation}->{'Create Change (from Template)'} = 'Change erstellen (aus Vorlage)';
     $Self->{Translation}->{'Create a change (from template) from this ticket.'} = 'Einen Change (aus Vorlage) aus diesem Ticket erstellen.';
@@ -893,7 +893,7 @@ sub Data {
     $Self->{Translation}->{'ITSMChange'} = 'ITSM Change';
     $Self->{Translation}->{'ITSMWorkOrder'} = 'ITSM Arbeitsauftrag';
     $Self->{Translation}->{'If frequency is \'regularly\', you can configure how often the notifications are sent (every X hours).'} =
-        'Wenn die Häufigkeit auf \'reglmäßig\' eingestellt ist, können Sie hier einstellen, wie oft die Benachrichtigung versendet werden (Aller X-Stunden).';
+        'Wenn als Häufigkeit \'regelmäßig\' angegeben ist, können Sie hier einstellen, wie oft die Benachrichtigung versendet werden (Aller X-Stunden).';
     $Self->{Translation}->{'Link another object to the change.'} = 'Ein anderes Objekt mit dem Change verknüpfen.';
     $Self->{Translation}->{'Link another object to the workorder.'} = 'Ein anderes Objekt mit dem Arbeitsauftrag verknüpfen.';
     $Self->{Translation}->{'List of all change events to be displayed in the GUI.'} = 'Liste aller Change-Ereignisse, die in der grafischen Benutzeroberfläche angezeigt werden sollen.';
