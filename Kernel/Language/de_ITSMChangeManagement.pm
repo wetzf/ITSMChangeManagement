@@ -737,6 +737,8 @@ sub Data {
         'Definiert den Feld-Typ für "Werte vergleichen"-Felder für Change-Attribute, die in der Bearbeitungsansicht für Bedingungen des Changes im Agenten-Interface genutzt werden. Gültige Werte sind "Selection", "Text" und "Date". Wenn kein Typ definiert ist, dann wird das Feld nicht angezeigt.';
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         'Definiert den Feld-Typ für "CompareValue"-Felder für Arbeitsauftrags-Attribute, die in der Bearbeitungsansicht für Bedingungen des Changes im Ageten-Interface genutzt werden. Gültige Werte sind Selection, Text und Date. Wenn kein Typ definiert ist, dann wird das Feld nicht angezeigt.';
+    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         'Definiert die Objekt-Attribute, die für Change-Objekte in der Bearbeitungsansicht für Change-Bedingungen im Agenten-Interface ausgewählt werden können.';
     $Self->{Translation}->{'Defines the object attributes that are selectable for workorder objects in the change condition edit screen of the agent interface.'} =

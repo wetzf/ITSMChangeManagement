@@ -737,6 +737,8 @@ sub Data {
         'Define el tipo de campo de CompareValue para los atributos del cambio usados en la pantalla de edición de condición del cambio en la interfaz del agente. Valor válido es Selección, Texto y Fecha. Si un tipo no está definido, el campo no se mostrará.';
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         'Define el tipo de campo CompareValue para los atriburos de las órdenes de trabajo usados en la pantalla de edición de la condición del cambio en la interfaz del agente. Valor válido es Selección, Texto y Fecha. Si un tipo no está definido , el campo no se mostrará.';
+    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         'Define los atributos de objeto que son seleccionables para cambiar objetos en la pantalla de edición de la condición del cambio en la interfaz del agente.';
     $Self->{Translation}->{'Defines the object attributes that are selectable for workorder objects in the change condition edit screen of the agent interface.'} =

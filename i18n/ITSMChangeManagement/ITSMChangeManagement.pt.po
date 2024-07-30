@@ -3022,3 +3022,7 @@ msgstr ""
 msgid "BypassStateMachineWO"
 msgstr ""
 
+#. SysConfig
+msgid "Defines the initial height for the rich text editor component in pixels."
+msgstr ""
+
