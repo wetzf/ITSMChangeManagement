@@ -660,6 +660,8 @@ sub Data {
         'Define uma visão global do módulo para mostrar uma pequena vistão da lista de modelos.';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = 'Define se será possível imprimir o tempo contabilizado.';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = 'Define se será possível imprimir o esforço planejado.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         'Define se acessível (como definido pela máquina de estados) estados finais de mudanças deve ser permitido se a mudança estiver em um estado bloqueado.';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -738,6 +740,8 @@ sub Data {
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         '';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         '';

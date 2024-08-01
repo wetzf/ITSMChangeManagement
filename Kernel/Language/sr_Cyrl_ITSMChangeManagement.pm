@@ -660,6 +660,8 @@ sub Data {
         'Одређује модул прегледа за мали приказ листе шаблона. ';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = 'Дефинише да ли јемогуће штампање обрачунатог времена.';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = 'Одређује да ли ће бити могуће штампање планираних напора.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         'Одређује да ли доступне (као што је одређено у машини стања) промене и статуси треба да буду дозвољени ако је промена у закључаном статусу.';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -738,6 +740,8 @@ sub Data {
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         'Дефинише тип поља за CompareValue атрибуте радних налога у екрану измена услова промена у интерфејсу оператера. Исправне вредности су Selection, Text и Date. Уколико тип није дефинисан, поље неће бити приказано.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         'Одређује које атрибуте објекта је могуће изабрати за објекат промене у екрану измена услова промене у интерфејсу оператера.';

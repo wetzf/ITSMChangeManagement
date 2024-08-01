@@ -660,6 +660,8 @@ sub Data {
         'Egy áttekintő modult határoz meg egy sablonlista kis nézetének megjelenítéséhez.';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = 'Meghatározza, hogy lehetséges lesz-e kinyomtatni az elszámolt időt.';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = 'Meghatározza, hogy lehetséges lesz-e kinyomtatni a tervezett ráfordítást.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         'Meghatározza, hogy az elérhető (ahogy az állapotgép meghatározta) változás befejezési állapotait el kell-e fogadni, ha egy változás zárolt állapotban van.';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -738,6 +740,8 @@ sub Data {
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         'Meghatározza az „Összehasonlítás érték” mezők mezőtípusát az ügyintézői felület változás feltételének szerkesztése képernyőjén használt munkamegrendelés attribútumainál. Az érvényes értékek: Selection, Text és Date. Ha a típus nincs meghatározva, akkor a mező nem lesz látható.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         'Meghatározza azokat az objektumattribútumokat, amelyek kiválaszthatók a változásobjektumoknál az ügyintézői felület változás feltételének szerkesztése képernyőjén.';

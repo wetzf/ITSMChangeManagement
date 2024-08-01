@@ -660,6 +660,8 @@ sub Data {
         '定义一个概览模块，以显示模板列表的简洁视图。';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = '定义是否可以打印记帐时间。';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = '定义是否可以打印计划用时。';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         '定义是否允许一个锁定状态的变更可达到结束状态（在状态模式转换中定义）。';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -738,6 +740,8 @@ sub Data {
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         '定义服务人员界面工作指令条件编辑屏幕变更属性比较值字段的类型，有效值是：Selection（选择）、Text（文本）和Date（日期）。 如果没有定义类型，字段不会被显示出来。';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         '定义服务人员界面变更条件编辑屏幕中变更对象可选择的对象属性。';

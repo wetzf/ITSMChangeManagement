@@ -660,6 +660,8 @@ sub Data {
         'Define un módulo de resumen para mostrar la vista pequeña de una lista de plantillas.';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = 'Define si será posible imprimir el tiempo contabilizado.';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = 'Define si será posible imprimir el esfuerzo planeado.';
+    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
+        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         'Define si los estados finales de cambio alcanzables (según lo definido por la máquina de estado) deben permitirse si un cambio está en un estado bloqueado.';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -738,6 +740,8 @@ sub Data {
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         'Define el tipo de campo CompareValue para los atriburos de las órdenes de trabajo usados en la pantalla de edición de la condición del cambio en la interfaz del agente. Valor válido es Selección, Texto y Fecha. Si un tipo no está definido , el campo no se mostrará.';
     $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
+    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         'Define los atributos de objeto que son seleccionables para cambiar objetos en la pantalla de edición de la condición del cambio en la interfaz del agente.';
