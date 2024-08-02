@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ITSMChangeManagement\n"
-"POT-Creation-Date: 2024-08-01 02:34+0000\n"
+"POT-Creation-Date: 2024-08-02 02:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1795,10 +1795,6 @@ msgid "Defines if it will be possible to print the planned effort."
 msgstr ""
 
 #. SysConfig
-msgid "Defines if parent-child translations for queues and services should be generated automatically."
-msgstr ""
-
-#. SysConfig
 msgid "Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state."
 msgstr ""
 
@@ -1991,11 +1987,7 @@ msgid "Defines the field type of CompareValue fields for workorder attributes us
 msgstr ""
 
 #. SysConfig
-msgid "Defines the initial height for the rich text editor component in pixels."
-msgstr ""
-
-#. SysConfig
-msgid "Defines the initial height in pixels for the rich text editor component for this screen."
+msgid "Defines the height for the rich text editor component for this screen. Enter number (pixels) or percent value (relative)."
 msgstr ""
 
 #. SysConfig

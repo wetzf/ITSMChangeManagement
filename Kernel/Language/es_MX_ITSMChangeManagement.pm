@@ -660,8 +660,6 @@ sub Data {
         'Define un módulo de resumen para mostrar la vista pequeña de una lista de plantillas.';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = 'Define si será posible imprimir el tiempo contabilizado.';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = 'Define si será posible imprimir el esfuerzo planificado.';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         'Define si los estados finales de cambio alcanzables (según lo definido por la máquina de estado) deben ser permitidos si un cambio está en un estado bloqueado.';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -739,9 +737,7 @@ sub Data {
         'Define el tipo de campo de CompareValue los campos para los atributos de cambio utilizados en la pantalla de edición de condiciones de cambio de la interfaz del agente. Los valores válidos son Selección, Texto y Fecha. Si no se define un tipo, el campo no se mostrará.';
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         'Define el tipo de campo CompareValue de los campos para los atributos de la orden de trabajo utilizados en la pantalla de edición de la condición de cambio de la interfaz del agente. Los valores válidos son Selección, Texto y Fecha. Si no se define un tipo, el campo no se mostrará.';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
+    $Self->{Translation}->{'Defines the height for the rich text editor component for this screen. Enter number (pixels) or percent value (relative).'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         'Define los atributos del objeto que se pueden seleccionar para modificar los objetos en la pantalla de edición de condiciones de la interfaz del agente.';

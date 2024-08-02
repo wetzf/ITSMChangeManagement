@@ -660,8 +660,6 @@ sub Data {
         'Inafafanua moduli ya mapitio kuonyesha muonekano mdogo wa orodha ya kiolezo.';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = 'Inafafanua kama itawezekana kufafanua muda wa uhasibu.';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = 'Inafafanua kama itawezekana kuchapisha juhudi zilizopangwa.';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         'Inafafanua kama hali za mwisho za mabadiliko zinazopatikana (kama ilivyofafanuliwa na mashine ya hali) ziruhusiwe kama mabadiliko yako kwenye hali iliyofungwa.';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -739,9 +737,7 @@ sub Data {
         '';
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         '';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
+    $Self->{Translation}->{'Defines the height for the rich text editor component for this screen. Enter number (pixels) or percent value (relative).'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         '';

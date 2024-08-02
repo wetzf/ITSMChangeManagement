@@ -660,8 +660,6 @@ sub Data {
         'Određuje modul pregleda za mali prikaz liste šablona. ';
     $Self->{Translation}->{'Defines if it will be possible to print the accounted time.'} = 'Definiše da li jemoguće štampanje obračunatog vremena.';
     $Self->{Translation}->{'Defines if it will be possible to print the planned effort.'} = 'Određuje da li će biti moguće štampanje planiranih napora.';
-    $Self->{Translation}->{'Defines if parent-child translations for queues and services should be generated automatically.'} =
-        '';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) change end states should be allowed if a change is in a locked state.'} =
         'Određuje da li dostupne (kao što je određeno u mašini stanja) promene i statusi treba da budu dozvoljeni ako je promena u zaključanom statusu.';
     $Self->{Translation}->{'Defines if reachable (as defined by the state machine) workorder end states should be allowed if a workorder is in a locked state.'} =
@@ -739,9 +737,7 @@ sub Data {
         'Definiše tip polja za CompareValue atribute promena u ekranu izmena uslova promena u interfejsu operatera. Ispravne vrednosti su Selection, Text i Date. Ukoliko tip nije definisan, polje neće biti prikazano.';
     $Self->{Translation}->{'Defines the field type of CompareValue fields for workorder attributes used in the change condition edit screen of the agent interface. Valid values are Selection, Text and Date. If a type is not defined, the field will not be shown.'} =
         'Definiše tip polja za CompareValue atribute radnih naloga u ekranu izmena uslova promena u interfejsu operatera. Ispravne vrednosti su Selection, Text i Date. Ukoliko tip nije definisan, polje neće biti prikazano.';
-    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
-        '';
-    $Self->{Translation}->{'Defines the initial height in pixels for the rich text editor component for this screen.'} =
+    $Self->{Translation}->{'Defines the height for the rich text editor component for this screen. Enter number (pixels) or percent value (relative).'} =
         '';
     $Self->{Translation}->{'Defines the object attributes that are selectable for change objects in the change condition edit screen of the agent interface.'} =
         'Određuje koje atribute objekta je moguće izabrati za objekat promene u ekranu izmena uslova promene u interfejsu operatera.';
